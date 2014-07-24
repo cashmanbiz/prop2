@@ -1,0 +1,48 @@
+.container .super_map_list .property_in_list {
+  width:auto;
+}
+
+.denali_widget_area_tabs.wpp_property_header_area ul.ui-tabs-nav {
+  bottom: -12px;
+}
+
+#global_property_search_home ul li.wpp_group_not_a_group {
+  margin-top:-10px;
+}
+
+a, a span {
+  cursor:pointer;
+}
+
+.custom_logo {
+  display:block;
+  padding-top:50px !important;
+}
+
+.header_business_card {
+  margin-top:25px;
+}
+
+.header_dropdown_div .wpp_search_properties_widget .wpp_search_elements li.submit {
+  overflow:visible !important;
+  margin-left:170px;
+}
+
+li.checkbox-as-image span.value{
+  float:none;
+  display:inline-block;
+}
+
+.true-checkbox-image{
+  float:none;
+  display:inline-block;
+}
+
+.wpp_overview_left_column,
+.wpp_overview_right_column{
+  display: block !important;
+  float:left;
+  width:45%;
+}
+
+

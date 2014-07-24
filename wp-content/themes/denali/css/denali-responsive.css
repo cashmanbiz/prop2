@@ -1,0 +1,655 @@
+/**
+ * Denali Responsive Styles
+  *
+ * Copyright (c) 2012 Usability Dynamics, Inc. All rights reserved.
+ * http://usabilitydynamics.com
+ *
+ */
+
+
+/**
+ *  CSS for Screens of all Sizes
+ *
+ */
+@media screen {
+
+  .phone-only,
+  .tablet-only,
+  .hidden-desktop,
+  .hidden-print {
+    display: none;
+  }
+
+  img {
+    /*max-width: 100%;*/
+    height: auto;
+  }
+
+
+}
+
+
+/**
+ *  Very Small Screens (iPhone 3)
+ *
+ */
+@media ( max-width: 480px ) {
+
+  .wpp_sortable_link.label {
+    font-weight: normal;
+  }
+
+
+
+  /* TOP MENU */
+
+  .main-nav ul.children li.page_item a,
+  .main-nav ul.sub-menu li.menu-item a {
+    margin-left: 6px !important;
+    margin-right: 6px !important;
+  }
+
+  /* COMMENTS */
+
+  #respond {
+    padding: 10px;
+    margin: 0;
+  }
+
+  #respond #commentform input[type="text"] {
+    width: auto;
+  }
+
+  #respond textarea {
+    width: auto;
+  }
+
+  /* SIDEBAR */
+
+  .sidebar {
+    width: auto;
+    float: none;
+    display: block;
+    clear: both;
+  }
+
+  .sidebar div.denali_widget {
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    float: none;
+  }
+
+  /* Forms */
+
+  form.wp_crm_contact_form, ul.wp_crm_contact_form {
+    width: auto;
+  }
+
+
+  .entry-content form {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none;
+  }
+
+  form.wp_crm_contact_form .regular-text,
+  form.wp_crm_contact_form textarea {
+    width: auto;
+    margin: 0 !important;
+  }
+
+  form.wp_crm_contact_form ul.wp_crm_contact_form li.wp_crm_submit_row,
+  form.wp_crm_contact_form ul.wp_crm_contact_form li.wp_crm_form_response,
+  form.wp_crm_contact_form ul.wp_crm_contact_form li.wp_crm_form_element.wp_crm_message_field {
+    padding-left: 0 !important;
+  }
+
+  form.wp_crm_contact_form .regular-text,
+  form.wp_crm_contact_form textarea {
+    margin-bottom: 10px;
+  }
+
+  form.wp_crm_contact_form ul.wp_crm_contact_form li div.wp_crm_input_wrapper {
+    float: none !important;
+    width: auto;
+  }
+
+  form.wp_crm_contact_form .checkbox,
+  form.wp_crm_contact_form .radio {
+    width: auto;
+    background: none;
+  }
+
+  form.wp_crm_contact_form ul.wp_crm_contact_form li label.wp_crm_input_label {
+    float: none !important;
+    width: auto !important;
+    display: inline;
+  }
+
+  div.all-properties.wpp_property_view_result > .property_div.property,
+  div.all-properties.wpp_property_view_result > .property_div.property > div {
+    border: none !important;
+  }
+
+  .property_div ul.wpp_overview_data_detail {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .wpp_overview_left_column,
+  .wpp_overview_right_column {
+    display: block !important;
+    clear: both;
+    float: none;
+    width: auto;
+    margin: 0 auto !important;
+  }
+
+  .wpp_overview_right_column {
+    width: auto;
+  }
+
+  .wpp_overview_data_detail,
+  .wpp_row_view .wpp_overview_right_column ul.wpp_overview_data {
+    padding-left: 10px;
+  }
+
+  .phone-only {
+    display: block;
+  }
+
+  .wpp_pagination_slider {
+    display: none;
+  }
+
+  .wpp_pagination_slider_wrapper {
+    width: auto !important;
+  }
+
+  .wpp_property_results_options {
+    display: none;
+  }
+
+  .wpp_row_view.all-properties.wpp_property_view_result {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .wpp_row_view.all-properties.wpp_property_view_result * {margin: 0;}
+
+  .wpp_pagination_button {
+    width: 40%;
+    text-transform: uppercase;
+    height: 40px !important;
+    line-height: 40px !important;
+  }
+
+
+
+  .header_business_card,
+  .log_menu li.option_tab,
+  .entry-utility,
+  #global_property_search_home {
+    display: none !important;
+  }
+
+  .logo a {
+    width: 100% !important;
+    text-align: center;
+    position: absolute;
+    top: 85px;
+  }
+
+  .container, .container .midd, .menu-footer-container {
+    /*background-color: transparent;*/
+  }
+
+  .header_dropdown_div li input[type="text"],
+  .header_dropdown_div li input[type="password"] {
+    width: auto !important;
+  }
+
+  .header_dropdown_div li.wpp_search_attribute_type_range_input input,
+  .header_dropdown_div li input.wpp_search_input_field_min,
+  .header_dropdown_div li input.wpp_search_input_field_max {
+    width: 20% !important;
+  }
+  
+  /* SUPERMAP */
+  .entry-content .super_map {
+      width: 61% !important;
+  }
+  
+  .wpp_supermap_thumb {
+      width: 63px !important;
+  }
+  
+  .class_wpp_supermap_elements, 
+  .container .super_map_list .map_filters, 
+  .super_map_list .super_map_list_property, 
+  #body_container .entry-content .super_map_list_property ul li {
+      padding-left: 0px !important;
+  }
+  
+  /* FEPS */
+  .wpp_feps_form .wpp_feps_row_wrapper .wpp_feps_label_wrapper {
+      width: 200px !important;
+  }
+  
+  .wpp_feps_form .wpp_feps_row_wrapper .wpp_feps_input_wrapper .wpp_feps_input_content  {
+      margin-left: 115px !important;
+  }
+  
+  .wpp_feps_input_wrapper, .wpp_feps_input_content, 
+  .wpp_feps_description_wrapper, 
+  .wpp_feps_form ul.feps_property_input_fields div.qq-upload-button,
+  .wpp_feps_form .wpp_feps_row_wrapper .wpp_feps_input_wrapper .wpp_feps_input_content {
+      margin-left: 0px !important;
+  }
+  
+  .wpp_feps_input_wrapper label {
+      float: left;
+  }
+  
+  .wpp_image_upload .ajax_uploader {
+      padding-top: 30px;
+  }
+  
+  .wpp_feps_form ul.feps_property_input_fields li.wpp_feps_row_wrapper.wpp_checkbox label {
+      margin-left: 30px !important;
+  }
+  
+  span.select {
+      background: url("../img/select_responsive.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+  }
+
+}
+
+
+/**
+ * {description missing}
+ *
+ */
+@media ( max-width: 767px ) {
+    
+  /* SUPERMAP */
+  .entry-content .super_map {
+      width: 61% !important;
+  }
+
+  .hidden-phone { display: none; }
+
+  .log_menu li.dropdown_tab_contact_us, .log_menu li.find_top { background: transparent !important; }
+  .log_menu li { width: auto !important; text-align: center; float: left; }
+
+  .log_menu li.find_top a, .log_menu li a {
+    background-image: none !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-weight: bold !important;
+    width: auto !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .log_menu li.find_top { margin-top: 5px; }
+  .log_menu li.find_top a { padding-top: 5px; }
+
+  .denali_skin_default .log_menu li.find_top a,
+  .denali_skin_default .log_menu li a { background-color: #B79C85 !important; color: #FFFFFF !important; }
+  .denali_skin_skin_blue_css .log_menu li.find_top a,
+  .denali_skin_skin_blue_css .log_menu li a { background-color: #416587 !important; color: #FFFFFF !important; }
+  .denali_skin_skin_dark_colors_css .log_menu li.find_top a,
+  .denali_skin_skin_dark_colors_css .log_menu li a { background-color: #3D3B37 !important; color: #FFFFFF !important; }
+
+  .header_business_card * { font-size: 12px !important; }
+  .header_business_card .number { font-size: 14px !important; }
+}
+
+
+/**
+ * iPads, mid-size Tablets and iPhone 4, but not iPhone 3
+ *
+ */
+@media ( min-width: 768px ) and ( max-width: 979px ) {
+
+  .hidden-tablet {
+    display: none;
+  }
+
+
+
+}
+
+
+
+
+/**
+ * iPads and mid-size Tablets and Phones
+ *
+ * Screens below this size have a collapsed Navbar.
+ *
+ */
+@media ( max-width: 979px ) {
+
+
+  #comments, #respond {margin-top: 0px;}
+
+  .entry-content {padding-bottom: 5px;}
+
+ .property_slideshow div.slider {
+   width: auto;
+ }
+
+  .inner_content_wrapper.have-sidebar .main, .midd .main {
+    float: none;
+  }
+
+  /* Header Expandable Sections */
+  .denali_header_expandable_sections,
+  .denali_header_expandable_sections .header_dropdown_div { width: auto !important; }
+
+  html .denali_header_expandable_sections div.denali_widget,
+  html .denali_header_expandable_sections ul.wpp_search_elements { width: 100% !important; }
+  html .denali_header_expandable_sections li.wpp_search_form_element { margin-left: 0; margin-right: 0; }
+
+  html .header_dropdown_div ul.wpp_search_elements li.wpp_search_group ul.wpp_search_group li label { width: 40%; }
+  html .header_dropdown_div ul.wpp_search_elements li.wpp_search_group ul.wpp_search_group li .wpp_search_attribute_wrap { width: 50%; }
+  html .header_dropdown_div .wpp_search_properties_widget li.submit { width: auto; margin: 0; }
+  html .header_dropdown_div .wpp_search_properties_widget li.submit input { margin: 0 auto; }
+
+  html .header_dropdown_div .header_contact_section { width: auto; float: none; margin-left: 0; margin-right: 0; }
+  html .header_dropdown_div p.contact_info { margin-right: 0; }
+  /* Header Expandable Sections */
+
+  .wrapper { overflow: hidden; }
+
+  .property_map_wrapper img {max-width: none !important;}
+
+  /* footer */
+
+  .footer .inner_footer.theme_full_width > div {
+    width: 100% !important;
+  }
+
+  .wrapper .footer .inner_footer.theme_full_width div.foot_far_right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer .bottom_right_icons.denali_footer_follow {
+    text-align: center;
+  }
+
+  #global_property_search_home {
+    right: 0;
+  }
+
+  .image_wrapper {padding: 10px;}
+
+  .static_header_image {
+    padding: 0 !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  .sld-flexible.denali_default_header_image .image_wrapper{
+    margin: 0 !important;
+    padding: 5px;
+  }
+
+  .denali_default_header_image {
+    background-color: white !important;
+  }
+
+  .sld-flexible-wrapper.overlay_search_form {
+    min-height: 0;
+  }
+
+  .hidden-mobile,
+  .denali-sub-menu,
+  .menu-footer-container,
+  .sld-flexible.wpp_global_slideshow{
+    display: none;
+  }
+
+  img,
+  #body_container .main #container, #content {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .wpp_pagination_slider{
+    width:60% !important;
+  }
+
+  #content > div {
+    background-color: white;
+    -webkit-border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #content .sidebar {
+    background: transparent;
+    padding: 0;
+  }
+
+  .midd #content .type-property .floorplan_container { padding: 0;}
+
+  .main-nav,
+  ul.header-sub-menu,
+  .sld-flexible,
+  .sld-flexible
+  .sld-top,
+  .sld-flexible
+  .sld-bottom,
+  .inner_content_wrapper,
+  .header_dropdown_div,
+  .container,
+  .sld-flexible .image_wrapper,
+  .midd .main,
+  .theme_full_width{
+    width: auto !important;
+  }
+
+  html .denali_widget_area_tabs.wpp_property_header_area div.wpp_widget,
+  html .denali_widget_area_tabs.wpp_property_header_area div.denali_widget,
+  html .denali_widget_area_tabs.wpp_property_header_area ul.ui-tabs-nav{
+    width: auto;
+  }
+
+  html .main-nav{
+    background: none repeat scroll 0 0 transparent;
+    height: auto;
+    margin-bottom: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  html .menu-header-menu-container {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  html .denali_skin_skin_dark_colors_css  .menu-header-menu-container{ background-color: #3D3B37; }
+  html .denali_skin_default               .menu-header-menu-container{ background-color: #B79C85; }
+  html .denali_skin_skin_blue_css         .menu-header-menu-container{ background-color: #769FBD; }
+
+  html .main-nav li,
+  html #menu-header-menu li {
+    background: none repeat scroll 0 0 transparent;
+    margin-bottom: 0;
+  }
+
+  html .main-nav li a {
+    margin: 2px;
+  }
+
+  html .main-nav li span.menu {
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  html .sub-menu li span.menu {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  html .main-nav li a span.link_text {
+    line-height: 20px;
+  }
+
+  html .main-nav ul.children, .main-nav ul.sub-menu {
+    margin-left: 7px;
+    top: 32px;
+  }
+
+  /* Spacing around main content */
+  #body_container,
+  body_upper_background,
+  .mid, .foot_explore,
+  .foot_explore.big,
+  .logo,
+  .custom_logo {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 !important;
+  }
+
+  .custom_logo { display: block; }
+
+  .sidebar ul li.wpp_widget, .sidebar ul li.widget, .sidebar li.denali_widget {
+    border: none;
+  }
+
+  .sidebar_gallery_item a {
+    width: 100%;
+    display: block;
+  }
+
+
+  .sidebar,
+  .inner_content_wrapper.have-sidebar .main,
+  .midd .main {
+
+  }
+
+  .sld-flexible.denali_default_header_image {
+    height: auto;
+  }
+
+  /* Container Elements */
+  .denali_dropdown_elements {
+    margin: 0 10px;
+  }
+
+  .sidebar {
+    float: none;
+    width: auto;
+  }
+
+  /* Block Elemenets */
+  .sidebar ul .wpp_widget,
+  .sidebar ul li.widget,
+  .sidebar .denali_widget,
+  .denali_dropdown_elements > li {
+
+  }
+
+  .sidebar ul .wpp_widget,
+  .sidebar ul li.widget,
+  .sidebar .denali_widget {
+    display: block;
+    width: auto;
+  }
+
+  .container,
+  .container .midd,
+  .menu-footer-container,
+  html .cboth,
+  html .cb{
+    background-color: transparent !important;
+  }
+
+  html .footer_right_elements{
+    padding-bottom: 33px;
+  }
+
+  #global_property_search_home {
+    display: none;
+  }
+
+  html .wpp_grid_view .property_div li.property_title {
+    width:auto;
+  }
+
+
+}
+
+
+
+/**
+ * Small  Tablets
+ *
+ */
+
+@media ( min-width: 599px ) and ( max-width: 979px ) {
+
+.sidebar_gallery_item {
+  width: 50%;
+  float: left;
+}
+}
+
+
+/**
+ * Standard "Large"  Devices
+ *
+ */
+
+@media ( min-width: 980px ) {}
+
+/**
+ * All screens that are not "Very Large"
+ *
+ */
+@media ( max-width: 1199px ) {}
+
+
+/**
+ * The biggins
+ *
+ */
+@media ( min-width: 1200px ) {}
+
+
+/**
+ * CSS for Screen and Print
+ *
+ */
+@media screen, print {}
+
+
+/**
+ *  CSS for print Only
+ *
+ */
+@media print {
+
+  .screen-only {
+    display: none !important;
+  }
+
+}
+

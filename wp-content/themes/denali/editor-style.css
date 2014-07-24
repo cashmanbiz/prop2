@@ -1,0 +1,16 @@
+/*
+	Theme Name: Denali - Premium WP-Property Theme
+	Theme URI: http://twincitiestech.com/plugins/wp-property/wp-property-premium-theme-the-denali/
+	Description: A premium theme for WP-Property powered real estate sites.
+	Version: 1.4
+	Author: TwinCitiesTech.com, Inc.
+*/
+/*
+Used to style the TinyMCE editor.
+*/
+
+@import url("content.css");
+
+.mceContentBody {
+  padding:5px;
+}

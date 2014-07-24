@@ -1,0 +1,1909 @@
+# Copyright (C) 2012 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Denali 3.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-18 15:04+0200\n"
+"PO-Revision-Date: 2013-01-08 13:46+0200\n"
+"Last-Translator: rotcod <denys.kostin@usabilitydynamics.com>\n"
+"Language-Team: Usability Dynamics, Inc. <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comments.php:12
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Ce billet est protégé par un mot de passe. Entrez le mot de passe pour voir "
+"les commentaires."
+
+#: ../comments.php:29
+#, php-format
+msgid "One Response to %2$s"
+msgstr "Une réponse à %2$s"
+
+#: ../comments.php:35 ../comments.php:46
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Commentaires plus vieux"
+
+#: ../comments.php:36 ../comments.php:47
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Commentaires plus récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../comments.php:58
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: ../content-single-property-inquiry.php:23
+msgid "Your inquiry was successfully sent!"
+msgstr "Votre demande a été envoyé avec succès!"
+
+#: ../content-single-property-inquiry.php:52
+msgid "Comment About"
+msgstr "Commenter à propos"
+
+#: ../content-single-property-inquiry.php:54
+msgid "Inquire About"
+msgstr "Renseignez-vous sur"
+
+#: ../footer-print.php:57
+msgid "Thank you for your message."
+msgstr "Merci pour votre message"
+
+#: ../footer.php:46
+msgid "Explore"
+msgstr "Explorer"
+
+#: ../functions.php:96
+msgid "Header Menu"
+msgstr "Menu entête"
+
+#: ../functions.php:97
+msgid "Header Sub-Menu"
+msgstr "Sous-menu entête"
+
+#: ../functions.php:98
+msgid "Footer Menu"
+msgstr "Menu pied de page"
+
+#: ../functions.php:99
+msgid "Bottom of Page Menu"
+msgstr "Menu bas de page"
+
+#: ../functions.php:295 ../functions.php:2207
+msgid "Inquiry"
+msgstr "Demande de renseignements"
+
+#: ../functions.php:296
+msgid ""
+"WP-CRM Shortcode forms can be used to display property inquries. Please "
+"visit <b>CRM -> Settings -> Shortcode Forms</b>."
+msgstr ""
+"Les Shortcode pour formulaires WP-CRM  peut être utilisé pour afficher "
+"demandes de renseignements pour les propriétés. Visitez <b>CRM -> Réglages -"
+"> Formulaires Shortcode</b>."
+
+#: ../functions.php:297
+msgid ""
+"Also, you can use WP-CRM plugin for sending Inquire notifications. Please "
+"visit <b>CRM -> Settings -> Notifications</b> to add notification."
+msgstr ""
+"Vous pouvez utiliser le plugin WP-CRM pour envoyer des notifications de "
+"demandes d'information. Visitez <b>CRM -> Paramètres -> Notifications</b> "
+"pour ajouter une notification."
+
+#: ../functions.php:298
+msgid "You can use next additional shortcodes in your notification:"
+msgstr ""
+"Vous pouvez utiliser les prochains shortcodes supplémentaires dans votre "
+"notification:"
+
+#: ../functions.php:299
+msgid ""
+"renders all assigned to property agent emails (You should allow to send "
+"inquire to agent. See agent's profile). You must have \"Real Estate Agents\" "
+"premium feature to use this shortcode."
+msgstr ""
+"rend tous affectés aux courriels des agents immobilier (Vous devriez "
+"permettre d'envoyer des demandes d'information à l'agent. Voir le profil de "
+"l'agent). Vous devez avoir l'option premium \"Agents Immobiliers \" pour "
+"utiliser ce shortcode."
+
+#: ../functions.php:300
+msgid "renders clickable link with property title"
+msgstr "rend lien cliquable avec titre de propriété"
+
+#: ../functions.php:301
+msgid "renders property's title"
+msgstr "rend le titre de propriété"
+
+#: ../functions.php:340
+msgid "For more information:"
+msgstr "Pour plus d'information:"
+
+#: ../functions.php:341
+msgid ""
+"<a href=\"https://usabilitydynamics.com/products/the-denali-premium-theme/\" "
+"target=\"_blank\">The Denali Premium theme Page</a>"
+msgstr ""
+"<a href=\"https://usabilitydynamics.com/products/the-denali-premium-theme/\" "
+"target=\"_blank\">La page du thème Premium Denali</a>"
+
+#: ../functions.php:347
+msgid "Please upgrade WordPress to the latest version for detailed help."
+msgstr ""
+"S'il vous plaît mettre à jour WordPress à la dernière version pour une aide "
+"détaillée."
+
+#: ../functions.php:347
+msgid ""
+"Or visit <a href=\"https://usabilitydynamics.com/products/the-denali-premium-"
+"theme/\" target=\"_blank\">The Danali Premium Theme</a> on UsabilityDynamics."
+"com"
+msgstr ""
+"Ou visited <a href=\"https://usabilitydynamics.com/products/the-denali-"
+"premium-theme/\" target=\"_blank\">Le thème Premium Denali</a> sur "
+"UsabilityDynamics.com"
+
+#: ../functions.php:382 ../functions.php:683
+msgid "Theme Options"
+msgstr "Options de thème"
+
+#: ../functions.php:383
+msgid "Setup Assistant"
+msgstr "Assistant de configuration"
+
+#: ../functions.php:394
+msgid "Denali Header Contact"
+msgstr "Contact d'entête Denali"
+
+#: ../functions.php:567
+msgid "Do not show header area."
+msgstr "Ne pas afficher une zone d'en-tête."
+
+#: ../functions.php:568
+msgid "Do not show sidebar."
+msgstr "Ne pas afficher la barre latérale."
+
+#: ../functions.php:571
+msgid "Do not show page title."
+msgstr "Ne pas afficher le titre de la page."
+
+#: ../functions.php:576
+msgid "Do not show location map."
+msgstr "Ne pas montrer la carte d'emplacement."
+
+#: ../functions.php:579
+msgid "Allow property comments."
+msgstr "Autoriser les commentaires de propriétés."
+
+#: ../functions.php:581
+msgid "Allow property inquiries."
+msgstr "Permettre des requêtes de propriété."
+
+#: ../functions.php:708
+msgid "Register"
+msgstr "S'enregistrer"
+
+#: ../functions.php:714
+msgid "Site Admin"
+msgstr "Administration du site"
+
+#: ../functions.php:783
+msgid "Home"
+msgstr "Accueil"
+
+#: ../functions.php:809
+msgid "Color Palette"
+msgstr "Palette de couleur"
+
+#: ../functions.php:810
+msgid "Description"
+msgstr "Description"
+
+#: ../functions.php:811
+msgid "Author"
+msgstr "Auteur"
+
+#: ../functions.php:812
+msgid "Version"
+msgstr "Version"
+
+#: ../functions.php:813
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: ../functions.php:894
+msgid "Mesage From "
+msgstr "Message de"
+
+#: ../functions.php:951
+msgid "You forgot to enter your  name."
+msgstr "Vous avez oublié de saisir votre nom."
+
+#: ../functions.php:955
+msgid "You forgot to enter a message."
+msgstr "Vous avez oublié de saisir un message."
+
+#: ../functions.php:960
+msgid "You forgot to enter your e-mail."
+msgstr "Vous avez oublié de saisir votre courriel."
+
+#: ../functions.php:989
+msgid "Error with sending message. Please contact site administrator."
+msgstr ""
+"Erreur avec l'envoi du message. S'il vous plaît contactez l'administrateur "
+"du site."
+
+#: ../functions.php:1050
+msgid "Background Image"
+msgstr "Image de fond"
+
+#: ../functions.php:1054
+msgid "Preview"
+msgstr "Aperçu"
+
+#: ../functions.php:1149
+msgid "Oceanfront"
+msgstr "Bord de mer"
+
+#: ../functions.php:1153
+msgid "Minneapolis"
+msgstr "Minneapolis"
+
+#: ../functions.php:1157
+msgid "Cozy Suburbs"
+msgstr "Banlieue confortables"
+
+#: ../functions.php:1161
+msgid "Wilmington"
+msgstr "Wilmington"
+
+#: ../functions.php:1200
+msgid "Denali Theme Help"
+msgstr "Aide thème Denali"
+
+#: ../functions.php:1201
+msgid ""
+"Since version 3.0.0 much flexibility was added to page layouts by adding a "
+"number of conditional Tabbed Widget areas which are available on all the "
+"pages."
+msgstr ""
+"Depuis la version 3.0.0 beaucoup de souplesse a été ajouté à la mise en page "
+"en ajoutant un certain nombre de zones conditionnelles contrôlé par des "
+"Widget par onglets qui sont disponibles sur toutes les pages."
+
+#: ../functions.php:1203
+msgid "Home & Posts Pages"
+msgstr "Pages d'accueil et de messages"
+
+#: ../functions.php:1204
+#, php-format
+msgid ""
+"<b>Posts Page</b> is typically used to display the <b>blog</b> part of site "
+"when WordPress is used as a CMS. You can configure the posts page on the <a "
+"href=\"%1s\">Settings -> Reading</a> settings page."
+msgstr ""
+"<b>Page des articles</b> est généralement utilisé pour afficher le "
+"<b>carnet</b>. Vous pouvez configurer la page des articles sur la <a href="
+"\"%1s\">Réglages -> Lecture</a> page des réglages."
+
+#: ../functions.php:1205
+msgid ""
+"The <b>Property Search</b> widget area is hidden automatically when no "
+"widget exists in the area."
+msgstr ""
+"La zone du widget <b>Recherche de propriétés</b> se cache automatiquement "
+"quand il n'y a aucun widget présent."
+
+#: ../functions.php:1208
+msgid "Color Schemes"
+msgstr "Jeux de couleurs"
+
+#: ../functions.php:1209
+msgid ""
+"If you want to customize colors, it is advisable to create a separate a "
+"color palette within a child theme. Please visit <a href=\"\">WP-Property & "
+"Denali Help</a> to learn more about this"
+msgstr ""
+"Si vous souhaitez personnaliser les couleurs, il est conseillé de créer une "
+"palette de couleurs séparé dans un thème enfant. S'il vous plaît visitez<a "
+"href=\"\">Aide WP-Property & Denali</ a> pour plus d'information."
+
+#: ../functions.php:1211 ../functions.php:2282
+msgid "General Enhancements"
+msgstr "Améliorations générales"
+
+#: ../functions.php:1212
+msgid ""
+"<b>Automatically Hide Widgets:</b> After a page is rendered on the front-"
+"end, any widgets that do not have any text, excluding the title, will be "
+"hidden automatically."
+msgstr ""
+"<b>Masquer automatiquement Widgets:</b> Une fois qu'une page est affichée "
+"sur le front-end, tous les widgets qui n'ont pas de texte, à l'exception du "
+"titre, seront cachés automatiquement."
+
+#: ../functions.php:1214 ../functions.php:2359
+msgid "Child Theme"
+msgstr "Thème enfant"
+
+#: ../functions.php:1215
+msgid ""
+"To install child theme automatically you should just check 'Install Denali "
+"child theme'."
+msgstr ""
+"Pour installer automatiquement thème enfant, vous devez cocher \"Installer "
+"thème enfant Denali\"."
+
+#: ../functions.php:1217 ../functions.php:2373
+msgid ""
+"Child theme will be created automatically. You have to make any code "
+"customizations in created child theme folder ( <b>themes/denali-child</b> ) "
+"to avoid losing your changes on upgrade."
+msgstr ""
+"Le thème enfant sera créé automatiquement. Vous devez faire toutes les "
+"personnalisations de code dans le dossier enfant thème créé (<b> themes/"
+"denali-enfant</b>) pour éviter de perdre vos modifications lors des mises à "
+"niveau."
+
+#: ../functions.php:1218 ../functions.php:2374
+msgid ""
+"Check <a target=\"_blank\" href=\"http://codex.wordpress.org/Child_Themes"
+"\">Wordpress Codex</a> for more information."
+msgstr ""
+"Vérifiez <a target=\"_blank\" href=\"http://codex.wordpress.org/Child_Themes"
+"\">le Codex Wordpress (en anglais)</a> pour plus d'information."
+
+#: ../functions.php:1220
+msgid ""
+"If you have the problems with automatically installing of child theme, you "
+"may need to install it manually:"
+msgstr ""
+"Si vous avez des problèmes avec l'installation automatique du thème enfant, "
+"vous devrez peut-être l'installer manuellement:"
+
+#: ../functions.php:1221
+msgid ""
+"Copy folder <b>child-theme</b> from your Denali theme's folder to themes "
+"root directory ( wp-content/themes ). And child theme will be available."
+msgstr ""
+"Copiez le dossier <b>child-theme</b> à partir du dossier de votre thème "
+"Denali dans le répertoire racine thèmes ( wp-content/themes ). Le thème "
+"enfant sera alors disponible."
+
+#: ../functions.php:1223
+msgid "Header Settings"
+msgstr "Réglages entête"
+
+#: ../functions.php:1224
+#, php-format
+msgid ""
+"If you would like to change the header images, please visit the <a href=\"%1s"
+"\">Appearance -> Header</a> page."
+msgstr ""
+"Si vous voulez changer les images d'en-tête, s'il vous plaît visitez la page "
+"<a href=\"%1s\">Apparence -> Entête</a>"
+
+#: ../functions.php:1226
+#, php-format
+msgid ""
+"The navigational menus are configured are on the  <a href=\"%1s\">Appearance "
+"-> Menus</a> page."
+msgstr ""
+"Les menus de navigation sont configurés et se trouvent sur la page <a href="
+"\"%1s\">Apparence -> Menus</a>."
+
+#: ../functions.php:1227
+#, php-format
+msgid ""
+"And be sure to configure the widgets on the <a href=\"%1s\">Appearance -> "
+"Widgets </a> page."
+msgstr ""
+"Et n'oubliez pas de configurer les widgets sur la page <a href=\"%1s"
+"\">Apparence -> Widgets </a>"
+
+#: ../functions.php:1228 ../functions.php:2488
+msgid "Header Logo"
+msgstr "Logo d'entête"
+
+#: ../functions.php:1229
+msgid "It is recommended the header logo is under 100 pixels tall."
+msgstr ""
+"Il est recommandé de le logo d'en-tête soit inférieur à 100 pixels de "
+"hauteur."
+
+#: ../functions.php:1231
+msgid ""
+"Address: The address will be automatically converted into coordinates, and a "
+"Google Map will be displayed on the top of every page in the <b>Contact Us</"
+"b> dropdown."
+msgstr ""
+"Adresse: L'adresse sera automatiquement convertie en coordonnées, et une "
+"carte Google Map sera affiché en haut de chaque page dans le menu déroulant "
+"<b>Contactez-nous</b>."
+
+#: ../functions.php:1233
+msgid "Header Property Search"
+msgstr "Entête recherche de propriété"
+
+#: ../functions.php:1234
+msgid ""
+"By default the header property search widget area, and the home page "
+"slideshow overlay area were the same widget area, <b>Header &amp; Home: "
+"Property Search</b>. This setting can be changed on within the Header tab, "
+"and two new widget areas will be created to differentiate between the two."
+msgstr ""
+"Par défaut, la zone du widget de recherche de propriété de l'entête, et le "
+"diaporama de la page d'accueil sont superposés dans la même zone de widget "
+"<b>Entête &amp; Accueil: Recherche de propriété</b>. Ce réglage peut être "
+"modifié dans l'onglet Entête, et deux zones de widget seront créés pour "
+"différencier entre les deux."
+
+#: ../functions.php:1236 ../functions.php:2204
+msgid "Footer"
+msgstr "Pied de page"
+
+#: ../functions.php:1237
+msgid ""
+"The footer includes several elements - <b>Footer: Bottom Left Block</b> "
+"widget, <b>Explore Block</b>, <b>phone number</b>, <b>site tagline</b>, "
+"<b>social media icons</b>, <b>Equal Housing Opportunity logo</b>, and "
+"<b>copyright notice.</b>, "
+msgstr ""
+"Le pied de page contient plusieurs éléments - widget <b>Pied de page: Bloc "
+"de gauche</b>, <b>Bloc Explorez </b>, <b>numéro de téléphone</b>, <b>slogan  "
+"site</b>, <b> icônes médias sociaux</b>, <b>logo Equal Housing Opportunity</"
+"b> et <b>notice de copyright</b>."
+
+#: ../functions.php:1239
+msgid "Backup"
+msgstr "Sauvegarde"
+
+#: ../functions.php:1240
+msgid ""
+"You can download Backup of Denali theme settings, <a target=\"_blank\" href="
+"\"../wp-admin/nav-menus.php\">Menus</a> settings (optional) and <a target="
+"\"_blank\" href=\"../wp-admin/widgets.php\">Widgets</a> settings (optional) "
+"to file and then, in any time, restore the settings from that Backup file."
+msgstr ""
+"Vous pouvez télécharger une sauvegarde des paramètres de thème Denali, <a "
+"target=\"_blank\" href=\"../wp-admin/nav-menus.php\">Menus</a> paramètres "
+"(optionnel) et <a target=\"_blank\" href=\"../wp-admin/widgets.php"
+"\">Widgets</a> paramètres (optionnel) pour archiver, et ensuite en tout "
+"temps restaurer les paramètres de ce fichier de sauvegarde."
+
+#: ../functions.php:1241
+msgid "Note:"
+msgstr "Note:"
+
+#: ../functions.php:1242
+msgid ""
+"Menus Settings: If element of menu has no related page or post (it doesn't "
+"exist) it will not be restored during backup."
+msgstr ""
+"Menus Réglages: Si l'élément de menu n'a pas de page liée, il ne sera pas "
+"restauré lors de la sauvegarde."
+
+#: ../functions.php:1243
+msgid ""
+"Widgets Settings: If widget is not registered, it will not be restored "
+"during backup."
+msgstr ""
+"Réglages Widgets: Si widget n'est pas enregistré, il ne sera pas restauré "
+"lors de la sauvegarde."
+
+#: ../functions.php:1676
+msgid "Property Search"
+msgstr "Recherche"
+
+#: ../functions.php:1852 ../functions.php:2717
+msgid "Pages"
+msgstr "Pages"
+
+#: ../functions.php:1856 ../functions.php:1863 ../functions.php:1875
+msgid "Featured"
+msgstr "En vedette"
+
+#: ../functions.php:1942
+msgid "Thank you for using the Denali Theme."
+msgstr "Merci d'utiliser le thème de Denali."
+
+#: ../functions.php:1943
+msgid ""
+"This is a step-by-step process for quickly setting up your WP-Property "
+"website by following some of our best setup practices. "
+msgstr ""
+"C'est un processus étape par étape pour configurer rapidement votre site WP-"
+"propriété suivant certaines de nos meilleures pratiques de configuration."
+
+#: ../functions.php:1951
+msgid "General Color Scheme."
+msgstr "Schéma de couleurs général."
+
+#: ../functions.php:1952
+msgid "Which of the three default color schemes would you like to use?"
+msgstr ""
+"Lequel des trois modèles de couleurs par défaut aimeriez-vous utiliser?"
+
+#: ../functions.php:1958
+msgid "Brown colors with a gradient background."
+msgstr "Brun avec un fond en dégradé."
+
+#: ../functions.php:1983 ../functions.php:2296
+msgid "Home Page"
+msgstr "Page d'accueil"
+
+#: ../functions.php:1984
+msgid "How do you want to display the content on the home page?"
+msgstr "Comment voulez-vous afficher le contenu sur la page d'accueil?"
+
+#: ../functions.php:1990
+msgid ""
+"Do not include a widget area on home page, have the regular content fill up "
+"entire page."
+msgstr ""
+"Ne pas inclure une zone de widget sur la page d'accueil, le contenu régulier "
+"remplira la page entière."
+
+#: ../functions.php:1996
+msgid "Show a sidebar on home page, and load some widgets in there."
+msgstr ""
+"Voir une barre latérale sur la page d'accueil, et y charger certains widgets."
+
+#: ../functions.php:2004
+msgid "Slideshow."
+msgstr "Diaporama."
+
+#: ../functions.php:2005
+msgid ""
+"Do you want to show a slideshow on the home page? How about a property "
+"search form?"
+msgstr ""
+"Voulez-vous afficher un diaporama sur la page d'accueil? Que diriez-vous "
+"d'un formulaire de recherche de propriétés?"
+
+#: ../functions.php:2011
+msgid "Show a slideshow with a property search widget."
+msgstr "Afficher un diaporama avec un widget recherche de propriétés."
+
+#: ../functions.php:2017
+msgid "Show a large slideshow, but no search widget."
+msgstr "Afficher un grand diaporama, mais pas de widget de recherche."
+
+#: ../functions.php:2023
+msgid "Do not show any slideshow or search widget on home page at all."
+msgstr ""
+"Ne pas afficher les diaporama ou un widget de recherche sur la page "
+"d'accueil du tout."
+
+#: ../functions.php:2031
+msgid "Property Page"
+msgstr "Page propriété"
+
+#: ../functions.php:2032
+msgid "Should we show slideshows on the property pages?"
+msgstr "Faut-il montrer des diaporamas sur les pages de propriétés?"
+
+#: ../functions.php:2038
+msgid ""
+"Yes, show large slideshow above property information when slideshow images "
+"exist."
+msgstr ""
+"Oui, montrez une diaporama au-dessus des informations de propriété lorsque "
+"les images du diaporama existent."
+
+#: ../functions.php:2044
+msgid "No, I don't like slideshows or header images, do not show a header."
+msgstr ""
+"Non, je n'aime pas les diaporamas ou les images d'en-tête, ne montres pas "
+"d'entête."
+
+#: ../functions.php:2052
+msgid "Best Practices"
+msgstr "Meilleurs pratiques"
+
+#: ../functions.php:2056
+msgid ""
+"We can quickly setup your site according to some of the best practices we "
+"have established while working with hundreds of our cilents, and helping "
+"them setup their WP-Property powered sites:"
+msgstr ""
+"Nous pouvons configurer rapidement votre site en fonction de certaines des "
+"meilleures pratiques que nous avons établies en travaillant avec des "
+"centaines de nos clients, et en les aidant à configurer leurs sites WP-"
+"Property:"
+
+#: ../functions.php:2058
+msgid ""
+"Setup up my homepage, put some properties on there, and a search form for "
+"good measure."
+msgstr "Paramétrez ma page d'accueil."
+
+#: ../functions.php:2061
+msgid "Setup my property result page with shortcodes and attributes."
+msgstr ""
+"Configurer ma page de résultat propriété avec des shortcodes et des "
+"attributs."
+
+#: ../functions.php:2064
+msgid "Setup the single listing page with all the widgets."
+msgstr "Configurer la page de propriété unique avec tous les widgets."
+
+#: ../functions.php:2067
+msgid "Setup my URLs to be pretty."
+msgstr "Configurer mes URLs pour être jolie"
+
+#: ../functions.php:2070
+msgid "Populate widget areas and sidebars with widgets."
+msgstr "Remplissez zones de widget et barres latérales avec des widgets."
+
+#: ../functions.php:2078
+msgid "Other"
+msgstr "Autre"
+
+#: ../functions.php:2082
+msgid "Create a few sample properties."
+msgstr "Créez un échantillon de quelques propriétés."
+
+#: ../functions.php:2085
+msgid ""
+"Create a sample agent, a dedicated agent page, and associate with the sample "
+"properties."
+msgstr ""
+"Créez un agent factice, une page dédiée à cet agent, et l'associer à "
+"l'échantillon de propriétés."
+
+#: ../functions.php:2091
+msgid "...enough questions,"
+msgstr "…assez de questions,"
+
+#: ../functions.php:2092
+msgid "Setup My Site!"
+msgstr "Configurer Mon site!"
+
+#: ../functions.php:2124
+msgid ""
+"The WP-Property plugin does not seem to be active.  Please activate before "
+"using theme."
+msgstr ""
+"Le plugin WP-Property ne semble pas être actif. S'il vous plaît activer "
+"avant d'utiliser le thème."
+
+#: ../functions.php:2137
+msgid ""
+"Your site has been setup.  You may configure more advanced options here."
+msgstr ""
+"Votre site a été mis en place. Vous pouvez configurer des options plus "
+"avancées ici."
+
+#: ../functions.php:2140
+msgid "Theme settings updated."
+msgstr "Configuration du thème mise à jour."
+
+#: ../functions.php:2144
+msgid "Backup failed. The file, which you tried to upload, has incorrect data."
+msgstr ""
+"Sauvegarde a échoué. Le fichier que vous essayez de télécharger, contient "
+"des données incorrectes."
+
+#: ../functions.php:2155 ../functions.php:2513 ../functions.php:3467
+#: ../functions.php:3488 ../functions.php:3607 ../functions.php:3763
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+#: ../functions.php:2189
+msgid "Denali Settings"
+msgstr "Réglages Denali"
+
+#: ../functions.php:2190
+msgid "Open Setup Assistant"
+msgstr "Ouvrir l'assistant de configuration"
+
+#: ../functions.php:2202 ../functions.php:2217 ../functions.php:2782
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: ../functions.php:2203
+msgid "Header"
+msgstr "Entête"
+
+#: ../functions.php:2205
+msgid "Property Overview"
+msgstr "Aperçu de propriété"
+
+#: ../functions.php:2206
+msgid "Single Content Pages"
+msgstr "Pages de contenu simple"
+
+#: ../functions.php:2208
+msgid "Help"
+msgstr "Aide"
+
+#: ../functions.php:2223
+msgid "Put site into maintenance mode."
+msgstr "Mettre le site en mode maintenance."
+
+#: ../functions.php:2225
+msgid ""
+"Maintenance mode will display a splash image on front-end for non-"
+"administrators while you make changes."
+msgstr ""
+"Le mode de maintenance affiche une image de démarrage sur le front-end pour "
+"les non-administrateurs pendant que vous apportez des modifications."
+
+#: ../functions.php:2234
+msgid "Color Scheme"
+msgstr "Schéma de couleurs"
+
+#: ../functions.php:2243
+msgid "Default Denali Colors - Shades of blue and tan."
+msgstr "Couleurs par défaut Denali - Les nuances de bleu et beige."
+
+#: ../functions.php:2259
+msgid "You don't have any extra color schemes."
+msgstr "Vous n'avez pas de schéma de couleurs supplémentaires."
+
+#: ../functions.php:2266
+msgid "Category Pages"
+msgstr "Pages catégories"
+
+#: ../functions.php:2271
+msgid ""
+"Hide post meta (date posted, author, categories listed in,etc) on category "
+"pages."
+msgstr ""
+"Masquer meta billet (date de publication, auteur, catégories à, etc) sur les "
+"pages de catégories."
+
+#: ../functions.php:2275
+msgid "What is \"post meta\"?"
+msgstr "Qu'est que \"meta billet\"?"
+
+#: ../functions.php:2287
+msgid ""
+"Hide all comment forms on the front-end.  This does not include property "
+"inquiry forms."
+msgstr ""
+"Masquer tous les formulaires de commentaires sur le front-end. Ceci n'inclut "
+"pas les formulaires de demande de propriété."
+
+#: ../functions.php:2302
+msgid "Hide post meta (date posted, author, tags, etc) when displaying posts."
+msgstr ""
+"Masquer meta billet (date de publication, auteur, étiquettes, etc) lors de "
+"l'affichage de billets."
+
+#: ../functions.php:2307
+msgid "Hide \"Property Search\" box from slideshow on home page."
+msgstr ""
+"Cacher la boîte \"Recherche de propriétés\" du diaporama sur la page "
+"d'accueil."
+
+#: ../functions.php:2313
+msgid ""
+"Hide the Attention Grabber section (including Header Image) from the home "
+"page"
+msgstr ""
+"Cacher la section \"capteur d'attention\" (y compris l'image d'entête) de la "
+"page d'accueil"
+
+#: ../functions.php:2319
+msgid "More about home and post page property search."
+msgstr ""
+"Plus d'informations sur la recherche dans la page d'accueil et la page de "
+"propriété."
+
+#: ../functions.php:2326
+msgid "Posts Blog Page"
+msgstr "Page de carnet"
+
+#: ../functions.php:2331
+msgid "Hide \"Property Search\" from slideshow on Posts Page."
+msgstr ""
+"Cacher \"Recherche de propriété\" du diaporama sur les pages de billet."
+
+#: ../functions.php:2336
+msgid ""
+"Hide the Attention Grabber section (including Header Image) from the blog "
+"home page."
+msgstr ""
+"Cacher la section \"capteur d'attention\" (incluant l'image d'entête) de la "
+"page d'accueil du carnet."
+
+#: ../functions.php:2346
+msgid "Inside Pages ( Post, Pages )"
+msgstr "Pages intérieures (Billets, Pages)"
+
+#: ../functions.php:2351
+msgid ""
+"Hide the Attention Grabber section (including Header Image) from the inside "
+"pages."
+msgstr ""
+"Cacher la section \"capteur d'attention\" (incluant l'image d'entête) des "
+"pages intérieures."
+
+#: ../functions.php:2364
+msgid ""
+"You are currently using the Default Denali child theme, you are safe to make "
+"code and CSS customizations."
+msgstr ""
+"Vous utilisez actuellement le thème par défaut de Denali enfant. Vous pouvez "
+"faire les personnalisations de code et CSS sans risque."
+
+#: ../functions.php:2366
+msgid ""
+"Default Denali child theme is installed. Please be sure to make any code "
+"customizations in there, you can activate it on Appearance/Themes page to "
+"avoid losing your changes on upgrade."
+msgstr ""
+"Le Denali thème enfant est installé. S'il vous plaît n'oubliez pas de faire "
+"toutes les personnalisations de code dans le thème enfant, vous pouvez "
+"l'activer sur Apparence/Thèmes pour éviter de perdre vos modifications lors "
+"de mise à niveau."
+
+#: ../functions.php:2369
+msgid "Install Denali child theme."
+msgstr "Installer le thème enfant Denali"
+
+#: ../functions.php:2371
+msgid ""
+"Note: There was a problem installing the default Child Theme. You may need "
+"to install it manually. Read 'Help' above."
+msgstr ""
+"Remarque: Il y a eu un problème d'installation du thème enfant. Vous devrez "
+"peut-être l'installer manuellement. Lire «Aide» ci-dessus."
+
+#: ../functions.php:2395
+msgid "Header Elements"
+msgstr "Éléments de l'entête"
+
+#: ../functions.php:2401
+msgid "Hide logo from header."
+msgstr "Masquer le logo de l'entête."
+
+#: ../functions.php:2407
+msgid "Disable the header <b>Property Search</b> dropdown section."
+msgstr "Désactiver la section <b>recherche de la propriété</b> de l'entête."
+
+#: ../functions.php:2414
+msgid "Disable the header <b>Contact Us</b> dropdown section."
+msgstr "Désactiver la section <b>Contactez-nous</b> de l'entête."
+
+#: ../functions.php:2421
+msgid "Disable the header <b>Login</b> dropdown section."
+msgstr "Désactiver la section <b>Ouverture de session</b> de l'entête."
+
+#: ../functions.php:2428
+msgid "Disable the header <b>Caller Card</b> section."
+msgstr "Désactiver la section <b>Carte d'appel</b>."
+
+#: ../functions.php:2437 ../functions.php:2695
+msgid "Menus"
+msgstr "Menus"
+
+#: ../functions.php:2439
+msgid "To set up your header menus you should go"
+msgstr "Pour configurer les menus de votre tête que vous devriez aller"
+
+#: ../functions.php:2439 ../functions.php:2697
+msgid "here"
+msgstr "ici"
+
+#: ../functions.php:2444
+msgid "\"Property Search\" label"
+msgstr "Étiquette \"Recherche de propriété\""
+
+#: ../functions.php:2449
+msgid "If empty, default label is \"Property Search\""
+msgstr ""
+"Si vide, la valeur par défaut de l'étiquette est \"Recherche de propriété\""
+
+#: ../functions.php:2456
+msgid "\"Contact us\" label"
+msgstr "Étiquette \"Contactez nous\" "
+
+#: ../functions.php:2461
+msgid "If empty, default label is \"Contact us\""
+msgstr "Si vide, la valeur par défaut de l'étiquette est \"Contactez nous\" "
+
+#: ../functions.php:2474
+msgid ""
+"Create separate widget area for the header property search. The widget area "
+"is called <b>Header: Property Search</b>."
+msgstr ""
+"Créer un espace séparé pour le widget d'entête de recherche de propriété. La "
+"zone de widget est appelé<b>Entête: Recherche de propriété </b>."
+
+#: ../functions.php:2480
+msgid "Show qTranslate language switcher in the header."
+msgstr "Voir le sélecteur de langue qTranslate dans l'entête."
+
+#: ../functions.php:2496
+msgid "Delete Logo"
+msgstr "Effacer le logo"
+
+#: ../functions.php:2499
+msgid ""
+"You currently do not have a logo uploaded. You may set one using CSS as well."
+msgstr ""
+"Vous n'avez pas de logo téléchargé. Vous pouvez aussi en définir un en "
+"utilisant la programmation CSS."
+
+#: ../functions.php:2504
+msgid "To upload new logo, choose an image from your computer: "
+msgstr ""
+"Pour télécharger le nouveau logo, choisir une image depuis votre ordinateur:"
+
+#: ../functions.php:2525
+msgid "Address"
+msgstr "Adresse"
+
+#: ../functions.php:2537
+msgid "Caller Card"
+msgstr "Carte d'appel"
+
+#: ../functions.php:2541
+msgid "Text before phone number:"
+msgstr "Texte avant le numéro de téléphone:"
+
+#: ../functions.php:2546
+msgid "Don't display the address below the phone number on top of page."
+msgstr ""
+"Ne pas afficher l'adresse sous le numéro de téléphone en haut de la page."
+
+#: ../functions.php:2554
+msgid "Organization Name"
+msgstr "Nom de l'entreprise"
+
+#: ../functions.php:2562
+msgid "Primary Information"
+msgstr "Information primaire"
+
+#: ../functions.php:2567
+msgid ""
+"Information displayed under the name, within the \"Contact Us\" dropdown "
+"header. Shortcodes can be used here."
+msgstr ""
+"Les informations affichées sous le nom, dans la section d'entête \"Contactez-"
+"nous\". Les shortcodes peuvent être utilisées ici."
+
+#: ../functions.php:2569
+msgid "Where is this displayed?"
+msgstr "Où est-ce affiché?"
+
+#: ../functions.php:2576
+msgid "Fax Number"
+msgstr "Numéro de fax"
+
+#: ../functions.php:2579
+msgid "Fax is displayed in the Contact Us dropdown below the phone number."
+msgstr ""
+"Le numéro de télécopieur est affiché dans la section Contactez-nous sous le "
+"numéro de téléphone."
+
+#: ../functions.php:2585
+msgid "Header Contact Form"
+msgstr "Formulaire de contact de l'entête"
+
+#: ../functions.php:2596
+msgid "Form: "
+msgstr "Formulaire:"
+
+#: ../functions.php:2599 ../functions.php:3052
+msgid "Default Form"
+msgstr "Formulaire par défaut"
+
+#: ../functions.php:2607
+msgid ""
+"You can use WP-CRM to have more flexibility over your contact forms, to "
+"include the header contact form."
+msgstr ""
+"Vous pouvez utiliser WP-CRM d'avoir plus de flexibilité dans vos formulaires "
+"de contact à être inclus dans l'entête."
+
+#: ../functions.php:2609
+msgid "Visit CRM -> Settings -> Shortcode Forms to add a contact form."
+msgstr ""
+"Visitez CRM -> Paramètres -> Formulaire Shortcode pour ajouter un formulaire "
+"de contact."
+
+#: ../functions.php:2615
+msgid "Visit CRM -> Settings -> Shortcode Forms to set the selected form."
+msgstr ""
+"Visitez CRM -> Paramètres -> Formulaire Shortcode pour choisir un formulaire "
+"de contact."
+
+#: ../functions.php:2620
+msgid "Send Notifications To:"
+msgstr "Envoyer les notifications à:"
+
+#: ../functions.php:2623
+msgid ""
+"Messages submitted via the \"Contact Us\" form will be sent here. Separate "
+"multiple recipients with a comma."
+msgstr ""
+"Les messages envoyés via le formulaire \"Contactez nous\" seront envoyés "
+"ici. Séparez les destinataires par une virgule."
+
+#: ../functions.php:2628
+msgid "Email From Address:"
+msgstr "Adresse Courriel de:"
+
+#: ../functions.php:2631
+msgid ""
+"This is the email messaged sent by the website will appear to be sent from. "
+"You can do something like this: <b>Contact Form &lt;website@mydomain.com&gt;"
+"</b>"
+msgstr ""
+"Ceci défini le champ \"De:\" des courriels que le site fera parvenir à vos "
+"visiteurs. Vous pouvez faire quelque chose comme ceci: <b>Formulaire de "
+"contact &lt;site@mondomaine.com&gt;</b>"
+
+#: ../functions.php:2659
+msgid "Hide the <b>Explore Block</b> from footer area."
+msgstr "Cacher la section <b>Bloc d'exploration</b> du pied de page."
+
+#: ../functions.php:2664
+msgid "Disable the <b>Footer: Bottom Left Block</b> widget."
+msgstr "Désactiver le widget <b>Pied de page: Bloc en bas à gauche</b>"
+
+#: ../functions.php:2670
+msgid "Disable footer Social Media Icons."
+msgstr "Désactiver la section icônes médias sociaux du pied de page."
+
+#: ../functions.php:2677
+msgid "Do not include site description text in footer:"
+msgstr "Ne pas inclure le texte de description du site en bas de page:"
+
+#: ../functions.php:2682
+msgid "Show \"Equal Housing Opportunity\" icon in footer."
+msgstr "Montrer l'icône \"Equal Housing Opportunity\" dans le pied de page"
+
+#: ../functions.php:2687
+msgid "Do not show <strong>Powered By</strong> link in footer"
+msgstr ""
+"Ne pas montrer le lien <strong>Propulsé par</strong> dans le pied de page"
+
+#: ../functions.php:2697
+msgid "To set up your footer menus you should go"
+msgstr "Pour configurer vos menus de bas de page que vous devriez aller"
+
+#: ../functions.php:2701
+msgid "Hide the Footer Menu."
+msgstr "Masquer le menu pied de page."
+
+#: ../functions.php:2705
+msgid "Hide the Bottom of Page Menu."
+msgstr "Masquer le menu en bas de la page."
+
+#: ../functions.php:2713
+msgid "Explore Block"
+msgstr "Bloc d'exploration"
+
+#: ../functions.php:2715
+msgid ""
+"The Expore block may contain a list of your top pages, categories, or custom "
+"HTML, which can include shortcodes."
+msgstr ""
+"Le bloc d'exploration peut contenir une liste de vos pages principales, de "
+"catégories ou du HTML personnalisée, qui peuvent inclure des shortcodes."
+
+#: ../functions.php:2718
+msgid "Categories"
+msgstr "Catégories"
+
+#: ../functions.php:2720
+msgid "Custom HTML"
+msgstr "HTML personnalisé"
+
+#: ../functions.php:2727
+msgid "Hide the <b>Explore Block</b> title."
+msgstr "Cacher le titre du <b>Bloc d'exploration</b>."
+
+#: ../functions.php:2731
+msgid "What is the \"Explore\" block?"
+msgstr "Qu'est-ce que le bloc d'\"exploration\""
+
+#: ../functions.php:2744
+msgid "Social Media Links"
+msgstr "Liens médias sociaux"
+
+#: ../functions.php:2759
+msgid "What are social media icons?"
+msgstr "Quels sont les icônes des médias sociaux?"
+
+#: ../functions.php:2783
+msgid ""
+"These settings are duplicates of WP-Property plugin's settings. You can also "
+"find other ones on WP-Property Settings page."
+msgstr ""
+"Ces paramètres sont des copies des paramètres du plugin WP-Property. Vous "
+"pouvez également trouver d'autres paramètres sur la page des paramètres WP-"
+"Property."
+
+#: ../functions.php:2788
+msgid "Thumbnail size:"
+msgstr "Taille de la miniature:"
+
+#: ../functions.php:2790
+msgid "Show children properties."
+msgstr "Afficher les propriétés enfants."
+
+#: ../functions.php:2791
+msgid "Show larger image of property when image is clicked using fancybox."
+msgstr ""
+"Montrer des images plus grande de la propriété lorsque l'image est cliqué en "
+"utilisant un fancybox."
+
+#: ../functions.php:2792
+msgid "Show pagination on bottom of results."
+msgstr "Voir la pagination au bas des résultats."
+
+#: ../functions.php:2798
+#, php-format
+msgid ""
+"Sorry, but some options cannot be displayed. Please <a title=\"Update WP-"
+"Property\" class=\"thickbox\" href=\"%s\">update the WP-Property Plugin.</a>"
+msgstr ""
+"Désolé, mais certaines options ne peuvent pas être affichés. S'il vous plaît "
+"<a title=\"Update WP-Property\" class=\"thickbox\" href=\"%s\">mettre à jour "
+"le plugin WP-Property.</a>"
+
+#: ../functions.php:2806
+msgid "Overview Attributes"
+msgstr "Attributs Aperçu"
+
+#: ../functions.php:2807
+msgid "Select the attributes to display in the [property_overview] shortcodes."
+msgstr ""
+"Sélectionnez les attributs à afficher dans le shortcodes [property_overview]"
+
+#: ../functions.php:2811
+msgid ""
+"Horizontal List. Icon should be assigned to attribute for showing on front-"
+"end."
+msgstr ""
+"Liste horizontale. Une icône devrait être attribué à l'attribut pour être "
+"montrée sur l'interface utilisateur."
+
+#: ../functions.php:2843
+msgid "Detailed list below the horizontal list, includes titles and values."
+msgstr ""
+"Liste détaillée sous la liste horizontale, comprend des titres et des "
+"valeurs."
+
+#: ../functions.php:2864
+msgid "Which is which?"
+msgstr "Qu'est-ce qui est quoi?"
+
+#: ../functions.php:2870
+msgid "Overview Attributes - Grid"
+msgstr "Attributs Aperçu - Grille"
+
+#: ../functions.php:2871
+msgid ""
+"Select the attributes to display in the [property_overview template=grid] "
+"shortcodes."
+msgstr ""
+"Sélectionnez les attributs à afficher dans les shortcodes [property_overview "
+"template=grid]"
+
+#: ../functions.php:2892
+msgid "What is this for?"
+msgstr "C'est pour quoi?"
+
+#: ../functions.php:2905
+msgid ""
+"The attention grabber area is displayed above the property-specific content "
+"on the property pages. Denali checks several settings to determine what to "
+"display within the attention grabbing area of a property. "
+msgstr ""
+"La zone de captage d'attention est affichée au-dessus du contenu des "
+"propriétés sur les pages de propriétés. Denali vérifie plusieurs paramètres "
+"pour déterminer les éléments à afficher dans cette zone."
+
+#: ../functions.php:2912
+msgid "1) Attention Area Widgets"
+msgstr "1) Widgets zone d'attention"
+
+#: ../functions.php:2913
+msgid ""
+"Property Type-specific widget area is first checked. If widgets found, they "
+"will be displayed."
+msgstr ""
+"La zone de widget de la propriété est d'abord vérifié. Si des widgets sont "
+"trouvés, ils seront affichés."
+
+#: ../functions.php:2917
+msgid ""
+"A custom Attention Grabber widget area is made available for every property "
+"type."
+msgstr ""
+"Une widget personnalisée \"capteur d'attention\" est disponible pour chaque "
+"type de propriété."
+
+#: ../functions.php:2925
+#, php-format
+msgid ""
+"%1s has %2s widgets in the attention grabber area which will be displayed as "
+"dynamic tabs."
+msgstr ""
+"%1s a %2s widgets dans la zone de captage d'attention qui sera affiché comme "
+"des onglets dynamiques."
+
+#: ../functions.php:2927
+#, php-format
+msgid ""
+"%1s has one widget in the attention grabber area which will be displayed."
+msgstr "%1s a un widget dans la zone de captage d'attention qui sera affiché."
+
+#: ../functions.php:2931
+#, php-format
+msgid ""
+"%1s does not have any widgets in the attention grabber area, a slideshow and "
+"featured image will be checked for."
+msgstr ""
+"%1s n'a aucun widget dans la zone de captage d'attention, nous chercherons "
+"pour un diaporama ou une image en vedette."
+
+#: ../functions.php:2937
+msgid ""
+"To select which widgets to display in this section, visit the Widgets page. "
+msgstr ""
+"Pour sélectionner les widgets à afficher dans cette section, visitez la page "
+"Widgets."
+
+#: ../functions.php:2945
+msgid "2) Property Slideshow"
+msgstr "2) Diaporama de la propriété"
+
+#: ../functions.php:2946
+msgid ""
+"If no widgets exist in widget area for a property type, we will attempt to "
+"display a slideshow."
+msgstr ""
+"Si aucun widgets existent dans la zone de widget pour un type de propriété, "
+"nous allons essayer d'afficher un diaporama."
+
+#: ../functions.php:2949
+msgid ""
+"In order for a slideshow to be displayed, the images attached to the "
+"property must be of a certain size - WordPress will never enlarge your "
+"images to avoid pixelation. "
+msgstr ""
+"Pour un diaporama à afficher, les images jointes à la propriété doivent être "
+"d'une certaine taille - WordPress n'agrandira pas vos images pour éviter la "
+"pixellisation."
+
+#: ../functions.php:2954
+msgid "Never display a slideshow on property pages."
+msgstr "Ne jamais afficher un diaporama sur les pages de propriétés."
+
+#: ../functions.php:2962
+#, php-format
+msgid "Property Slideshow Size: %1dpx by %1dpx."
+msgstr "Taille du diaporama des propriétés: %1dpx par %1dpx."
+
+#: ../functions.php:2963
+msgid ""
+"The slideshow size is set on the the Properties -> Settings -> Slideshow "
+"page."
+msgstr ""
+"La taille diaporama est réglé dans Propriétés -> Paramètres -> Page "
+"diaporama."
+
+#: ../functions.php:2974
+msgid "3) Featured Image in Header"
+msgstr "3) Image en vedette dans l'entête"
+
+#: ../functions.php:2975
+msgid ""
+"If neither an Attention Grabber widget area, nor the slideshow, can be "
+"displayed - the featured image can be displayed."
+msgstr ""
+"Si ni un widget capteur d'attention, ni un diaporama, ne peuvent être "
+"affichées - l'image en vedette peut être affichée."
+
+#: ../functions.php:2984
+msgid ""
+"If the image size you selected above does not exist, and there is no "
+"slideshow, do not show header area at all on property pages."
+msgstr ""
+"Si la taille de l'image que vous avez sélectionnée ci-dessus n'existe pas, "
+"et qu'il n'y a pas de diaporama, ne pas afficher de zone d'entête sur les "
+"pages de propriétés."
+
+#: ../functions.php:2988
+msgid "More about property header images."
+msgstr "Plus d'informations sur les images d'entête de propriété."
+
+#: ../functions.php:3009
+msgid "Don't treat property comments as inquiries."
+msgstr ""
+"Ne pas traiter les commentaires de propriété que demande d'informations."
+
+#: ../functions.php:3011
+msgid ""
+"If enabled, property comments will be displayed on front-end and handled as "
+"comments.  If left disabled, comments will be treated as inquiries. You can "
+"enable/disable comments on individual property pages."
+msgstr ""
+"Si activée, les commentaires de propriété seront affichés sur l'interface "
+"utilisateur et traitées comme des commentaires. Si désactivé, les "
+"commentaires seront traités comme des demandes de renseignements. Vous "
+"pouvez activer / désactiver les commentaires sur chaque page de propriété."
+
+#: ../functions.php:3013
+msgid "More about inquiries"
+msgstr "Plus au sujet des demandes d'informations"
+
+#: ../functions.php:3022
+msgid "WP-CRM Inquiry Forms"
+msgstr "Formulaire de demande d'information WP-CRM"
+
+#: ../functions.php:3027
+#, php-format
+msgid ""
+"You can use <a class=\"small\" href=\"%s\">WP-CRM plugin</a> to have more "
+"flexibility over the inquiry data and form customization. Install WP-CRM to "
+"be able to use it for property inquiries."
+msgstr ""
+"Vous pouvez utiliser <a class=\"small\" href=\"%s\">le plugin WP-CRM</a>pour "
+"avoir plus de souplesse sur la personnalisation des formulaires de demande "
+"d'informations. Installer WP-CRM pour gérer les demandes d'informations."
+
+#: ../functions.php:3029
+msgid ""
+"You have WP-CRM, but you need to purchase \"Shortcode Contact Forms\" "
+"premium feature for flexibility over the inquiry data and form customization."
+msgstr ""
+"Vous avez WP-CRM, mais vous avez besoin d'acheter la fonction pretium "
+"\"Formulaires de contact shortcode \" pour plus de flexibilité et la "
+"personnalisation des formulaires."
+
+#: ../functions.php:3031
+msgid "Please visit CRM -> Settings -> Shortcode Forms to add a contact form."
+msgstr ""
+"S'il vous plaît visitez CRM -> Paramètres -> Shortcode Formulaires pour "
+"ajouter un formulaire de contact."
+
+#: ../functions.php:3054
+msgid "(No Fields)"
+msgstr "(Pas de champs)"
+
+#: ../functions.php:3062
+msgid ""
+"Please visit <a target=\"_blank\" href=\"http://usabilitydynamics.com/"
+"products/wp-crm/\">Usability Dynamics, Inc.</a> to learn more about WP-CRM."
+msgstr ""
+"S'il vous plaît visitez <a target=\"_blank\" href=\"http://usabilitydynamics."
+"com/products/wp-crm/\">Usability Dynamics, Inc.</a> pour en savoir plus sur "
+"WP-CRM."
+
+#: ../functions.php:3071
+msgid "Default Form Fields"
+msgstr "Champs de formulaire par défaut"
+
+#: ../functions.php:3073
+msgid ""
+"Add any additional input fields you would like to be displayed on the "
+"property inquiry forms. Name and e-mail address are required and already "
+"displayed."
+msgstr ""
+"Ajouter les champs de saisie supplémentaires que vous souhaitez afficher sur "
+"les formulaires de demande d'informations. Le nom et l'adresse courriel sont "
+"requis et déjà affichées."
+
+#: ../functions.php:3078
+msgid "Field Name"
+msgstr "Nom du champs"
+
+#: ../functions.php:3079
+msgid "Slug"
+msgstr "Slug"
+
+#: ../functions.php:3080
+msgid "Required"
+msgstr "Requis"
+
+#: ../functions.php:3091
+msgid "Delete"
+msgstr "Effacer"
+
+#: ../functions.php:3097
+msgid "Add Row"
+msgstr "Ajouter rangée"
+
+#: ../functions.php:3106
+msgid ""
+"Show agent dropdown on inquiry form listing all agents associated with the "
+"property."
+msgstr ""
+"Voir une liste déroulante de tous les agents associés à la propriété sur le "
+"formulaire de demande d'informations."
+
+#: ../functions.php:3119
+msgid "Restore Backup of Denali Configuration"
+msgstr "Restaurer la sauvegarde de la configuration Denali"
+
+#: ../functions.php:3120
+msgid "Download Backup of Current Denali Configuration."
+msgstr "Télécharger la sauvegarde de la configuration actuelle de Denali."
+
+#: ../functions.php:3124
+msgid ""
+"Include <a target=\"_blank\" href=\"../wp-admin/widgets.php\">Widgets</a> "
+"Settings"
+msgstr ""
+"Inclure les paramètres <a target=\"_blank\" href=\"../wp-admin/widgets.php"
+"\">Widgets</a>"
+
+#: ../functions.php:3125
+msgid ""
+"Include <a target=\"_blank\" href=\"../wp-admin/nav-menus.php\">Menus</a> "
+"Settings"
+msgstr ""
+"Inclure les paramètres <a target=\"_blank\" href=\"../wp-admin/nav-menus.php"
+"\">Menus</a>"
+
+#: ../functions.php:3127
+msgid "Download"
+msgstr "Télécharger"
+
+#: ../functions.php:3127 ../functions.php:3132
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../functions.php:3131
+msgid ""
+"Look up the <b>$denali_theme_settings</b> global settings array.  This array "
+"stores all the default settings, which are overwritten by database settings, "
+"and custom filters."
+msgstr ""
+"Consultez le <b>$denali_theme_settings</b> tableau des paramètres globaux. "
+"Ce tableau stocke tous les paramètres par défaut, qui sont écrasés par les "
+"paramètres de base de données et les filtres personnalisés."
+
+#: ../functions.php:3132
+msgid "Show $denali_theme_settings"
+msgstr "Montrez $denali_theme_settings"
+
+#: ../functions.php:3137
+msgid "Ignore new Denali Version updates."
+msgstr "Ignorer les nouvelles mises à jour de Denali."
+
+#: ../functions.php:3138
+msgid ""
+"If enabled, Denali theme will not check updates and you will not be able to "
+"update theme. It's recommended if you have customized your theme a lot and "
+"not sure that new version will not break anything."
+msgstr ""
+"Si activée, le thème de Denali ne vérifie pas les mises à jour et vous ne "
+"serez pas en mesure de mettre à jour le thème. Ce choix est recommandé si "
+"vous avez personnalisé le thème et que vous voulez vous assurer qu'une "
+"nouvelle version ne viendra rien changer de votre personnalisation."
+
+#: ../functions.php:3139
+msgid ""
+"Note: Denali doesn't do update automatically. You only will be noticed about "
+"new updates if this option is disabled."
+msgstr ""
+"Remarque: Le thème Denali ne se met pas mise à jour automatiquement. Vous "
+"serez informé de nouvelles mises à jour, si cette option est désactivée."
+
+#: ../functions.php:3147
+msgid "Save Changes"
+msgstr "Sauver les changements"
+
+#: ../functions.php:3186
+msgid "Header: Property Search"
+msgstr "Entête: Recherche de propriété"
+
+#: ../functions.php:3188
+msgid ""
+"Widget area is displayed in the header and is made visible when a user "
+"clicks the \"Property Search\" dropdown tab. The \"Property Search\" label "
+"will be changed to the Title of the first widget added to this section."
+msgstr ""
+"La zone de widget est affiché dans l'en-tête et devient visible quand un "
+"utilisateur clique sur l'onglet \"Recherche la propriété \". L'étiquette "
+"\"Recherche la propriété \" sera changé pour le titre du widget de cette "
+"section."
+
+#: ../functions.php:3197
+msgid "Home: Slideshow Overlay Search"
+msgstr "Accueil: Recherche superposée au diaporama"
+
+#: ../functions.php:3199
+msgid ""
+"Widget area is displayed on home page next to slideshow, if a slideshow is "
+"used. Place your property search widget in here."
+msgstr ""
+"La zone de widget est affiché sur la page d'accueil à côté du diaporama, si "
+"un diaporama est utilisé. Placez votre widget recherche de propriétés ici."
+
+#: ../functions.php:3212
+msgid "Header & Home: Property Search"
+msgstr "En-tête et d'accueil: Rechercher une propiété"
+
+#: ../functions.php:3214
+msgid ""
+"This area is displayed in the header under \"Find Your Property\" and on "
+"home page next to slideshow. Place your property search widget in here. The "
+"\"Property Search\" label will be changed to the Title of the first widget "
+"added to this section."
+msgstr ""
+"Cette zone est affiché dans l'en-tête sous \"Trouvez votre propriété\" et "
+"sur la page d'accueil à côté de diaporama. Placez votre widget recherche de "
+"propriétés ici. L'étiquette \"Recherche la propriété\" sera changée pour le "
+"titre du widget de cette section."
+
+#: ../functions.php:3224
+msgid "Home: Attention Grabber"
+msgstr "Accueil: Zone de captage d'attention "
+
+#: ../functions.php:3226
+msgid ""
+"Display directly below the navigation on the home page if this area has "
+"widgets - it will replace the home page slideshow area with a custom widget "
+"area. "
+msgstr ""
+"S'affiche directement en dessous de la navigation sur la page d'accueil si "
+"cette zone a widgets - il remplacera la zone diaporama de la page d'accueil "
+"avec une zone de widget personnalisé."
+
+#: ../functions.php:3235
+msgid "Home: Sidebar"
+msgstr "Accueil: barre latérale"
+
+#: ../functions.php:3237
+msgid ""
+"Sidebar located on the right side on the home page page below the property "
+"slideshow and search widget."
+msgstr ""
+"Barre latérale située sur le côté droit de la page page d'accueil sous le "
+"diaporama et le widget de recherche."
+
+#: ../functions.php:3247
+msgid "Home: Horizontal Bottom Area"
+msgstr "Accueil: Zone bas de page horizontale"
+
+#: ../functions.php:3249
+msgid ""
+"Widget area is located below home page content on left side. This is a good "
+"place for the \"Featured Properties\" widget."
+msgstr ""
+"Cette zone de Widget est située au-dessous de contenu de la page d'accueil "
+"sur le côté gauche. C'est un bon endroit pour le widget \"Propriétés en "
+"vedette\"."
+
+#: ../functions.php:3258
+msgid "Blog Home: Attention Grabber"
+msgstr "Accueil du carnet: Zone de captage d'attention"
+
+#: ../functions.php:3260
+msgid ""
+"Display directly below the navigation on the blog home page if this area has "
+"widgets."
+msgstr ""
+"S'affiche directement en dessous de la navigation sur la page d'accueil du "
+"blog, si cette zone a des widgets."
+
+#: ../functions.php:3268
+msgid "Blog Home: Sidebar"
+msgstr "Accueil du carnet: Barre latérale"
+
+#: ../functions.php:3270
+msgid ""
+"Sidebar located on the \"Posts page\" home page if you have one selected "
+"under Settings -> Reading -> Front page displays. \""
+msgstr ""
+"Barre latérale située sur la page d'accueil \"Page des articles\"  si vous "
+"en avez un sélectionné dans Réglages -> Lecture -> La page d’accueil "
+"affiche. \""
+
+#: ../functions.php:3280
+msgid "Inside Pages: Attention Grabber"
+msgstr "Page intérieures: Zone de captage d'attention"
+
+#: ../functions.php:3282
+msgid ""
+"This area is displayed on all inside pages, such as posts, pages, "
+"categories, etc. directly below the navigation.  It replaces the default "
+"image or slideshow."
+msgstr ""
+"Cette zone est affichée sur toutes les pages intérieures, comme les "
+"articles, pages, catégories, etc. directement en dessous de la navigation. "
+"Elle remplace l'image par défaut ou le diaporama."
+
+#: ../functions.php:3291
+msgid "Inside Pages: Sidebar"
+msgstr "Pages intérieures: Barre latérale"
+
+#: ../functions.php:3293
+msgid ""
+"This widget area shows up on the right side of all \"inside\" pages, or any "
+"page other than the home page or a property page.  These pages include "
+"posts, pages, categories, etc."
+msgstr ""
+"Cette zone widget s'affiche sur le côté droit de tous les pages \"internes\" "
+"ou toute autre page que la page d'accueil ou une page de propriétés. Ces "
+"pages comprennent des articles, pages, catégories, etc."
+
+#: ../functions.php:3305
+#, php-format
+msgid "%s: Attention Grabber"
+msgstr "%s: Zone de captage d'attention"
+
+#: ../functions.php:3307
+#, php-format
+msgid ""
+"Widget area is located on the top of all  %s pages. All the widgets in here "
+"are rendered as tabs - the widget titles are used as the tab titles, and the "
+"actual content is displayed only when a tab is activated."
+msgstr ""
+"La zone Widget est située sur le haut de toutes les pages   %s. Tous les "
+"widgets sont rendus ici sous forme d'onglets - les titres de widget sont "
+"utilisés comme les titres des onglets et le contenu réel est affiché "
+"uniquement lorsqu'un onglet est activé."
+
+#: ../functions.php:3315
+#, php-format
+msgid "%s: Right Sidebar"
+msgstr "%s: Barre latérale à droite"
+
+#: ../functions.php:3317
+#, php-format
+msgid "Sidebar located on the right of all %s pages."
+msgstr "Barre latérale située sur la droite de toutes les pages %s."
+
+#: ../functions.php:3325
+#, php-format
+msgid "%s: Below Content"
+msgstr "%s: Sous le contenu"
+
+#: ../functions.php:3327
+#, php-format
+msgid ""
+"Widget area is located below the content on all %s pages.  All the widgets "
+"in here are rendered as tabs - the widget titles are used as the tab titles, "
+"and the actual content is displayed only when a tab is activated."
+msgstr ""
+"La zone de Widget est située sous le contenu de toutes les pages %s. Tous "
+"les widgets sont rendus ici sous forme d'onglets - les titres de widget sont "
+"utilisés comme les titres des onglets et le contenu réel est affiché "
+"uniquement lorsqu'un onglet est activé."
+
+#: ../functions.php:3338
+msgid "Property Listing: Sidebar"
+msgstr "Fiche de propriété: Barre latérale"
+
+#: ../functions.php:3340
+msgid ""
+"Sidebar located on the the property overview and search result pages "
+"whenever a [property_overview] shortcode is detected within page content. \""
+msgstr ""
+"Barre latérale située sur la page d'aperçu des propriétés et les pages de "
+"résultats de recherche chaque fois qu'un shortcode [property_overview] est "
+"détectée dans le contenu de la page. \""
+
+#: ../functions.php:3350
+msgid "All Single Property Pages: Below Content"
+msgstr "Toutes les pages de propriétés unique: Sous le contenu"
+
+#: ../functions.php:3352
+msgid ""
+"Appears on every single property page below the content and below the "
+"Property Footer if one is set."
+msgstr ""
+"Apparaît sur ​​chaque page de propriétés unique sous le contenu et sous le "
+"pied de page de la propriété s'il a été défini."
+
+#: ../functions.php:3360
+msgid "Footer: Bottom Left Block"
+msgstr "Pied de page: Bloc en bas à gauche "
+
+#: ../functions.php:3362
+msgid ""
+"This widget area is in the bottom left corner.  It works best with listing "
+"properties, showing only thumbnails."
+msgstr ""
+"Cette zone widget est dans le coin inférieur gauche. Elle fonctionne mieux "
+"en affichant seulement les vignettes des propriétés."
+
+#: ../functions.php:3640
+msgid "Inquiry About:"
+msgstr "Sujet de la demande d'information:"
+
+#: ../functions.php:3646
+msgid "Inquiry message:"
+msgstr "Message de demande d'information:"
+
+#: ../functions.php:3757 ../header-contact-us.php:80
+msgid "Message"
+msgstr "Message"
+
+#: ../functions.php:3805
+msgid "Send to Agent"
+msgstr "Envoyer à l'agent"
+
+#: ../functions.php:3826
+msgid "Submit Inquiry"
+msgstr "Envoyer demande de renseignement"
+
+#: ../functions.php:3913
+msgid ""
+"Sorry, but Denali theme was switched to default Worpress theme. You have to "
+"activate WP-Property plugin for using Denali theme. Please, activate WP-"
+"Property plugin and then try again. To avoid issues you need to reload the "
+"current page."
+msgstr ""
+"Désolé, mais le thème Worpress par défaut a été activé au lieu du thème "
+"Denali. Vous devez activer WP-Propriété plugin pour utiliser le thème "
+"Denali. S'il vous plaît, activer le plugin WP-propriété, puis essayez à "
+"nouveau. Pour éviter des problèmes vous devriez recharger la page courante."
+
+#: ../functions.php:3917
+msgid ""
+"You have to activate WP-Property plugin for using Denali theme. In the other "
+"way it can cause different bugs and issues. Please activate WP-Property "
+"plugin or switch theme to another one."
+msgstr ""
+"Vous devez activer le plugin WP-Propriété pour utiliser le thème Denali. "
+"S'il vous plaît activer le plugin WP-Propriété ou utilisez un autre thème."
+
+#: ../functions.php:3941
+msgid ""
+"Looks like Denali theme Settings were updated. But W3 Total Cache plugin is "
+"used. Please, clear cache to be sure that the changes are involved "
+msgstr ""
+"On dirait que les paramètres du thème Denali ont été mis à jour. Mais le "
+"plugin W3 Total Cache est utilisé. S'il vous plaît, vider le cache pour être "
+"sûr que les changements sont affichés"
+
+#: ../functions.php:3943
+msgid "or"
+msgstr "ou"
+
+#: ../functions.php:4346
+#, php-format
+msgid ""
+"<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</"
+"span> %3$s"
+msgstr ""
+"<span class=\"%1$s\">Publié le</span> %2$s <span class=\"meta-sep\">par</"
+"span> %3$s"
+
+#: ../functions.php:4568
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dit:</span>"
+
+#: ../functions.php:4571
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente d'une validation."
+
+#: ../functions.php:4578
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: ../functions.php:4578 ../functions.php:4595
+msgid "(Edit)"
+msgstr "(Éditer)"
+
+#: ../functions.php:4595
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../functions.php:4737
+msgid "Posted by"
+msgstr "Publié par"
+
+#: ../functions.php:4740
+#, php-format
+msgid "<span class=\"%1$s\"> in</span> %2$s"
+msgstr "<span class=\"%1$s\"> dans</span> %2$s"
+
+#: ../functions.php:4749
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Marqué</span> %2$s"
+
+#: ../functions.php:4753
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: ../functions.php:4753
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: ../functions.php:4753
+msgid "% Comments"
+msgstr "% Comments"
+
+#: ../functions.php:4754
+msgid "Edit"
+msgstr "Éditer"
+
+#: ../header-contact-us.php:20
+msgid "Contact us"
+msgstr "Contactez nous"
+
+#: ../header-contact-us.php:56
+msgid "Fax"
+msgstr "Fax"
+
+#: ../header-contact-us.php:71
+msgid "Name"
+msgstr "Nom"
+
+#: ../header-contact-us.php:75
+msgid "E-mail"
+msgstr "Courriel"
+
+#: ../header-contact-us.php:84
+msgid "Send Message"
+msgstr "Envoyer"
+
+#: ../header-login.php:21
+msgid "Login"
+msgstr "Connexion"
+
+#: ../header-print.php:24 ../header.php:22
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: ../header.php:37
+msgid "Our location."
+msgstr "Notre emplacement."
+
+#: ../header.php:70
+msgid "call us"
+msgstr "téléphonez nous"
+
+#: ../loop.php:46
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles plus vieux"
+
+#: ../loop.php:47
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles plus récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../property-overview-grid.php:68 ../property-overview.php:82
+msgid "Yes"
+msgstr "Oui"
+
+#: ../property-overview-grid.php:73 ../property-overview.php:87
+msgid "No"
+msgstr "Non"
+
+#: ../property-overview-grid.php:95 ../property-overview.php:130
+#, php-format
+msgid ""
+"Sorry, no properties found - try expanding your search, or <a href=\"%s"
+"\">view all</a>."
+msgstr ""
+"Nous sommes désolés, aucune propriété n'a été trouvée. Essayer d'élargir "
+"votre recherche ou <a href=\"%s\">voir tout</a>."
+
+#: ../property-overview-page.php:36
+msgid ""
+"Sorry, we could not find what you were looking for.  Since you are here, "
+"take a look at some of our properties."
+msgstr ""
+"Désolé, nous n'avons pas trouvé ce que vous cherchiez. Puisque vous êtes "
+"ici, jetez un oeil à certaines de nos propriétés."
+
+#: ../property-overview.php:36
+msgid "of"
+msgstr "de"

@@ -1,0 +1,1430 @@
+# Copyright (C) 2012 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Denali 3.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-18 15:08+0200\n"
+"PO-Revision-Date: 2012-07-18 15:08+0200\n"
+"Last-Translator: Eugene Odokienko <eugene.odokienko@usabilitydynamics.com>\n"
+"Language-Team: Usability Dynamics, Inc.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comments.php:12
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Этот пост защищен паролем. Введите пароль, чтобы ознакомиться с комментариями."
+
+#: ../comments.php:35
+#: ../comments.php:46
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Более поздние комментарии"
+
+#: ../comments.php:36
+#: ../comments.php:47
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Более новые комментарии <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../comments.php:58
+msgid "Comments are closed."
+msgstr "Комментирование не разрешено."
+
+#: ../content-single-property-inquiry.php:23
+msgid "Your inquiry was successfully sent!"
+msgstr "Ваш запрос был успешно отправлен!"
+
+#: ../content-single-property-inquiry.php:52
+msgid "Comment About"
+msgstr "Комментировать"
+
+#: ../content-single-property-inquiry.php:54
+msgid "Inquire About"
+msgstr "Запрос o"
+
+#: ../footer-print.php:57
+msgid "Thank you for your message."
+msgstr "Спасибо за сообщение."
+
+#: ../footer.php:46
+msgid "Explore"
+msgstr "Обзор"
+
+#: ../functions.php:96
+msgid "Header Menu"
+msgstr "Меню шапки "
+
+#: ../functions.php:97
+msgid "Header Sub-Menu"
+msgstr "Субменю шапки"
+
+#: ../functions.php:98
+msgid "Footer Menu"
+msgstr "Меню подвала"
+
+#: ../functions.php:99
+msgid "Bottom of Page Menu"
+msgstr "Меню внизу страницы"
+
+#: ../functions.php:295
+#: ../functions.php:2207
+msgid "Inquiry"
+msgstr "Форма Запроса об Объекте "
+
+#: ../functions.php:296
+msgid "WP-CRM Shortcode forms can be used to display property inquries. Please visit <b>CRM -> Settings -> Shortcode Forms</b>."
+msgstr "WP-CRM шорткод формы могут быть использованы для отображения запросов по объектам. Пожалуйста, посетите <b>CRM -> Настройки -> Шорткод формы</b>."
+
+#: ../functions.php:297
+msgid "Also, you can use WP-CRM plugin for sending Inquire notifications. Please visit <b>CRM -> Settings -> Notifications</b> to add notification."
+msgstr "Также, Вы можете использовать плагин WP-CRM для отправки уведомлений о запросах. Пожалуйста, посетите <b>CRM -> Настройки -> Уведомления</b> чтобы добавить уведомление."
+
+#: ../functions.php:298
+msgid "You can use next additional shortcodes in your notification:"
+msgstr "Вы можете использовать следующие дополнительные шорткоды в своих уведомлениях:"
+
+#: ../functions.php:299
+msgid "renders all assigned to property agent emails (You should allow to send inquire to agent. See agent's profile). You must have \"Real Estate Agents\" premium feature to use this shortcode."
+msgstr "передает все определенные для этого объекта  email-ы агентов (Вы должны разрешить посылать запросы об объектах агенту. Посетите страницу профиля агента). Real Estate Agents премиум дополнение должно быть активно."
+
+#: ../functions.php:300
+msgid "renders clickable link with property title"
+msgstr "передает кликабельную ссылку с заголовком объекта"
+
+#: ../functions.php:301
+msgid "renders property's title"
+msgstr "передает заголовок объекта"
+
+#: ../functions.php:340
+msgid "For more information:"
+msgstr "Для более подробной информации:"
+
+#: ../functions.php:341
+msgid "<a href=\"https://usabilitydynamics.com/products/the-denali-premium-theme/\" target=\"_blank\">The Denali Premium theme Page</a>"
+msgstr "<a href=\"https://usabilitydynamics.com/products/the-denali-premium-theme/\" target=\"_blank\">Страница Denali премиум темы</a>"
+
+#: ../functions.php:347
+msgid "Please upgrade WordPress to the latest version for detailed help."
+msgstr "Пожалуйста, обновите WordPress до последней версии для получения более детальной помощи."
+
+#: ../functions.php:347
+msgid "Or visit <a href=\"https://usabilitydynamics.com/products/the-denali-premium-theme/\" target=\"_blank\">The Danali Premium Theme</a> on UsabilityDynamics.com"
+msgstr "Или посетите <a href=\"https://usabilitydynamics.com/products/the-denali-premium-theme/\" target=\"_blank\"> Danali премиум тему</a> на UsabilityDynamics.com"
+
+#: ../functions.php:382
+#: ../functions.php:683
+msgid "Theme Options"
+msgstr "Опции темы"
+
+#: ../functions.php:383
+msgid "Setup Assistant"
+msgstr "Помощник настройки"
+
+#: ../functions.php:394
+msgid "Denali Header Contact"
+msgstr "Область для контактрой информации Denali шапки"
+
+#: ../functions.php:567
+msgid "Do not show header area."
+msgstr "Не показывать шапку."
+
+#: ../functions.php:568
+msgid "Do not show sidebar."
+msgstr "Не показывать сайдбар."
+
+#: ../functions.php:571
+msgid "Do not show page title."
+msgstr "Не показывать заголовок страницы."
+
+#: ../functions.php:576
+msgid "Do not show location map."
+msgstr "Не показывать карту."
+
+#: ../functions.php:579
+msgid "Allow property comments."
+msgstr "Разрешить комментарии объектов."
+
+#: ../functions.php:581
+msgid "Allow property inquiries."
+msgstr "Разрешить запросы об объектах."
+
+#: ../functions.php:708
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: ../functions.php:714
+msgid "Site Admin"
+msgstr "Администратор"
+
+#: ../functions.php:783
+msgid "Home"
+msgstr "Домашняя страница"
+
+#: ../functions.php:809
+msgid "Color Palette"
+msgstr "Палитра"
+
+#: ../functions.php:810
+msgid "Description"
+msgstr "Описание"
+
+#: ../functions.php:811
+msgid "Author"
+msgstr "Автор"
+
+#: ../functions.php:812
+msgid "Version"
+msgstr "Версия"
+
+#: ../functions.php:813
+msgid "Tags"
+msgstr "Тэги"
+
+#: ../functions.php:894
+msgid "Mesage From "
+msgstr "Сообщение от"
+
+#: ../functions.php:951
+msgid "You forgot to enter your  name."
+msgstr "Вы забыли ввести Ваше имя."
+
+#: ../functions.php:955
+msgid "You forgot to enter a message."
+msgstr "Вы забыли ввести сообщение."
+
+#: ../functions.php:960
+msgid "You forgot to enter your e-mail."
+msgstr "Вы забыли ввести Ваш e-mail."
+
+#: ../functions.php:989
+msgid "Error with sending message. Please contact site administrator."
+msgstr "Ошибка при отправке сообщения. Пожалуйста, свяжитесь с администратором."
+
+#: ../functions.php:1050
+msgid "Background Image"
+msgstr "Фоновое изображение."
+
+#: ../functions.php:1054
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: ../functions.php:1149
+msgid "Oceanfront"
+msgstr "Океан"
+
+#: ../functions.php:1153
+msgid "Minneapolis"
+msgstr "Миннеаполис"
+
+#: ../functions.php:1157
+msgid "Cozy Suburbs"
+msgstr "Уютный пригород"
+
+#: ../functions.php:1161
+msgid "Wilmington"
+msgstr "Вилмингтон"
+
+#: ../functions.php:1200
+msgid "Denali Theme Help"
+msgstr "Страница помощи Denali темы"
+
+#: ../functions.php:1201
+msgid "Since version 3.0.0 much flexibility was added to page layouts by adding a number of conditional Tabbed Widget areas which are available on all the pages."
+msgstr "Начиная с версии 3.0.0  параметры отображения страницы стали более гибкими блягодаря добавлению ряда виджетов-закладок, доступных на всех страницах.  "
+
+#: ../functions.php:1203
+msgid "Home & Posts Pages"
+msgstr "Домашняя и страница постов"
+
+#: ../functions.php:1204
+#, php-format
+msgid "<b>Posts Page</b> is typically used to display the <b>blog</b> part of site when WordPress is used as a CMS. You can configure the posts page on the <a href=\"%1s\">Settings -> Reading</a> settings page."
+msgstr "<b>Страница постов</b> обычно используется для отображения <b>блога</b> сайта, когда WordPress используется как CMS. Вы можете настроить страницу постов на странице <a href=\"%1s\">Параметры-> Чтение</a>."
+
+#: ../functions.php:1205
+msgid "The <b>Property Search</b> widget area is hidden automatically when no widget exists in the area."
+msgstr "<b>Поиск объектов</b> - это область для отображения виджетов скрывается автоматически, когда не содержит виджетов."
+
+#: ../functions.php:1208
+msgid "Color Schemes"
+msgstr "Цветовые схемы"
+
+#: ../functions.php:1209
+msgid "If you want to customize colors, it is advisable to create a separate a color palette within a child theme. Please visit <a href=\"\">WP-Property & Denali Help</a> to learn more about this"
+msgstr "Если Вы хотите настроить цвета<a href=\"\">WP-Property & Denali Help</a>"
+
+#: ../functions.php:1211
+#: ../functions.php:2282
+msgid "General Enhancements"
+msgstr "Общие улучшения"
+
+#: ../functions.php:1212
+msgid "<b>Automatically Hide Widgets:</b> After a page is rendered on the front-end, any widgets that do not have any text, excluding the title, will be hidden automatically."
+msgstr "<b>Автоматически скрывать виджеты:</b> Если области отображения виджетов не содержат ни одного виджета, включая название, они будут автоматически скрываться. "
+
+#: ../functions.php:1214
+#: ../functions.php:2359
+msgid "Child Theme"
+msgstr "Дочерняя тема"
+
+#: ../functions.php:1215
+msgid "To install child theme automatically you should just check 'Install Denali child theme'."
+msgstr "Чтобы инсталировать дочернюю тему, Вам, просто, нужно отметить чекбокс \"Инсталировать дочернюю тему Denali\""
+
+#: ../functions.php:1217
+#: ../functions.php:2373
+msgid "Child theme will be created automatically. You have to make any code customizations in created child theme folder ( <b>themes/denali-child</b> ) to avoid losing your changes on upgrade."
+msgstr "Дочерняя тема Denali инсталирована. Пожалуйста, убедитесь, что меняете код в ней во избежания потери этих изменений при обновлении темы."
+
+#: ../functions.php:1218
+#: ../functions.php:2374
+msgid "Check <a target=\"_blank\" href=\"http://codex.wordpress.org/Child_Themes\">Wordpress Codex</a> for more information."
+msgstr "Посетите <a target=\"_blank\" href=\"http://codex.wordpress.org/Child_Themes\">Кодекс Wordpress</a> для получения более детальной информации."
+
+#: ../functions.php:1220
+msgid "If you have the problems with automatically installing of child theme, you may need to install it manually:"
+msgstr "Если у Вас возникли сложности с автоматическим инсталированием дочерней темы, Вам потребуется инсталировать ее вручную:"
+
+#: ../functions.php:1221
+msgid "Copy folder <b>child-theme</b> from your Denali theme's folder to themes root directory ( wp-content/themes ). And child theme will be available."
+msgstr "Скопируйте папку <b>child-theme</b> из папки Вашей темы Denali к корневую папку тем ( wp-content/themes ). И дочерняя тема будет доступна."
+
+#: ../functions.php:1223
+msgid "Header Settings"
+msgstr "Настройки шапки"
+
+#: ../functions.php:1224
+#, php-format
+msgid "If you would like to change the header images, please visit the <a href=\"%1s\">Appearance -> Header</a> page."
+msgstr "Если Вы хотите изменить изображение шапки, пожалуйста, посетите страницу <a href=\"%1s\">Внешний вид -> Заголовок</a>"
+
+#: ../functions.php:1226
+#, php-format
+msgid "The navigational menus are configured are on the  <a href=\"%1s\">Appearance -> Menus</a> page."
+msgstr "Навигационные меню могут быть настроены на странице <a href=\"%1s\">Внешний вид -> Меню</a>"
+
+#: ../functions.php:1227
+#, php-format
+msgid "And be sure to configure the widgets on the <a href=\"%1s\">Appearance -> Widgets </a> page."
+msgstr "И проверьте, пожалуйста, что Вы настроили виджеты на странице <a href=\"%1s\">Внешний вид -> Виджеты </a>."
+
+#: ../functions.php:1228
+#: ../functions.php:2488
+msgid "Header Logo"
+msgstr "Логотип шапки"
+
+#: ../functions.php:1229
+msgid "It is recommended the header logo is under 100 pixels tall."
+msgstr "Рекомендовано, чтобы размер логотипа шапки был не выше 100 пикселей."
+
+#: ../functions.php:1231
+msgid "Address: The address will be automatically converted into coordinates, and a Google Map will be displayed on the top of every page in the <b>Contact Us</b> dropdown."
+msgstr "Адрес: Адрес будет автоматически преобразован в координаты и Google Map будет отображена сверху каждой страницы в ниспадающей форме <b>Контактная форма</a>.  "
+
+#: ../functions.php:1233
+msgid "Header Property Search"
+msgstr "Форма поиска объектов шапки"
+
+#: ../functions.php:1234
+msgid "By default the header property search widget area, and the home page slideshow overlay area were the same widget area, <b>Header &amp; Home: Property Search</b>. This setting can be changed on within the Header tab, and two new widget areas will be created to differentiate between the two."
+msgstr "По умолчанию, форма поиска объектов шапки, как область отображения виджетов, и область отображения виджетов, наложением на слайдшоу  домашней страницы. Эти настройки могут быть изменены на вкладке Шапка, эти две области отображения виджетов будут разделены. "
+
+#: ../functions.php:1236
+#: ../functions.php:2204
+msgid "Footer"
+msgstr "Подвал"
+
+#: ../functions.php:1237
+msgid "The footer includes several elements - <b>Footer: Bottom Left Block</b> widget, <b>Explore Block</b>, <b>phone number</b>, <b>site tagline</b>, <b>social media icons</b>, <b>Equal Housing Opportunity logo</b>, and <b>copyright notice.</b>, "
+msgstr "Подвал состоит из нескольких элементов: <b>Подвал: Нижний левый блок</b> виджет, <b>Блок обзора</b>, <b>номер телефона</b>, <b>теги сайта</b>, <b>иконки социальных медиа</b>, <b>логотип Equal Housing Opportunity</b>, и <b>заметка copyright </b>"
+
+#: ../functions.php:1239
+msgid "Backup"
+msgstr "Резервная копия"
+
+#: ../functions.php:1240
+msgid "You can download Backup of Denali theme settings, <a target=\"_blank\" href=\"../wp-admin/nav-menus.php\">Menus</a> settings (optional) and <a target=\"_blank\" href=\"../wp-admin/widgets.php\">Widgets</a> settings (optional) to file and then, in any time, restore the settings from that Backup file."
+msgstr "Вы можете скачать резерную копию настроек темы Denali, <a target=\"_blank\" href=\"../wp-admin/nav-menus.php\">Меню</a> (по выбору) и <a target=\"_blank\" href=\"../wp-admin/widgets.php\">Виджеты</a>"
+
+#: ../functions.php:1241
+msgid "Note:"
+msgstr "Заметка:"
+
+#: ../functions.php:1242
+msgid "Menus Settings: If element of menu has no related page or post (it doesn't exist) it will not be restored during backup."
+msgstr "Настройки меню: если элемент меню не имеет результирующих страниц или постов (не существуют), они не будут восстановлены используя резервную копию."
+
+#: ../functions.php:1243
+msgid "Widgets Settings: If widget is not registered, it will not be restored during backup."
+msgstr "Настройки виджетов: если виджеты не совпадают, они не будут восстановлены с помощью резервной копии."
+
+#: ../functions.php:1676
+msgid "Property Search"
+msgstr "Поиск объектов"
+
+#: ../functions.php:1852
+#: ../functions.php:2717
+msgid "Pages"
+msgstr "Страницы"
+
+#: ../functions.php:1856
+#: ../functions.php:1863
+#: ../functions.php:1875
+msgid "Featured"
+msgstr "Особый"
+
+#: ../functions.php:1942
+msgid "Thank you for using the Denali Theme."
+msgstr "Спасибо, что выбрали тему Denali."
+
+#: ../functions.php:1943
+msgid "This is a step-by-step process for quickly setting up your WP-Property website by following some of our best setup practices. "
+msgstr "Это пошаговый процесс для быстрой настройки Вашего WP-Property сайта по некоторым из лучших примеров из нашей практики."
+
+#: ../functions.php:1951
+msgid "General Color Scheme."
+msgstr "Общая цветовая схема."
+
+#: ../functions.php:1952
+msgid "Which of the three default color schemes would you like to use?"
+msgstr "Какую из трех цветовых схем Вы желали бы использовать?"
+
+#: ../functions.php:1958
+msgid "Brown colors with a gradient background."
+msgstr "Коричневые цвета с градиентным фоном."
+
+#: ../functions.php:1983
+#: ../functions.php:2296
+msgid "Home Page"
+msgstr "Домашняя страница"
+
+#: ../functions.php:1984
+msgid "How do you want to display the content on the home page?"
+msgstr "Как Вы хотите, чтобы контент на главной странице был отображен?"
+
+#: ../functions.php:1990
+msgid "Do not include a widget area on home page, have the regular content fill up entire page."
+msgstr "Не включать области отображения виджетов на домашней странице, отображать постоянный контент."
+
+#: ../functions.php:1996
+msgid "Show a sidebar on home page, and load some widgets in there."
+msgstr "Показывать сайдбар на домашней странице, загрузить туда несколько виджетов."
+
+#: ../functions.php:2004
+msgid "Slideshow."
+msgstr "Слайдшоу."
+
+#: ../functions.php:2005
+msgid "Do you want to show a slideshow on the home page? How about a property search form?"
+msgstr "Вы хотите отображать слайдшоу на домашней странице? Как на счет формы поиска объектов?"
+
+#: ../functions.php:2011
+msgid "Show a slideshow with a property search widget."
+msgstr "Показывать слайдшоу с виджетом поиска объектов."
+
+#: ../functions.php:2017
+msgid "Show a large slideshow, but no search widget."
+msgstr "Показывать большое слайдшоу но без виджета поиска объектов."
+
+#: ../functions.php:2023
+msgid "Do not show any slideshow or search widget on home page at all."
+msgstr "Не показывать слайдшоу или виджет поиска объектов на домашней странице."
+
+#: ../functions.php:2031
+msgid "Property Page"
+msgstr "Страница объекта."
+
+#: ../functions.php:2032
+msgid "Should we show slideshows on the property pages?"
+msgstr "Показывать слайдшоу на страницах объектов?"
+
+#: ../functions.php:2038
+msgid "Yes, show large slideshow above property information when slideshow images exist."
+msgstr "Да, показывать большое слайдшоу над информацией объекта, если изображения для слайдшоу существуют."
+
+#: ../functions.php:2044
+msgid "No, I don't like slideshows or header images, do not show a header."
+msgstr "Нет, не показывать слайдшоу или изображения в шапке, не отображать шапку."
+
+#: ../functions.php:2052
+msgid "Best Practices"
+msgstr "Лучшие примеры"
+
+#: ../functions.php:2056
+msgid "We can quickly setup your site according to some of the best practices we have established while working with hundreds of our cilents, and helping them setup their WP-Property powered sites:"
+msgstr "Мы можем быстро настроить Ваш сайт по некоторым лучшим примерам сотен наших клиентов, которым мы помогали настраивать WP-Property сайты. "
+
+#: ../functions.php:2058
+msgid "Setup up my homepage, put some properties on there, and a search form for good measure."
+msgstr "Настроить мою домашнюю страницу, опубликовать несколько объектов и форму поиска."
+
+#: ../functions.php:2061
+msgid "Setup my property result page with shortcodes and attributes."
+msgstr "Настроить результирующую страницу объектов, добавить шорткоды и атрибуты."
+
+#: ../functions.php:2064
+msgid "Setup the single listing page with all the widgets."
+msgstr "Настроить стриницы объектов, добавить виджеты."
+
+#: ../functions.php:2067
+msgid "Setup my URLs to be pretty."
+msgstr "Настроить URL."
+
+#: ../functions.php:2070
+msgid "Populate widget areas and sidebars with widgets."
+msgstr "Наполнить области отображения и сайдбары виджетами."
+
+#: ../functions.php:2078
+msgid "Other"
+msgstr "Другое"
+
+#: ../functions.php:2082
+msgid "Create a few sample properties."
+msgstr "Создать несколько образцов объектов."
+
+#: ../functions.php:2085
+msgid "Create a sample agent, a dedicated agent page, and associate with the sample properties."
+msgstr "Создать образец агента, страницу агента и ассоциировать его с образцами объектов."
+
+#: ../functions.php:2091
+msgid "...enough questions,"
+msgstr "... достаточно вопросов,"
+
+#: ../functions.php:2092
+msgid "Setup My Site!"
+msgstr "Настоить мой сайт!"
+
+#: ../functions.php:2124
+msgid "The WP-Property plugin does not seem to be active.  Please activate before using theme."
+msgstr "Похоже, что плагин WP-Property не активен. Пожалуйста, активируйте плагин для использования темы. "
+
+#: ../functions.php:2137
+msgid "Your site has been setup.  You may configure more advanced options here."
+msgstr "Ваш сайт настроен. Вы можете настроить другие настройки здесь."
+
+#: ../functions.php:2140
+msgid "Theme settings updated."
+msgstr "Настройки темы обновлены."
+
+#: ../functions.php:2144
+msgid "Backup failed. The file, which you tried to upload, has incorrect data."
+msgstr "Ошибка при восстановлении из резервной копии. Файл не подходит."
+
+#: ../functions.php:2155
+#: ../functions.php:2513
+#: ../functions.php:3467
+#: ../functions.php:3488
+#: ../functions.php:3607
+#: ../functions.php:3763
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+#: ../functions.php:2189
+msgid "Denali Settings"
+msgstr "Настройки Denali"
+
+#: ../functions.php:2190
+msgid "Open Setup Assistant"
+msgstr "Открыть ассистент настройки"
+
+#: ../functions.php:2202
+#: ../functions.php:2217
+#: ../functions.php:2782
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: ../functions.php:2203
+msgid "Header"
+msgstr "Шапка"
+
+#: ../functions.php:2205
+msgid "Property Overview"
+msgstr "Страница Обзора Объектов"
+
+#: ../functions.php:2206
+msgid "Single Content Pages"
+msgstr "Отдельная страница с контентом"
+
+#: ../functions.php:2208
+msgid "Help"
+msgstr "Помощь"
+
+#: ../functions.php:2223
+msgid "Put site into maintenance mode."
+msgstr "Включить режим обслуживания для сайта."
+
+#: ../functions.php:2225
+msgid "Maintenance mode will display a splash image on front-end for non-administrators while you make changes."
+msgstr "Режим обслуживания будет отображать небольшое изображение на фронт энде для не администраторов, пока вы быдете вопрощать свои замыслы."
+
+#: ../functions.php:2234
+msgid "Color Scheme"
+msgstr "Цветовая схема"
+
+#: ../functions.php:2243
+msgid "Default Denali Colors - Shades of blue and tan."
+msgstr "Цвета Denali по умолчанию - Оттенки синего."
+
+#: ../functions.php:2259
+msgid "You don't have any extra color schemes."
+msgstr "У Вас нет дополнительных цветовых схем."
+
+#: ../functions.php:2266
+msgid "Category Pages"
+msgstr "Категория страниц"
+
+#: ../functions.php:2271
+msgid "Hide post meta (date posted, author, categories listed in,etc) on category pages."
+msgstr "Скрыть мета информацию поста(дата опубликования, автор, категории, пр.) на страницах категорий."
+
+#: ../functions.php:2275
+msgid "What is \"post meta\"?"
+msgstr "Что такое метаинформация поста?"
+
+#: ../functions.php:2287
+msgid "Hide all comment forms on the front-end.  This does not include property inquiry forms."
+msgstr "Скрыть все формы комментариев на фронт энде. Это не затронет формы запросов объектов."
+
+#: ../functions.php:2302
+msgid "Hide post meta (date posted, author, tags, etc) when displaying posts."
+msgstr "Скрыть мета информацию поста(дата опубликования, автор, тэги, пр.) во время отображения постов."
+
+#: ../functions.php:2307
+msgid "Hide \"Property Search\" box from slideshow on home page."
+msgstr "Скрыть \"Поиск объектов\" наложением на слайдшоу на домашней странице."
+
+#: ../functions.php:2313
+msgid "Hide the Attention Grabber section (including Header Image) from the home page"
+msgstr "Скрыть область привлекающую внимание(включая изображения в шапке) на домашней странице."
+
+#: ../functions.php:2319
+msgid "More about home and post page property search."
+msgstr "Подробнее о поиске объектов на домашней и странице постов."
+
+#: ../functions.php:2326
+msgid "Posts Blog Page"
+msgstr "Страница постов блога"
+
+#: ../functions.php:2331
+msgid "Hide \"Property Search\" from slideshow on Posts Page."
+msgstr "Скрыть \"Поиск объектов\" наложением на слайдшоу на страницах постов."
+
+#: ../functions.php:2336
+msgid "Hide the Attention Grabber section (including Header Image) from the blog home page."
+msgstr "Скрыть область привлекающую внимание(включая изображения в шапке) на домашней странице блога."
+
+#: ../functions.php:2346
+msgid "Inside Pages ( Post, Pages )"
+msgstr "Внутренние страницы (посты, страницы)"
+
+#: ../functions.php:2351
+msgid "Hide the Attention Grabber section (including Header Image) from the inside pages."
+msgstr "Скрыть область привлекающую внимание(включая изображения в шапке) на всех внутренних страницах."
+
+#: ../functions.php:2364
+msgid "You are currently using the Default Denali child theme, you are safe to make code and CSS customizations."
+msgstr "Вы используете дочернюю тему Denali, Вы можете безопасно изменять код и CSS. "
+
+#: ../functions.php:2366
+msgid "Default Denali child theme is installed. Please be sure to make any code customizations in there, you can activate it on Appearance/Themes page to avoid losing your changes on upgrade."
+msgstr "Дочерняя тема Denali инсталирована. Пожалуйста, убедитесь, что меняете код в ней, Вы можете активизировать ее на странице Внешний Вид/Темы  во избежания потери этих изменений при обновлении темы."
+
+#: ../functions.php:2369
+msgid "Install Denali child theme."
+msgstr "Инсталировать дочернюю тему Denali."
+
+#: ../functions.php:2371
+msgid "Note: There was a problem installing the default Child Theme. You may need to install it manually. Read 'Help' above."
+msgstr "Внимание: Возникла проблема при инсталировании дочерней темы Denali. Baм потребуется инсталировать ее вручную. Ознакомьтесь со вкладкой \"Помощь\" сверху страницы."
+
+#: ../functions.php:2395
+msgid "Header Elements"
+msgstr "Элементы шапки"
+
+#: ../functions.php:2401
+msgid "Hide logo from header."
+msgstr "Скрыть логотип шапки."
+
+#: ../functions.php:2407
+msgid "Disable the header <b>Property Search</b> dropdown section."
+msgstr "Скрыть выпадающую форму поиска объектов шапки."
+
+#: ../functions.php:2414
+msgid "Disable the header <b>Contact Us</b> dropdown section."
+msgstr "Скрыть выпадающую контактную форму шапки."
+
+#: ../functions.php:2421
+msgid "Disable the header <b>Login</b> dropdown section."
+msgstr "Скрыть выпадающую форму поиска объектов шапки."
+
+#: ../functions.php:2428
+msgid "Disable the header <b>Caller Card</b> section."
+msgstr "Скрыть выпадающую форму <b>Визитка</b> шапки."
+
+#: ../functions.php:2437
+#: ../functions.php:2695
+msgid "Menus"
+msgstr "Меню"
+
+#: ../functions.php:2439
+msgid "To set up your header menus you should go"
+msgstr "Чтобы настроить меню шапки, Вам нужно посетить"
+
+#: ../functions.php:2439
+#: ../functions.php:2697
+msgid "here"
+msgstr "здесь"
+
+#: ../functions.php:2444
+msgid "\"Property Search\" label"
+msgstr "Ярлык формы поиска объектов"
+
+#: ../functions.php:2449
+msgid "If empty, default label is \"Property Search\""
+msgstr "Если не заполнено, по умолчанию ярлык - \"Поиск объектов\""
+
+#: ../functions.php:2456
+msgid "\"Contact us\" label"
+msgstr "Ярлык контактной формы"
+
+#: ../functions.php:2461
+msgid "If empty, default label is \"Contact us\""
+msgstr "Если не заполнено, по умолчаию,  ярлык - \"Контактная форма\""
+
+#: ../functions.php:2474
+msgid "Create separate widget area for the header property search. The widget area is called <b>Header: Property Search</b>."
+msgstr "Создать отдельную область отображения  виджетов для поиска объектов в шапке. Этот виджет будет называться <b>Шапка: Поиск Объектов</b>."
+
+#: ../functions.php:2480
+msgid "Show qTranslate language switcher in the header."
+msgstr "Показывать qTranslate переключатель в шапке."
+
+#: ../functions.php:2496
+msgid "Delete Logo"
+msgstr "Удалить логотип"
+
+#: ../functions.php:2499
+msgid "You currently do not have a logo uploaded. You may set one using CSS as well."
+msgstr "В настоящее время в не загрузили лого. Вы можете настроить его используя также CSS."
+
+#: ../functions.php:2504
+msgid "To upload new logo, choose an image from your computer: "
+msgstr "Для добавления нового логотипа, выберите изображение на Вашем компьютере:"
+
+#: ../functions.php:2525
+msgid "Address"
+msgstr "Адрес"
+
+#: ../functions.php:2537
+msgid "Caller Card"
+msgstr "Визитка"
+
+#: ../functions.php:2541
+msgid "Text before phone number:"
+msgstr "Текст перед номером телефона:"
+
+#: ../functions.php:2546
+msgid "Don't display the address below the phone number on top of page."
+msgstr "Не отображать адрес ниже номера телефона сверху страницы."
+
+#: ../functions.php:2554
+msgid "Organization Name"
+msgstr "Название организации"
+
+#: ../functions.php:2562
+msgid "Primary Information"
+msgstr "Первичная информация"
+
+#: ../functions.php:2567
+msgid "Information displayed under the name, within the \"Contact Us\" dropdown header. Shortcodes can be used here."
+msgstr "Информация отображается под названием в выпадающей форме \"Контактная форма\". Шорткоды здесь тоже могут быть использованы."
+
+#: ../functions.php:2569
+msgid "Where is this displayed?"
+msgstr "Где это отображается?"
+
+#: ../functions.php:2576
+msgid "Fax Number"
+msgstr "Факс"
+
+#: ../functions.php:2579
+msgid "Fax is displayed in the Contact Us dropdown below the phone number."
+msgstr "Факс отображается в выпадающей контактной форме ниже номера телефона."
+
+#: ../functions.php:2585
+msgid "Header Contact Form"
+msgstr "Форма обратной связи шапки"
+
+#: ../functions.php:2596
+msgid "Form: "
+msgstr "От:"
+
+#: ../functions.php:2599
+#: ../functions.php:3052
+msgid "Default Form"
+msgstr "Форма по умолчанию"
+
+#: ../functions.php:2607
+msgid "You can use WP-CRM to have more flexibility over your contact forms, to include the header contact form."
+msgstr "Вы можете использовать плагин WP-CRM для большей настраиваемости Вашей контактной формы шапки"
+
+#: ../functions.php:2609
+msgid "Visit CRM -> Settings -> Shortcode Forms to add a contact form."
+msgstr "Посетите CRM -> Настроики -> Шорткод формы для добавления контактной формы."
+
+#: ../functions.php:2615
+msgid "Visit CRM -> Settings -> Shortcode Forms to set the selected form."
+msgstr "Посетите CRM -> Настроики -> Шорткод формы для выбора контактной формы."
+
+#: ../functions.php:2620
+msgid "Send Notifications To:"
+msgstr "Кому отослать уведомление:  "
+
+#: ../functions.php:2623
+msgid "Messages submitted via the \"Contact Us\" form will be sent here. Separate multiple recipients with a comma."
+msgstr "Сообщения, отправленные с помощью \"Контактной формы\" будут доставлены сюда. Отделите нескольких получателей  запятой."
+
+#: ../functions.php:2628
+msgid "Email From Address:"
+msgstr "Email От:"
+
+#: ../functions.php:2631
+msgid "This is the email messaged sent by the website will appear to be sent from. You can do something like this: <b>Contact Form &lt;website@mydomain.com&gt;</b>"
+msgstr "Информация из этого поля заполнит исходящий адрес для сообщений, отправленных с помощью /\"Контактной формы/\". Вы можете сделать следующее: <b>Контактная форма &lt;website@mydomain.com&gt;</b>"
+
+#: ../functions.php:2659
+msgid "Hide the <b>Explore Block</b> from footer area."
+msgstr "Скрыть <b>Блок обзора</b> из подвала."
+
+#: ../functions.php:2664
+msgid "Disable the <b>Footer: Bottom Left Block</b> widget."
+msgstr "Скрыть <b>Подвал: Нижний левый блок<b>"
+
+#: ../functions.php:2670
+msgid "Disable footer Social Media Icons."
+msgstr "Скрыть иконки социальных медиа в подвале."
+
+#: ../functions.php:2677
+msgid "Do not include site description text in footer:"
+msgstr "Не включать описание сайта в подвал:"
+
+#: ../functions.php:2682
+msgid "Show \"Equal Housing Opportunity\" icon in footer."
+msgstr "Показывать иконку \"Equal Housing Opportunity\" в подвале."
+
+#: ../functions.php:2687
+msgid "Do not show <strong>Powered By</strong> link in footer"
+msgstr "Не показывать ссылку <strong>Powered By</strong> в подвале"
+
+#: ../functions.php:2697
+msgid "To set up your footer menus you should go"
+msgstr "Чтобы настроить меню в подвале, пожалуйста посетите"
+
+#: ../functions.php:2701
+msgid "Hide the Footer Menu."
+msgstr "Скрыть меню подвала."
+
+#: ../functions.php:2705
+msgid "Hide the Bottom of Page Menu."
+msgstr "Скрыть меню внизу страницы."
+
+#: ../functions.php:2713
+msgid "Explore Block"
+msgstr "Блок обзора"
+
+#: ../functions.php:2715
+msgid "The Expore block may contain a list of your top pages, categories, or custom HTML, which can include shortcodes."
+msgstr "Блок обзора может содержать список Ваших топ-страниц, категорий или пользовательский HTML, который может включать шорткоды. "
+
+#: ../functions.php:2718
+msgid "Categories"
+msgstr "Категории"
+
+#: ../functions.php:2720
+msgid "Custom HTML"
+msgstr "Пользовательский HTML"
+
+#: ../functions.php:2727
+msgid "Hide the <b>Explore Block</b> title."
+msgstr "Скрыть название <b>Блок обзора</b>."
+
+#: ../functions.php:2731
+msgid "What is the \"Explore\" block?"
+msgstr "Что такое Блок обзора?"
+
+#: ../functions.php:2744
+msgid "Social Media Links"
+msgstr "Ссылки на социальные медиа"
+
+#: ../functions.php:2759
+msgid "What are social media icons?"
+msgstr "Что такое иконки социальных медиа?"
+
+#: ../functions.php:2783
+msgid "These settings are duplicates of WP-Property plugin's settings. You can also find other ones on WP-Property Settings page."
+msgstr "Эти настройки дублтруют настройки WP-Property. Вы можете также найти их на странице настроек WP-Property."
+
+#: ../functions.php:2788
+msgid "Thumbnail size:"
+msgstr "Размер изображия:"
+
+#: ../functions.php:2790
+msgid "Show children properties."
+msgstr "Показывать дочернии объекты."
+
+#: ../functions.php:2791
+msgid "Show larger image of property when image is clicked using fancybox."
+msgstr "Показывать большое изображение объекта при нажатии на него используя фенсибокс."
+
+#: ../functions.php:2792
+msgid "Show pagination on bottom of results."
+msgstr "Показывать пагинацию снизу результатов."
+
+#: ../functions.php:2798
+#, php-format
+msgid "Sorry, but some options cannot be displayed. Please <a title=\"Update WP-Property\" class=\"thickbox\" href=\"%s\">update the WP-Property Plugin.</a>"
+msgstr "Некоторые опции не могут быть отображены. Пожалуйста, <a title=\"Обновить WP-Property\" class=\"thickbox\" href=\"%s\">обновите плагин WP-Property.</a>"
+
+#: ../functions.php:2806
+msgid "Overview Attributes"
+msgstr "Атрибуты обзора"
+
+#: ../functions.php:2807
+msgid "Select the attributes to display in the [property_overview] shortcodes."
+msgstr "Выберете атрибуты для отображенния шорткодом [property_overview]."
+
+#: ../functions.php:2811
+msgid "Horizontal List. Icon should be assigned to attribute for showing on front-end."
+msgstr "Горизонтальный список.  Иконки должны быть сопоставлены атрибутам для показа на фронт-энде."
+
+#: ../functions.php:2843
+msgid "Detailed list below the horizontal list, includes titles and values."
+msgstr "Детализирующий список, состоит из названий атрибутов и их значений."
+
+#: ../functions.php:2864
+msgid "Which is which?"
+msgstr "Что есть что?"
+
+#: ../functions.php:2870
+msgid "Overview Attributes - Grid"
+msgstr "Атрибуты обзора - шаблон сетка"
+
+#: ../functions.php:2871
+msgid "Select the attributes to display in the [property_overview template=grid] shortcodes."
+msgstr "Выберете атрибуты для отображенния шорткодом [property_overview template=grid]."
+
+#: ../functions.php:2892
+msgid "What is this for?"
+msgstr "Для чего это?"
+
+#: ../functions.php:2905
+msgid "The attention grabber area is displayed above the property-specific content on the property pages. Denali checks several settings to determine what to display within the attention grabbing area of a property. "
+msgstr "Область, привлекающая внимание, расположена над контентом страниц объектов. Denali проверяет некоторые настройки, чтобы определить, что отображать в области, привлекающей внимание."
+
+#: ../functions.php:2912
+msgid "1) Attention Area Widgets"
+msgstr "1) Виджеты области, привлекающей внимание"
+
+#: ../functions.php:2913
+msgid "Property Type-specific widget area is first checked. If widgets found, they will be displayed."
+msgstr "Типоспецифическая область отображения виджетов выбрана. Если она содержит виджеты, они будут отображены."
+
+#: ../functions.php:2917
+msgid "A custom Attention Grabber widget area is made available for every property type."
+msgstr "Пользовательская область, привлекающая внимание, доступна для каждого типа объектов."
+
+#: ../functions.php:2925
+#, php-format
+msgid "%1s has %2s widgets in the attention grabber area which will be displayed as dynamic tabs."
+msgstr "%1s содержит %2s виджетов в области, привлекающей внимание, которые будут отображены динамическими вкладками"
+
+#: ../functions.php:2927
+#, php-format
+msgid "%1s has one widget in the attention grabber area which will be displayed."
+msgstr "%1s содержит один виджет в области, привлекающей внимание, он будет отображен."
+
+#: ../functions.php:2931
+#, php-format
+msgid "%1s does not have any widgets in the attention grabber area, a slideshow and featured image will be checked for."
+msgstr "%1s не содержит ни одиного виджета в области, привлекающей внимание, будут отображены особое изображение или слайдшоу."
+
+#: ../functions.php:2937
+msgid "To select which widgets to display in this section, visit the Widgets page. "
+msgstr "Для выбора виджетов,которые будут отображаться в этой области, посетите, пожалуйста страницу виджетов."
+
+#: ../functions.php:2945
+msgid "2) Property Slideshow"
+msgstr "2) Слойдшоу объекта"
+
+#: ../functions.php:2946
+msgid "If no widgets exist in widget area for a property type, we will attempt to display a slideshow."
+msgstr "Если ни одиного виджета нет в области отображения виджетов для этого типа объектов, будут отображены особое изображение или слайдшоу."
+
+#: ../functions.php:2949
+msgid "In order for a slideshow to be displayed, the images attached to the property must be of a certain size - WordPress will never enlarge your images to avoid pixelation. "
+msgstr "Чтобы слайдшоу отображало изображения, они должна быть определенного размера - WordPress никогда не увеличивает размеры изображения, чтобы избежать пикселизации."
+
+#: ../functions.php:2954
+msgid "Never display a slideshow on property pages."
+msgstr "Никогда не показывать слайдшоу на страницах объекта"
+
+#: ../functions.php:2962
+#, php-format
+msgid "Property Slideshow Size: %1dpx by %1dpx."
+msgstr "Размер слайдшоу объекта: %1dpx на %1dpx."
+
+#: ../functions.php:2963
+msgid "The slideshow size is set on the the Properties -> Settings -> Slideshow page."
+msgstr "Размер слайдшоу объектов может быть настроен на странице Объекты -> Настройки -> Слайдшоу."
+
+#: ../functions.php:2974
+msgid "3) Featured Image in Header"
+msgstr "3) Особое изображение в шапке"
+
+#: ../functions.php:2975
+msgid "If neither an Attention Grabber widget area, nor the slideshow, can be displayed - the featured image can be displayed."
+msgstr "Если ни область привлекающая внимание, ни слайдшоу не могут быть отображены, будет отображено особое изображение."
+
+#: ../functions.php:2984
+msgid "If the image size you selected above does not exist, and there is no slideshow, do not show header area at all on property pages."
+msgstr "Если изображений с размерами, которые Вы выбрали ниже , не существует, слайдшоу не будет отображено, не отображать шапку на странице объектов."
+
+#: ../functions.php:2988
+msgid "More about property header images."
+msgstr "Подробнее о изображениях в шапке."
+
+#: ../functions.php:3009
+msgid "Don't treat property comments as inquiries."
+msgstr "Не преобразовывать комментарии в запросы об объектах."
+
+#: ../functions.php:3011
+msgid "If enabled, property comments will be displayed on front-end and handled as comments.  If left disabled, comments will be treated as inquiries. You can enable/disable comments on individual property pages."
+msgstr "Если опция включена, комментарии объектов будут отображены на фронт энде как комментарии. Если оставить опцию отключенной, комментарии будут преобразованы в формы запроса объектов. Вы можете включить/выключить комментарии на страницах объектов отдельно."
+
+#: ../functions.php:3013
+msgid "More about inquiries"
+msgstr "Подробнее о запросах"
+
+#: ../functions.php:3022
+msgid "WP-CRM Inquiry Forms"
+msgstr "WP-CRM Формы запросов объектов"
+
+#: ../functions.php:3027
+#, php-format
+msgid "You can use <a class=\"small\" href=\"%s\">WP-CRM plugin</a> to have more flexibility over the inquiry data and form customization. Install WP-CRM to be able to use it for property inquiries."
+msgstr "Вы можете использовать <a class=\"small\" href=\"%s\">плагин WP-CRM </a> для большей настраиваемости запростов объектов. Инсталировать WP-CRM чтобы использовать дл язапросов объектов."
+
+#: ../functions.php:3029
+msgid "You have WP-CRM, but you need to purchase \"Shortcode Contact Forms\" premium feature for flexibility over the inquiry data and form customization."
+msgstr "Плагин WP-CRM инсталирован, но Вам нужно активизировать Шорткод формы для большей настраиваемости форм запросов объектов."
+
+#: ../functions.php:3031
+msgid "Please visit CRM -> Settings -> Shortcode Forms to add a contact form."
+msgstr "Пожалуйста, посетите CRM -> Настройки -> Шорткод формы для добавления новой формы."
+
+#: ../functions.php:3054
+msgid "(No Fields)"
+msgstr "(Нет полей)"
+
+#: ../functions.php:3062
+msgid "Please visit <a target=\"_blank\" href=\"http://usabilitydynamics.com/products/wp-crm/\">Usability Dynamics, Inc.</a> to learn more about WP-CRM."
+msgstr "Пожалуйста,посетите <a target=\"_blank\" href=\"http://usabilitydynamics.com/products/wp-crm/\">Usability Dynamics, Inc.</a>, чтобы узнать подробнее о плагине WP-CRM."
+
+#: ../functions.php:3071
+msgid "Default Form Fields"
+msgstr "Поля формы по умолчанию"
+
+#: ../functions.php:3073
+msgid "Add any additional input fields you would like to be displayed on the property inquiry forms. Name and e-mail address are required and already displayed."
+msgstr "Добавьте любые дополнительные поля ввода, которые бы Вы хотели отобразить в формах запросов объектов. Имя и e-mail - обязательные поля и будут отображены."
+
+#: ../functions.php:3078
+msgid "Field Name"
+msgstr "Название поля"
+
+#: ../functions.php:3079
+msgid "Slug"
+msgstr "Слаг"
+
+#: ../functions.php:3080
+msgid "Required"
+msgstr "Обязательный"
+
+#: ../functions.php:3091
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../functions.php:3097
+msgid "Add Row"
+msgstr "Добавить строку"
+
+#: ../functions.php:3106
+msgid "Show agent dropdown on inquiry form listing all agents associated with the property."
+msgstr "Показывать выпадающий список агентов, закрепленных за объектом, в форме запроса объектов."
+
+#: ../functions.php:3119
+msgid "Restore Backup of Denali Configuration"
+msgstr "Восстановить резервную копию конфигурации Denali."
+
+#: ../functions.php:3120
+msgid "Download Backup of Current Denali Configuration."
+msgstr "Скачать резервную копию текущей конфигурации Denali."
+
+#: ../functions.php:3124
+msgid "Include <a target=\"_blank\" href=\"../wp-admin/widgets.php\">Widgets</a> Settings"
+msgstr "Включая <a target=\"_blank\" href=\"../wp-admin/widgets.php\">Настройки виджетов</a>"
+
+#: ../functions.php:3125
+msgid "Include <a target=\"_blank\" href=\"../wp-admin/nav-menus.php\">Menus</a> Settings"
+msgstr "Включая <a target=\"_blank\" href=\"../wp-admin/nav-menus.php\">Настройки меню</a> "
+
+#: ../functions.php:3127
+msgid "Download"
+msgstr "Скачать"
+
+#: ../functions.php:3127
+#: ../functions.php:3132
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../functions.php:3131
+msgid "Look up the <b>$denali_theme_settings</b> global settings array.  This array stores all the default settings, which are overwritten by database settings, and custom filters."
+msgstr "Просмотр глобальный массив параметров <b>$denali_theme_settings</b>. Этот массив содержит все настройки по умолчанию, которые переписаны настройками базы данных и пользовалельскими фильтрами."
+
+#: ../functions.php:3132
+msgid "Show $denali_theme_settings"
+msgstr "Показать настройки Denali"
+
+#: ../functions.php:3137
+msgid "Ignore new Denali Version updates."
+msgstr "Игнорировать обновление Denali."
+
+#: ../functions.php:3138
+msgid "If enabled, Denali theme will not check updates and you will not be able to update theme. It's recommended if you have customized your theme a lot and not sure that new version will not break anything."
+msgstr "Если отмечено, тема Denali не будет проверять обновления и Вы не сможете ими воспользоваться. Это рекомендовано, если Вы значительно изменили свою тему и не уверены, что новая версия не испортит эти измения. "
+
+#: ../functions.php:3139
+msgid "Note: Denali doesn't do update automatically. You only will be noticed about new updates if this option is disabled."
+msgstr "Заметка: Denali не обновляется автоматически. Вы будете предупреждены о новых обновлениях только если эта опция отключена."
+
+#: ../functions.php:3147
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: ../functions.php:3186
+msgid "Header: Property Search"
+msgstr "Шапка: Поиск объекта"
+
+#: ../functions.php:3188
+msgid "Widget area is displayed in the header and is made visible when a user clicks the \"Property Search\" dropdown tab. The \"Property Search\" label will be changed to the Title of the first widget added to this section."
+msgstr "Область отображения виджетов отображена в шапке и может стать доступной после нажатия на выпадающую вкладку \"Поиск объектов\". Ярлык \"Поиск объектов\" будет изменен названием первого виджета, добавленного в эту область."
+
+#: ../functions.php:3197
+msgid "Home: Slideshow Overlay Search"
+msgstr "Домашняя: поиск с наложением на слайдшоу"
+
+#: ../functions.php:3199
+msgid "Widget area is displayed on home page next to slideshow, if a slideshow is used. Place your property search widget in here."
+msgstr "Область отображения виджетов отображается на домашней странице возле слайдшоу, если слайдшоу используется. Поместите Ваш виджет поиска объектов сюда."
+
+#: ../functions.php:3212
+msgid "Header & Home: Property Search"
+msgstr "Шапка & Домашняя страница: Поиск объектов"
+
+#: ../functions.php:3214
+msgid "This area is displayed in the header under \"Find Your Property\" and on home page next to slideshow. Place your property search widget in here. The \"Property Search\" label will be changed to the Title of the first widget added to this section."
+msgstr "Эта область отображается в шапке под \"Поиск объектов\" и на домашней странице возле слайдшоу. Разместите Ваш виджет поиска объектов здесь. Ярлык \"Поиск объектов\" будет изменен на название виджета, добавленного в эту область.  "
+
+#: ../functions.php:3224
+msgid "Home: Attention Grabber"
+msgstr "Домашняя страница: область, привлекающая внимание"
+
+#: ../functions.php:3226
+msgid "Display directly below the navigation on the home page if this area has widgets - it will replace the home page slideshow area with a custom widget area. "
+msgstr "Отображать непосредственно под навигацией на домашней странице, если эта область содержит виджеты - это заменит слайдшоу домашней страницы пользовательской областью отображения виджетов."
+
+#: ../functions.php:3235
+msgid "Home: Sidebar"
+msgstr "Домашняя страница: сайдбар"
+
+#: ../functions.php:3237
+msgid "Sidebar located on the right side on the home page page below the property slideshow and search widget."
+msgstr "Сайдбар расположен справа на домашней странице под слайдшоу и виджетом поиска объектов."
+
+#: ../functions.php:3247
+msgid "Home: Horizontal Bottom Area"
+msgstr "Домашняя страница: Горизонтальная нижняя область"
+
+#: ../functions.php:3249
+msgid "Widget area is located below home page content on left side. This is a good place for the \"Featured Properties\" widget."
+msgstr "Область отображения виджетов ниже контента домашней страницы слева. Это хорошее место для виджета \"Особые объекты\"."
+
+#: ../functions.php:3258
+msgid "Blog Home: Attention Grabber"
+msgstr "Домашняя блога: область, привлекающая внимание"
+
+#: ../functions.php:3260
+msgid "Display directly below the navigation on the blog home page if this area has widgets."
+msgstr "Отображается непосредственно под навигацией"
+
+#: ../functions.php:3268
+msgid "Blog Home: Sidebar"
+msgstr "Домашняя страница блога: сайдбар"
+
+#: ../functions.php:3270
+msgid "Sidebar located on the \"Posts page\" home page if you have one selected under Settings -> Reading -> Front page displays. \""
+msgstr "Сайдбар расположен на домашней странице постов, если она определена в Параметрах -> Чтение -> На главной странице отображать"
+
+#: ../functions.php:3280
+msgid "Inside Pages: Attention Grabber"
+msgstr "Внутренние страницы: область, привлекающая внимание"
+
+#: ../functions.php:3282
+msgid "This area is displayed on all inside pages, such as posts, pages, categories, etc. directly below the navigation.  It replaces the default image or slideshow."
+msgstr "Эта область находится на всех внутненних страницах, таких как посты, страницы, категории и пр. непосредственно под навигацией. Она заменяет изображение по умолчанию или слайдшоу."
+
+#: ../functions.php:3291
+msgid "Inside Pages: Sidebar"
+msgstr "Внутренние страницы: сайдбар"
+
+#: ../functions.php:3293
+msgid "This widget area shows up on the right side of all \"inside\" pages, or any page other than the home page or a property page.  These pages include posts, pages, categories, etc."
+msgstr "Эта область для отображения виджетов расположена справа на всех внутренних страниц или на любых страницах за исключением домашней. Это страницы включают посты, страницы, категории и пр."
+
+#: ../functions.php:3305
+#, php-format
+msgid "%s: Attention Grabber"
+msgstr "%s: область, привлекающая внимание"
+
+#: ../functions.php:3307
+#, php-format
+msgid "Widget area is located on the top of all  %s pages. All the widgets in here are rendered as tabs - the widget titles are used as the tab titles, and the actual content is displayed only when a tab is activated."
+msgstr "Область расположена сверху на всех %s страницах. Все виджеты преобразованы в таблицы, заголовок виджета станет заголовком таблицы, контент таблицы будет показан только если таблица активна."
+
+#: ../functions.php:3315
+#, php-format
+msgid "%s: Right Sidebar"
+msgstr "%s: правый сайдбар"
+
+#: ../functions.php:3317
+#, php-format
+msgid "Sidebar located on the right of all %s pages."
+msgstr "Сайдбар расположен справа на всех %s страницах."
+
+#: ../functions.php:3325
+#, php-format
+msgid "%s: Below Content"
+msgstr "%s: ниже контента"
+
+#: ../functions.php:3327
+#, php-format
+msgid "Widget area is located below the content on all %s pages.  All the widgets in here are rendered as tabs - the widget titles are used as the tab titles, and the actual content is displayed only when a tab is activated."
+msgstr "Область расположена ниже контента на всех %s страницах. Все виджеты преобразованы в таблицы, заголовок виджета станет заголовком таблицы, контент таблицы будет показан только если таблица активна."
+
+#: ../functions.php:3338
+msgid "Property Listing: Sidebar"
+msgstr "Обзор объектов: сайдбар"
+
+#: ../functions.php:3340
+msgid "Sidebar located on the the property overview and search result pages whenever a [property_overview] shortcode is detected within page content. \""
+msgstr "Сайдбар расположен на странице обзора объектов и результатов поиска, где [property_overview] шорткод был обнаружен в контексте страницы. \""
+
+#: ../functions.php:3350
+msgid "All Single Property Pages: Below Content"
+msgstr "Все страницы оъектов: ниже контента"
+
+#: ../functions.php:3352
+msgid "Appears on every single property page below the content and below the Property Footer if one is set."
+msgstr "Появляется на каждой странице объекта ниже конткнта и ниже подвала объекта, если он настроен."
+
+#: ../functions.php:3360
+msgid "Footer: Bottom Left Block"
+msgstr "Подвал: нижний левый блок"
+
+#: ../functions.php:3362
+msgid "This widget area is in the bottom left corner.  It works best with listing properties, showing only thumbnails."
+msgstr "Эта область для размещения виджетов находится в левом нижнем углу. Лучше всего здесь размещать перечень объектов, показывает только изображения."
+
+#: ../functions.php:3640
+msgid "Inquiry About:"
+msgstr "Запрос о:"
+
+#: ../functions.php:3646
+msgid "Inquiry message:"
+msgstr "Текст запроса:"
+
+#: ../functions.php:3757
+#: ../header-contact-us.php:80
+msgid "Message"
+msgstr "Сообщение"
+
+#: ../functions.php:3805
+msgid "Send to Agent"
+msgstr "Отправить агенту"
+
+#: ../functions.php:3826
+msgid "Submit Inquiry"
+msgstr "Отправить запрос"
+
+#: ../functions.php:3913
+msgid "Sorry, but Denali theme was switched to default Worpress theme. You have to activate WP-Property plugin for using Denali theme. Please, activate WP-Property plugin and then try again. To avoid issues you need to reload the current page."
+msgstr "Извитите, но была активирована тема WordPress по умолчанию. Пожалуйста, активируйте плагин WP-Property и повторите попытку. Пожалуйста, перегрузите страницу, чтобы избежать ошибок."
+
+#: ../functions.php:3917
+msgid "You have to activate WP-Property plugin for using Denali theme. In the other way it can cause different bugs and issues. Please activate WP-Property plugin or switch theme to another one."
+msgstr "Вы должны активировать плагин WP-Property чтобы использовать Denali тему. В противном случае, это может привести к нежелательным последствиям. Пожалуйста, активируйте плагин WP-Property или выбирите другую тему."
+
+#: ../functions.php:3941
+msgid "Looks like Denali theme Settings were updated. But W3 Total Cache plugin is used. Please, clear cache to be sure that the changes are involved "
+msgstr "Похоже настройки Denali темы были изменены. Но Вы используете плагин W3 Total Cache. Пожалуйста, очистите кэш, чтобы быть уверенным, что изменения вступили в силу.  "
+
+#: ../functions.php:3943
+msgid "or"
+msgstr "или"
+
+#: ../functions.php:4346
+#, php-format
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr "<span class=\"%1$s\">Опубликовано</span> %2$s <span class=\"meta-sep\"> </span> %3$s"
+
+#: ../functions.php:4568
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">сказал:</span>"
+
+#: ../functions.php:4571
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: ../functions.php:4578
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: ../functions.php:4578
+#: ../functions.php:4595
+msgid "(Edit)"
+msgstr "(Редактировать)"
+
+#: ../functions.php:4595
+msgid "Pingback:"
+msgstr "Пингбэк:"
+
+#: ../functions.php:4737
+msgid "Posted by"
+msgstr "Опубликовано"
+
+#: ../functions.php:4740
+#, php-format
+msgid "<span class=\"%1$s\"> in</span> %2$s"
+msgstr "<span class=\"%1$s\"> в </span> %2$s"
+
+#: ../functions.php:4749
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Отмеченный</span> %2$s"
+
+#: ../functions.php:4753
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: ../functions.php:4753
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: ../functions.php:4753
+msgid "% Comments"
+msgstr "% комментариев"
+
+#: ../functions.php:4754
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ../header-contact-us.php:20
+msgid "Contact us"
+msgstr "Контактная форма"
+
+#: ../header-contact-us.php:56
+msgid "Fax"
+msgstr "Факс"
+
+#: ../header-contact-us.php:71
+msgid "Name"
+msgstr "Имя"
+
+#: ../header-contact-us.php:75
+msgid "E-mail"
+msgstr "Электронная почта"
+
+#: ../header-contact-us.php:84
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+#: ../header-login.php:21
+msgid "Login"
+msgstr "Войти"
+
+#: ../header-print.php:24
+#: ../header.php:22
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: ../header.php:37
+msgid "Our location."
+msgstr "Наше местонахождение."
+
+#: ../header.php:70
+msgid "call us"
+msgstr "позвоните нам"
+
+#: ../loop.php:46
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Более поздние публикации"
+
+#: ../loop.php:47
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Более новые публикации <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../property-overview-grid.php:68
+#: ../property-overview.php:82
+msgid "Yes"
+msgstr "Да"
+
+#: ../property-overview-grid.php:73
+#: ../property-overview.php:87
+msgid "No"
+msgstr "Нет"
+
+#: ../property-overview-grid.php:95
+#: ../property-overview.php:130
+#, php-format
+msgid "Sorry, no properties found - try expanding your search, or <a href=\"%s\">view all</a>."
+msgstr "Извините, запрашиваемые объекты не были найдены - попробуйте расширить область поиска <a href=\"%s\">смотртеть все</a>."
+
+#: ../property-overview-page.php:36
+msgid "Sorry, we could not find what you were looking for.  Since you are here, take a look at some of our properties."
+msgstr "Извините, мы не можем найти то, что Вы ищите. Пожалуйста ознакомьтесь с некоторыми из наших объектов."
+
+#: ../property-overview.php:36
+msgid "of"
+msgstr "из "
+
+#~ msgid "Include Widgets Settings"
+#~ msgstr "Включая настройки виджетов"
+
+#~ msgid "Include Menus Settings"
+#~ msgstr "Включая настройки меню"
+
+#~ msgid "You can use <a class=\"small\" href=\""
+#~ msgstr "Вы можете использовать <a class=\"small\" href=\""
+
+#~ msgid "Assignment of icons to attributes"
+#~ msgstr "Прикрепление иконок атрибутам"

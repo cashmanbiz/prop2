@@ -1,0 +1,351 @@
+/* Denali Styles for WP-Admin */
+
+.denali_settings_page ul { margin-top: 0; }
+
+.button, .button-secondary, .submit input, input[type="button"], input[type="submit"] { cursor: pointer; }
+
+.denali_class_pre {
+  background: none repeat scroll 0 0 #323232;
+  border-left: 10px solid #BE821B;
+  color: #FEFFD5;
+  font-size: 12px;
+  height: 600px;
+  line-height: 1.1em;
+  margin-top: 17px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 6px;
+  white-space: pre-wrap;
+  width: auto;
+}
+
+.denali_link {
+  color: #21759B;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.denali_settings_page .ui-tabs .denali_inner_tab {
+  padding: 12px;
+}
+
+.denali_settings_page .ui-tabs .denali_settings_block {
+  background: none repeat scroll 0 0 #F7F7F7;
+  border: 1px solid #E7E7E7;
+  margin-bottom: 10px;
+  overflow: auto;
+  padding: 5px 10px;
+}
+
+body.branch-3-3  .denali_settings_page ul {
+  margin: 0;
+}
+
+.denali_settings_page .form-table td {
+  vertical-align: top;
+}
+
+.denali_settings_page .theme_settings_title {
+  margin-bottom: 10px;
+}
+
+.denali_settings_page .social_media_icons li {
+  min-height: 30px;
+}
+
+.denali_settings_page .social_media_icons li:hover label span  {
+  display: inline;
+  color: #888888;
+}
+
+.denali_settings_page .social_media_icons li label {
+  position: relative;
+}
+
+.denali_settings_page .social_media_icons li label span {
+  display:none;
+}
+
+.denali_settings_page .social_media_icons li input[type=text] {
+  width: 450px;
+  margin-right: 5px;
+}
+
+.denali_settings_page img.social_media_icon_thumb {
+    height: 25px;
+    left: -30px;
+    position: absolute;
+}
+
+.denali_settings_page .denali_setup_block {
+  background: none repeat scroll 0 0 #F4F4F4;
+  margin-bottom: 20px;
+  overflow: auto;
+  padding: 10px 10px 15px;
+  width: 97%;
+}
+
+.denali_settings_page .denali_setup_block .step_explanation {
+  float: left;
+  width: 170px;
+  margin: 9px 15px 9px 9px;
+}
+
+.denali_settings_page .denali_setup_block .step_explanation h3 {
+  margin-top: 0;
+}
+
+.denali_settings_page .denali_setup_block .step_explanation p{
+  color: #818181;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.denali_settings_page .block_options {
+  float: left;
+  display: block;
+
+}
+
+.denali_settings_page .block_options li {
+  display: block;
+  float: left;
+}
+
+.denali_settings_page .block_options.regular_list li {
+  display: list;
+  float: none;
+  line-height: 1.5em;
+}
+
+.denali_settings_page .block_options li.denali_setup_option_block {
+  margin-right: 25px;
+
+}
+
+.denali_settings_page .block_options li.denali_setup_option_block img {
+  border: 5px solid #F4F4F4;
+  cursor: pointer;
+}
+
+.denali_settings_page .block_options li.denali_setup_option_block.selected_option img {
+    border: 5px solid #FFDC80;
+}
+
+.denali_settings_page .block_options li.denali_setup_option_block input {
+    display: none;
+  }
+
+.denali_settings_page .block_options li.denali_setup_option_block .option_note{
+    background: none repeat scroll 0 0 #EBEBEB;
+    margin-left: 1px;
+    padding: 8px 16px;
+    width: 195px;
+  }
+
+.denali_settings_page  .block_options li.denali_setup_option_block.selected_option .option_note {
+    background: #FFD669;
+  }
+
+.denali_settings_page input.denali_save_settings {
+    /*background: none repeat scroll 0 0 #FFE89F;*/
+    font-size: 1.5em;
+    margin-left: 10px;
+    padding: 5px 10px;
+    color: #2175A1;
+  }
+
+.denali_settings_page label.denali_save_settings {
+    color: #A3A3A3;
+    font-size: 1.3em;
+    margin-left: 31px;
+    position: relative;
+    top: -5px;
+  }
+
+.denali_settings_page  .bigger_text {
+    font-size: 1.3em;
+    width: 500px;
+    margin-bottom: 15px;
+  }
+
+.denali_settings_page div.current_denali_logo {
+  background: none repeat scroll 0 0 #F7F7F7;
+  border: 1px solid #EBEBEB;
+  overflow: auto;
+  padding: 18px 10px 6px;
+  margin-bottom: 7px;
+}
+
+.denali_settings_page div.current_denali_logo  .denali_delete_logo {
+  margin-top: 10px;
+  overflow: auto;
+  padding: 10px 1px;
+}
+
+.denali_settings_page table.widefat {
+
+}
+
+.denali_settings_page select option {
+  margin-right: 5px;
+}
+
+.denali_settings_page #tab_property_display .alignright,
+.denali_settings_page #tab_property_display .alignleft {
+  width: 49%;
+}
+
+.denali_settings_page #tab_property_display .alignleft {
+  /*margin-right: 2%; */
+}
+
+.denali_settings_page .big_text { font-size: 1.3em; width: 400px;}
+.denali_settings_page .denali_theme_settings_explore_custom_html {
+  padding-top: 15px;
+}
+
+.denali_settings_page .denali_theme_settings_explore_custom_html textarea {
+  height: 150px;
+}
+
+.denali_settings_page #wpp_settings_tabs .options_page_message {
+    background: none repeat scroll 0 0 #F8FBE9;
+    border: 1px solid #DBDEB7;
+    color: #605F4C;
+    font-size: 1.2em;
+    margin: 15px;
+    padding: 7px;
+}
+.denali_settings_page #wpp_settings_tabs .options_page_message p {
+  margin: 5px 3px;
+}
+
+.denali_settings_page #wpp_settings_tabs .ui-tabs-panel {
+    padding: 0px;
+}
+
+.denali_settings_page #wpp_settings_tabs .ui-state-active {
+  background: none repeat scroll 0 0 #FFFFFF;
+  height: 27px;
+}
+
+.denali_settings_page #wpp_settings_tabs .form-table{
+    margin: 10px;
+    width: 97%;
+}
+
+.denali_settings_page #wpp_settings_tabs p {
+    margin-bottom: 10px;
+}
+
+.denali_settings_page textarea {min-width: 400px; }
+.denali_settings_page input[type=text] {width: 300px; }
+
+.denali_settings_page .denali_help_wrap {
+  clear:both;
+}
+
+.denali_settings_page .denali_help_switch {
+  padding-top: 5px;
+  color: #6B79B3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.denali_settings_page .denali_help_element {
+  display:none;
+}
+.denali_settings_page .denali_help_image {
+  border: 5px solid #E0E0E0;
+  margin: 10px 0;
+}
+
+
+li.odd { background-color: #F1F1F1; }
+li.even { background-color: #FFFFFF; }
+
+#tab_property_display .wp-tab-panel { padding: 0; }
+#tab_property_display .wp-tab-panel li { padding: 6px;  margin: 0; }
+#tab_property_display h3 { margin: 0; font-weight: normal; }
+
+
+/* Assignement of Icons to attributes */
+
+#tab_property_display ul.denali-stats-icons li { padding-top: 0; }
+#tab_property_display ul.denali-stats-icons li .container { float: left; width: 49%; }
+ul.denali-stats-icons select {
+  width: 50%;
+  min-width: 100px;
+}
+
+.denali-icon-box {
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  border: 1px solid #CCCCCC;
+  padding: 3px;
+  width: 24px;
+  height: 24px;
+  background-color: #FFFFFF;
+  margin-right: 4px;
+}
+
+.denali-icon-box .denali-icon {
+  top: 0;
+}
+
+.denali-icon {
+  display: inline-block;
+  min-width: 1px;
+  position: relative;
+  top: 6px;
+  height: 24px;
+  margin: 0;
+  padding-left: 24px;
+  background-image: url('../img/icons/icons-blue.png');
+  background-position: 0 0;
+}
+
+.icon-price { background-position: 0 0; }
+.icon-area { background-position: -24px 0; }
+.icon-cold { background-position: -48px 0; }
+.icon-bed { background-position: -72px 0; }
+.icon-bath { background-position: -96px 0; }
+.icon-cars { background-position: -120px 0; }
+.icon-cal { background-position: -144px 0; }
+.icon-fire { background-position: -168px 0; }
+.icon-storage { background-position: -192px 0; }
+.icon-eye { background-position: -216px 0; }
+.icon-leaf { background-position: 0 -24px; }
+.icon-marker { background-position: -24px -24px; }
+.icon-pet { background-position: -48px -24px; }
+.icon-lamp { background-position: -72px -24px; }
+.icon-shower { background-position: -96px -24px; }
+.icon-pool { background-position: -120px -24px; }
+.icon-heat { background-position: -144px -24px; }
+.icon-house { background-position: -168px -24px; }
+.icon-wifi { background-position: -192px -24px; }
+.icon-pot { background-position: -216px -24px; }
+.icon-sun { background-position: 0 -48px; }
+.icon-tools { background-position: -24px -48px; }
+.icon-phone { background-position: -48px -48px; }
+.icon-fb { background-position: 0 -216px; }
+.icon-tw { background-position: -24px -216px; }
+.icon-tw2 { background-position: -48px -216px; }
+.icon-rss { background-position: -72px -216px; }
+.icon-skype { background-position: -96px -216px; }
+.icon-email { background-position: -120px -216px; }
+.icon-li { background-position: -144px -216px; }
+.icon-goopl { background-position: -168px -216px; }
+
+/* END Assignement of Icons to attributes */
+
+
+#download_denali_settings_wrapper {
+  display: none;
+  background-color: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  margin: 10px 0 6px 0;
+  padding: 10px;
+}

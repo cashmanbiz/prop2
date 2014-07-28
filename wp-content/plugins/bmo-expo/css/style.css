@@ -32,3 +32,7 @@ bzw. genau das was ich brauche ist http://www.pelagodesign.com/sidecar/emogrifie
 damit kann man einfach css anlegen, einlesen und php schreibt alles direkt in den html tag -> ist immer am wichtigsten!
 Aber besser ohne important arbeiten!
 ***/
+/* remove file name title from gallery caption */
+div.bmo_the_gallery_caption_text p.caption_title{
+    display : none
+}

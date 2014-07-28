@@ -22,4 +22,17 @@ div.bmo_scrollGallery div.bmo_the_gallery_thumbs div.bmo_the_gallery_image a{
 }
 div.bmo_scrollGallery div.bmo_the_gallery_image div.bmo_the_gallery_caption{
 	bottom:0px;
+	line-height:0;
+}
+
+div.bmo_scrollGallery div.bmo_the_gallery_images div.bmo_the_gallery_image div.bmo_the_gallery_caption div.bmo_the_gallery_caption_text{
+    background-color:#000;
+    color:#fff;
+    width:100%;
+    filter: alpha(opacity=35);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=35);
+    opacity:0.35;
+    -moz-opacity: 0.35; 
+    zoom: 1;
+	line-height : 16px;
 }

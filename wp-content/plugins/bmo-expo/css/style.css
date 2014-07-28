@@ -34,5 +34,6 @@ Aber besser ohne important arbeiten!
 ***/
 /* remove file name title from gallery caption */
 div.bmo_the_gallery_caption_text p.caption_title{
-    display : none
+    display : none ;
+    font-weight : bold;
 }

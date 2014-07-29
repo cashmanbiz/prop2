@@ -37,3 +37,20 @@ div.bmo_the_gallery_caption_text p.caption_title{
     display : none ;
     font-weight : bold;
 }
+
+.bmo_the_gallery_thumb_area{
+	background-color : #000 !important;
+    width:100% !important;
+    filter: alpha(opacity=65) !important;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=65) !important;
+    opacity:0.65 !important;
+    -moz-opacity: 0.65 !important; 
+    margin: 0px 0 !important;
+    height : 16px !important;
+
+}
+
+.bmo_the_gallery_thumbs {
+	margin : 0px !important;
+	}
+}

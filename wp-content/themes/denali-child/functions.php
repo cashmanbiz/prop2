@@ -25,13 +25,53 @@ function denali_remove_custom_background() {
 }
 
 
-//[get_child_url]
-function child_theme_uri( $attrs = array (), $content = ''  ){
-	
-	$child_uri = is_child_theme() ? get_stylesheet_directory_uri()	: get_template_directory_uri();
-	
-	return trailingslashit($child_uri);
-}
-add_shortcode( 'get_child_url', 'child_theme_uri' );
 
+/* Calculate unformatted property price */
+	function format_property_price($property_price_formatted){
+		
+		$property_price=0;
+		
+		if($property_price_formatted) {
+			$property_price_lesscurrency=substr( $property_price_formatted, 3 ) ;  // remove currency identifier
+			$property_price=(int)intval(str_ireplace(",","",$property_price_lesscurrency));  // get integer val for property price
+			
+		}else {	
+			$property_price=0;
+		}
+		
+		return $property_price;
+	}
+	
+	/* Calculate stamp duty */ 
+	function calculate_stamp_duty($property_price){
+		$stamp_duty['rate']=1;
+		$stamp_duty_ceiling=1000000;
+		if($property_price > $stamp_duty_ceiling) $stamp_duty['rate']=2 ;
+		$stamp_duty['price']=$property_price * $stamp_duty['rate']/100;
+		
+		return $stamp_duty;
+	}
+
+	
+	function get_feature_list(){
+	 	if ( empty($wp_properties['property_groups']) || $wp_properties['configuration']['property_overview']['sort_stats_by_groups'] != 'true') : ?>
+	          <ul id="property_stats" class="overview_stats list">
+	            <?php @draw_stats("display=list"); ?>
+	          </ul>
+	        <?php else: ?>
+	          <?php @draw_stats("display=list&sort_by_groups=true"); ?>
+	        <?php endif; ?>
+	
+	         <?php if(!empty($wp_properties['taxonomies'])) foreach($wp_properties['taxonomies'] as $tax_slug => $tax_data): ?>
+	          <?php if(get_features("type={$tax_slug}&format=count")):  ?>
+	          <div class="<?php echo $tax_slug; ?>_list features_list">
+	          <h2><?php echo $tax_data['label']; ?></h2>
+	          <ul class="wp_<?php echo $tax_slug; ?>s  wpp_feature_list clearfix">
+	          <?php get_features("type={$tax_slug}&format=list&links=false"); ?>
+	          </ul>
+	          </div>
+	          <?php endif; ?>
+	        <?php endforeach; ?>
+	<?php 
+	}
 ?>

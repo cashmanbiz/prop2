@@ -37,3 +37,152 @@ margin-top: 45px;
   
 }
 
+.ngg-gallery-thumbnail-box {
+	margin-right : 0px !important;
+}
+
+.ngg-gallery-thumbnail-box img{
+	padding : 0px;
+}
+
+.ngg-galleryoverview {
+	margin-top : 0px !important;	
+}
+
+
+/* Top of page single property page title price and BER image display */
+
+.property-title-price, .property-title-menu,.property-title-ber {
+	position : relative;
+	float : left; 
+	width:33%;
+	font-size : 1.5em;
+	margin-top : 1px;
+	padding-top : 5px;
+	
+}
+
+.property-title-menu{
+	font-size : 1.2em;
+	text-align : center;
+}
+
+.property-title-ber{
+	float : right;
+	text-align : right;
+	padding-top : 0px;
+}
+
+
+.property-title-price h2{
+	color: #ad907c;
+	
+}
+
+.property-title-menu a{
+	text-decoration : underline;
+}
+
+
+/* Sidebar single property page feature list */
+
+.nugent-feature-widget .wpp_feature_list {
+	margin-bottom : 2px !important;
+}
+
+.nugent-feature-widget ul#property_stats.list {
+	margin : 0px;	
+}
+
+.nugent-feature-widget .wpp_property_stats.list{
+	margin :0px;
+	border: none !important;
+}
+
+.nugent-feature-widget .overview_stats{
+    border: 1px solid #d1dae9 !important;
+}
+
+.nugent-feature-widget ul#property_stats.list li{
+	padding : 2px 0px;
+ }
+
+.nugent-feature-widget li[class*='wpp_stat_plain_list'] {
+	background-color : #eee;
+	
+}
+
+.nugent-feature-widget ul.wpp_property_stats.list li.alt{
+	background-color : #fff !important;
+	
+}
+
+.nugent-feature-widget h2, #nugent-features-tags .features_list h2,  #nugent-features-stampduty h2, .nugent-widget h2{
+	background-color: #7ea1ba;
+	background-color : #769fbd;
+    clear: both;
+    color: #fff;
+    display: block;
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family : OpenSans-CondensedBold;
+}
+
+
+#nugent-features-tags .features_list,  #nugent-features-stampduty   {
+		width : 300px;
+		margin-right : 0px;
+}
+
+
+.nugent-feature-widget ul#property_stats.list li .attribute,.nugent-feature-widget ul.wpp_property_stats.list li .attribute {
+	padding-left : 5px;
+	font-weight : 600;
+	font-size : small;
+	width : 100px;
+	position : relative;
+	float : left;
+	margin-bottom : 0px;
+}
+
+.nugent-feature-widget ul#property_stats.list li .value, .nugent-feature-widget ul.wpp_property_stats.list li .value {
+	padding-left : 2px;
+	font-weight : 500;
+	font-size : small;
+	position : relative;
+	float: left;
+	width : 191px;
+	margin-bottom : 0px;
+}
+
+
+/* Sidebar Features Tags List */
+
+#nugent-features-tags  div.features_list {
+	background-color : #fff;
+	
+} 
+
+/* Stamp Duty Div in Sidebar */
+
+#nugent-features-stampduty #stampduty-rate , #nugent-features-stampduty #stampduty-value {
+	position : relative;
+	float : left;
+	margin 0px 0px; 
+	padding-left : 5px; 
+	width: 145px;
+	background-color : #fff;
+} 
+
+
+/* for header on mortgage calulator */
+.nugent-widget {
+	width: 300px !important; 
+	padding-left : 0px; 
+	margin-left : 0px ; 
+	margin-bottom: 5px; 
+	background-color : #ffffff;"
+}

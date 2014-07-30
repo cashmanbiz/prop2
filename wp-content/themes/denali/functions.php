@@ -3952,7 +3952,7 @@ class denali_theme {
     }
 
     /** Rename submitbutton */
-    $defaults['label_submit'] = __('Submit Inquiry','denali');
+    $defaults['label_submit'] = __('Submit Enquiry','denali');
 
     return $defaults;
   }

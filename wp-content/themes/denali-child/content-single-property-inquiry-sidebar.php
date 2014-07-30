@@ -20,7 +20,7 @@
   $is_inquiry_sent = isset($_REQUEST['inquiry_sent'])?true:false;
 
   //** Of course we can customise message for both cases above but not now */
-  $inquiry_sent_message = __('Your inquiry was successfully sent!','denali');
+  $inquiry_sent_message = __('Your enquiry was successfully sent!','denali');
 
   if(!empty($ds['wp_crm']['inquiry_forms'][$property['property_type']])) {
     global $wp_crm;

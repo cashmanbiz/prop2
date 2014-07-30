@@ -186,3 +186,17 @@ margin-top: 45px;
 	margin-bottom: 5px; 
 	background-color : #ffffff;"
 }
+
+/* for Enquiry form in sidebar */
+ .nugent-widget #respond {
+ 	margin : 0px;
+ }
+
+.nugent-widget #respond #commentform input[type="text"] {
+	width : 190px;
+ }
+ 
+.nugent-widget #respond #comment {
+	width : 257px;
+}
+

@@ -128,7 +128,7 @@ $_SESSION['property_price'] = $property['price'];
 			<div  class="features_list nugent-widget" > 
 			<h2>Property Enquiry</h2>
 			
-			  <?php get_template_part('content','single-property-inquiry'); ?>
+			  <?php get_template_part('content','single-property-inquiry-sidebar'); ?>
 			
 			</div>
 			<div style="clear : both;" />

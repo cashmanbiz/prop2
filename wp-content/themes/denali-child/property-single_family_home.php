@@ -26,7 +26,13 @@
     $have_sidebar = true;
   }
   
+  /* set sidebar always on */
+  $right_sidebar=true;
+  $have_sidebar=true;
+
+
 ?>
+
 <?php the_post(); ?>
 
 <?php
@@ -39,9 +45,10 @@ $_SESSION['property_price'] = $property['price'];
 
 <?php get_template_part('attention','single-property'); ?>
 
- <div id="content" class="inner_content_wrapper property_content <?php echo ($have_sidebar  ? 'have-sidebar' : 'no_columns'); ?>">
-	<div  id="post-<?php the_ID(); ?>" <?php post_class('main property_page_post'); ?>>
-		<div id="container" class="<?php echo (!empty($property['property_type']) ? $property['property_type'] . "_container" : "");?>">
+  <div id="content" class="inner_content_wrapper property_content <?php echo ($have_sidebar  ? 'have-sidebar' : 'no_columns'); ?>">
+
+  <div id="post-<?php the_ID(); ?>" <?php post_class('main property_page_post'); ?>>
+ 		<div id="container" class="<?php echo (!empty($property['property_type']) ? $property['property_type'] . "_container" : "");?>">
 			<div class="property_title_wrapper building_title_wrapper">
 				<div><h1 class="property-title entry-title"><?php the_title(); ?></h1></div>
 				<div > <h3 class="entry-subtitle"><?php the_tagline(); ?></h3></div>
@@ -79,69 +86,70 @@ $_SESSION['property_price'] = $property['price'];
 			   <a name="property_map"></a> 
 			<?php get_template_part('content','single-property-map'); ?>
 		</div><!-- #container -->
-	</div>	
-	
-	<?php if ($have_sidebar) : ?>
-    <div id="nugent-sidebar-prop">
-		<div class="sidebar">
+    <?php get_template_part('content','single-property-bottom'); ?>
+
+  </div>
+
+  <?php if ($have_sidebar) : ?>
+    <div class="sidebar">
+    	<?php get_feature_list();?>
+    	<br>
+    	
+		<div class="features_list nugent-widget" > 
+			<?php if(!empty($wp_properties['taxonomies'])) foreach($wp_properties['taxonomies'] as $tax_slug => $tax_data): ?>
+			<?php if(get_features("type={$tax_slug}&format=count")):  ?>
+			<div  class="<?php echo $tax_slug; ?>_list features_list">
+				<h2><?php echo $tax_data['label']; ?></h2>
+				<ul style="padding : 5px;" class="wp_<?php echo $tax_slug; ?>s  wpp_feature_list clearfix">
+					<?php get_features("type={$tax_slug}&format=list&links=false"); ?>
+				</ul>
+			</div>
+			<?php endif; ?>
+		<?php endforeach; ?>
+		</div>
+		<br>
 		
-			<?php get_feature_list();?>
+		<div class="features_list nugent-widget"  > 	
+			<h2>Stamp Duty</h2>
 			
-			<div id="nugent-features-tags"> 
-				<?php if(!empty($wp_properties['taxonomies'])) foreach($wp_properties['taxonomies'] as $tax_slug => $tax_data): ?>
-				<?php if(get_features("type={$tax_slug}&format=count")):  ?>
-				<div  class="<?php echo $tax_slug; ?>_list features_list">
-					<h2><?php echo $tax_data['label']; ?></h2>
-					<ul style="padding : 5px;" class="wp_<?php echo $tax_slug; ?>s  wpp_feature_list clearfix">
-						<?php get_features("type={$tax_slug}&format=list&links=false"); ?>
-					</ul>
-				</div>
-				<?php endif; ?>
-				<?php endforeach; ?>
+			<?php  /* Calculate stamp duty */  
+		
+				$property_price=format_property_price($property['price']);
+				if($property_price==1) { $property_price=0 ; }
+				$stamp_duty=calculate_stamp_duty($property_price);
+				$property_price_full=$stamp_duty['price'] + $property_price;
+			?>
+			
+			<div id="stampduty-rate"> 
+			<?php echo "@".$stamp_duty['rate']."%" ?><br>
+			<?php echo substr( $property['price'], 0,3 ).number_format($stamp_duty['price']) ; ?>		
 			</div>
-			
-			<div id="nugent-features-stampduty" > 	
-				<h2>Stamp Duty</h2>
-				
-				<?php  /* Calculate stamp duty */  
-			
-					$property_price=format_property_price($property['price']);
-					if($property_price==1) { $property_price=0 ; }
-					$stamp_duty=calculate_stamp_duty($property_price);
-					$property_price_full=$stamp_duty['price'] + $property_price;
-				?>
-				
-				<div id="stampduty-rate"> 
-				<?php echo "@".$stamp_duty['rate']."%" ?><br>
-				<?php echo substr( $property['price'], 0,3 ).number_format($stamp_duty['price']) ; ?>		
-				</div>
-				<div id="stampduty-value"> Total Amount <br>
-					<?php echo substr( $property['price'], 0,3 ).number_format($property_price_full) ; ?>
-				</div>
+			<div id="stampduty-value"> Total Amount <br>
+				<?php echo substr( $property['price'], 0,3 ).number_format($property_price_full) ; ?>
 			</div>
-			
-			<div  class="features_list nugent-widget" > 
+		</div>
+		
+		<div  class="features_list nugent-widget" > 
 			<h2>Mortgage Repayment Estimator</h2>			
 			<div style="padding-left : 5px;"><?php echo do_shortcode('[mortgage-calculator]'); ?></div>
-			</div>
+		</div>
 			
-			<div  class="features_list nugent-widget" > 
+		<div  class="features_list nugent-widget" > 
 			<h2>Property Enquiry</h2>
 			
 			  <?php get_template_part('content','single-property-inquiry-sidebar'); ?>
 			
-			</div>
-			<div style="clear : both;" />
-			
-			<?php dynamic_sidebar( "wpp_sidebar_" . $property['property_type'] );?>
-			
-		</div>
-	</div>
-	<?php endif; ?>
- </div>
-  <div class="cboth"></div>
- <?php get_template_part('content','single-property-bottom'); ?>
+	    </div>
+      
+  
+      <ul>
+        <?php dynamic_sidebar( "wpp_sidebar_" . $property['property_type'] ); ?>
+      </ul>
+    </div>
+  <?php endif; ?>
 
  <div class="cboth"></div>
+
+  </div>
 
 <?php get_footer(); ?>

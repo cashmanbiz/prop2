@@ -52,6 +52,7 @@ $_SESSION['property_price'] = $property['price'];
 			<div class="property_title_wrapper building_title_wrapper">
 				<div><h1 class="property-title entry-title"><?php the_title(); ?></h1></div>
 				<div > <h3 class="entry-subtitle"><?php the_tagline(); ?></h3></div>
+				<div class="property-price-ber clearfix">
 				<div class="property-title-price"><h2> 
 				 <?php if($property['status']=="Sale Agreed" ) { 
 					echo $property['status'] ;
@@ -67,14 +68,16 @@ $_SESSION['property_price'] = $property['price'];
 				}?>
 				</h2></div>
 				<div class="property-title-menu">
-					 <a href="#property_map">Map</a> | <a href="#inquiry_form"> Enquire</a>
+					 <a href="#property_map">Map</a> | <a href="#inquiry_form"> Enquire</a> | <a href="<?php echo '?my_print=';the_ID() ; ?>">Print</a> 
 				</div>
 				<div class="property-title-ber"><IMG src="<?php echo get_stylesheet_directory_uri() ?>/img/ber/<?php echo $property['ber']; ?>-s.png"</IMG>
+				</div>
 				</div>
 
 			</div>
 			
-			<div style="clear : both;" class="entry-content">
+			<div class="entry-content">
+			
 				<div class="the_content">
 					<?php @the_content(); ?>
 					

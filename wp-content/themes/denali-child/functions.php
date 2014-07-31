@@ -13,6 +13,9 @@
  * Remove custom background.
  *
  */
+
+add_filter( 'run_ngg_resource_manager', '__return_false' );
+
 function denali_remove_custom_background() {
 	global $_wp_theme_features;	
 	unset($_wp_theme_features['custom-background']);	
@@ -298,9 +301,44 @@ function draw_stats( $args = false, $property = false ) {
 	  }
 	  
 	  
-
+/* for printing use a separate template */
 	  
+	  function add_print_query_vars($vars) {
+	  	// add my_print to the valid list of variables
+	  	$new_vars = array('my_print');
+	  	$vars = $new_vars + $vars;
+	  	return $vars;
+	  }
 	  
+	  add_filter('query_vars', 'add_print_query_vars');
+	 
 	  
+	  add_action("template_redirect", 'my_template_redirect_2322');
+		
+		
+	  // Template selection
+	  function my_template_redirect_2322()
+	  {
+		    global $wp;
+		    global $wp_query;
+		
+		    if (isset($wp->query_vars["my_print"]))
+		    {		   
+		        switch ($wp_query->post->post_type) {
+			        case "page" :
+			            include(STYLESHEETPATH . '/my_print_page.php');
+			            die();
+			        case "post" :
+			            include(STYLESHEETPATH . '/my_print_post.php');
+			            die();
+			        case "property" :
+			            include(STYLESHEETPATH . '/my_print_property.php');
+			            die();
+			        default:
+		            // load as usual
+		    	 }
+        	}
+		}
+	    
 
 	?>

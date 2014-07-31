@@ -52,6 +52,10 @@ margin-top: 45px;
 
 /* Top of page single property page title price and BER image display */
 
+.property-price-ber {
+	width : 100%;
+}
+
 .property-title-price, .property-title-menu,.property-title-ber {
 	position : relative;
 	float : left; 

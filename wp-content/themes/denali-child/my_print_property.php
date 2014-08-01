@@ -17,8 +17,6 @@
  * @package WP-Property
 */
 
-
-
   if(denali_theme::is_active_sidebar("wpp_sidebar_" . $property['property_type'])) {
     $right_sidebar = true;
   }
@@ -28,18 +26,19 @@
   }
   
   
-  	define('WP_USE_THEMES', false);
+  //	define('WP_USE_THEMES', false);
 
-  	echo "<h1>printer friendly version:</h1>";
-    
-    setup_postdata($_GET['pid']); 
+   //echo "<h1>printer friendly version:</h1>"; 
+   setup_postdata($_GET['pid']); 
 
 
     ?>
  
 <?php  the_post(); ?>
+
+
  
-<?php get_header(); ?>
+<?php get_header('print'); ?>
 
 <?php get_template_part('attention','single-property'); ?>
 
@@ -50,7 +49,30 @@
       <div class="property_title_wrapper building_title_wrapper">
         <h1 class="property-title entry-title"><?php the_title(); ?></h1>
         <h3 class="entry-subtitle"><?php the_tagline(); ?></h3>
-      </div>
+        
+        <div class="property-price-ber clearfix">
+				<div class="property-title-price"><h2> 
+				 <?php if($wp_query->post->status=="Sale Agreed" ) { 
+				echo $wp_query->post->status ;
+				
+			} elseif($wp_query->post->status=="Sold" ) { 
+				echo $wp_query->post->status;
+			} else { 
+				if($wp_query->post->price == 1) {
+					echo "Price: POA";
+				}else {
+					echo "Price: ".$wp_query->post->currency->symbol.number_format($wp_query->post->price, $decimals = 0 , $dec_point = ".",$thousands_sep = ",");
+					
+					
+				}		
+			}?>
+			</h2></div>
+
+			<div class="property-title-ber"><IMG src="<?php echo get_stylesheet_directory_uri() ?>/img/ber/<?php echo $wp_query->post->ber; ?>-s.png"</IMG>
+			</div>
+		</div>
+        
+     </div>
 
       <div class="entry-content">
 
@@ -66,7 +88,12 @@
           <?php @draw_stats("display=list&sort_by_groups=true"); ?>
         <?php endif; ?>
 
-         <?php if(!empty($wp_properties['taxonomies'])) foreach($wp_properties['taxonomies'] as $tax_slug => $tax_data): ?>
+         <?php //if(!empty($wp_properties['taxonomies'])) { ?>
+         	<?php 
+         	if($wp_query->post->wp_properties->taxonomies) {
+         	echo " here";
+         	
+           foreach($wp_properties['taxonomies'] as $tax_slug => $tax_data): ?>
           <?php if(get_features("type={$tax_slug}&format=count")):  ?>
           <div class="<?php echo $tax_slug; ?>_list features_list">
           <h2><?php echo $tax_data['label']; ?></h2>
@@ -75,15 +102,20 @@
           </ul>
           </div>
           <?php endif; ?>
-        <?php endforeach; ?>
+        <?php endforeach; 
+         } ?>
 
         <br class="cboth" />
 
         <?php @draw_stats("display=detail&exclude=tagline&include_clsf=detail&title=false"); ?>
 
     </div><!-- .entry-content -->
+    
+    <?php echo do_shortcode('[qr-code]') ; ?>
 
-    <?php // get_template_part('content','single-property-map'); ?>
+     <?php $hide_infobox=true; ?>
+     
+    <?php  get_template_part('content','single-property-map'); ?>
 
     <?php // get_template_part('content','single-property-inquiry'); ?>
 
@@ -96,7 +128,7 @@
   <?php if ($have_sidebar) : ?>
     <div class="sidebar">
       <ul>
-        <?php dynamic_sidebar( "wpp_sidebar_" . $property['property_type'] ); ?>
+        <?php // dynamic_sidebar( "wpp_sidebar_" . $property['property_type'] ); ?>
       </ul>
     </div>
   <?php endif; ?>
@@ -105,4 +137,4 @@
 
   </div>
 
-<?php get_footer(); ?> 
+<?php get_footer('print'); ?> 

@@ -204,3 +204,29 @@ margin-top: 45px;
 	width : 257px;
 }
 
+/* show qr-code for printing */
+
+.qr-code {
+	text-align : center;
+}
+
+/* remove the margin at the botttom of house title */ 
+.property_title_wrapper {
+	margin-bottom : 0px;
+}
+
+/* add style for content <h3> used as a sub heading */
+
+.sub-heading {
+	margin-bottom : 2px !important;
+	line-height : 1.3em !important;
+	font-family: 'Ubuntu',sans-serif !important;
+	font-size : 1.3em !important;
+}
+
+/* reduce top border over map */
+.property_map_wrapper {
+	margin-top : 5px !important;
+}
+
+

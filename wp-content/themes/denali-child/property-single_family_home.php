@@ -68,7 +68,7 @@ $_SESSION['property_price'] = $property['price'];
 				}?>
 				</h2></div>
 				<div class="property-title-menu">
-					 <a href="#property_map">Map</a> | <a href="#inquiry_form"> Enquire</a> | <a href="<?php echo '?my_print=';the_ID() ; ?>">Print</a> 
+					 <a href="#property_map">Map</a> | <a href="#inquiry_form"> Enquire</a> <?php echo do_shortcode('[pdf_link]') ; ?> 
 				</div>
 				<div class="property-title-ber"><IMG src="<?php echo get_stylesheet_directory_uri() ?>/img/ber/<?php echo $property['ber']; ?>-s.png"</IMG>
 				</div>
@@ -87,6 +87,7 @@ $_SESSION['property_price'] = $property['price'];
 			</div><!-- .entry-content -->
 			
 			   <a name="property_map"></a> 
+			   <h3 class="sub-heading" style="margin-left : 4px;">Map</h3>
 			<?php get_template_part('content','single-property-map'); ?>
 		</div><!-- #container -->
     <?php get_template_part('content','single-property-bottom'); ?>
@@ -112,7 +113,7 @@ $_SESSION['property_price'] = $property['price'];
 		</div>
 		<br>
 		
-		<div class="features_list nugent-widget"  > 	
+		<div class="features_list nugent-widget stamp-duty"  > 	
 			<h2>Stamp Duty</h2>
 			
 			<?php  /* Calculate stamp duty */  
@@ -132,18 +133,22 @@ $_SESSION['property_price'] = $property['price'];
 			</div>
 		</div>
 		
-		<div  class="features_list nugent-widget" > 
+		<div  class="features_list nugent-widget mortgage-repayment" > 
 			<h2>Mortgage Repayment Estimator</h2>			
 			<div style="padding-left : 5px;"><?php echo do_shortcode('[mortgage-calculator]'); ?></div>
 		</div>
 			
-		<div  class="features_list nugent-widget" > 
+		<div class="features_list nugent-widget qr-code">
+	    	<?php echo do_shortcode('[qr-code]') ; ?>
+      	</div>
+			
+		<div  class="features_list nugent-widget property-enquiry" > 
 			<h2>Property Enquiry</h2>
 			
 			  <?php get_template_part('content','single-property-inquiry-sidebar'); ?>
 			
 	    </div>
-      
+
   
       <ul>
         <?php dynamic_sidebar( "wpp_sidebar_" . $property['property_type'] ); ?>

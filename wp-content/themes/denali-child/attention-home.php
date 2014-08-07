@@ -14,6 +14,8 @@
  *
  */
 
+
+
   if(!current_theme_supports('home_page_attention_grabber_area')) {
     return;
   }
@@ -41,13 +43,15 @@
   } else {
     denali_theme::console_log('AG: Rendering Home Untabbed attention grabber.');
   }
+
+ 
   ?>
 
-
   <div class="sld-flexible denali_attention_grabber_area">
+ 
     <div class='sld-top'></div>
     <div class="denali_widget_area_tabs wpp_property_header_area <?php echo ($multi_tab ? 'have_tabs' : 'no_tabs'); ?>">
-
+    
     <?php if($multi_tab) { ?>
       <ul class="attention_grabber_tabs denali_widget_tabs">
       <?php foreach($tabs as $widget) { ?>
@@ -55,8 +59,61 @@
       <?php } ?>
       </ul>
     <?php } ?>
-
-    <?php dynamic_sidebar($this_widget_area); ?>
+    
+    <div style="width : 100%;"><h2 class="entry-content recent-properties">Recent Properties</h2></div>
+    <?php    
+     $args = array( 'post_type' => 'property', 'posts_per_page'   => 10);
+     $posts_array = get_posts($args);
+     
+     foreach ($posts_array as $prop):
+     	if($prop->featured=='true'):
+     		
+     		setlocale(LC_MONETARY, 'en_IE');
+		
+	     	if($prop->property_type=='to_rent'):
+	     		$property_price = money_format('%.0n', (double) $prop->rent);
+	     	else:
+	     		$property_price = money_format('%.0n', (double) $prop->price);
+	     	endif;
+		     
+	     	
+		    $property_price=str_replace('EUR','&euro;',$property_price);
+	     
+     ?>
+     	    
+		    <div class="home-rollover">
+		    
+		   <a ontouchstart="" href="<?php echo get_permalink($prop->ID); ?>">
+		   <?php echo get_the_post_thumbnail($prop->ID, 'nugentx8'); ?>
+		   <span class="property-imagetext"><span>
+		   <?php 
+		   		echo $prop->post_title."<br>";
+		   		echo $property_price."<br>";
+		   		echo $prop->status."<br>";
+		   		?>
+		   		<IMG width=32 src="<?php echo get_stylesheet_directory_uri() ?>/img/ber/<?php echo $prop->ber; ?>-s.png"</IMG>
+		   		<?php echo "<br>click image to view";
+		   ?>
+		   
+		   </span></span>
+		     <span class="property-imagetextover"><span>
+		       
+		   <?php 
+		   		echo $prop->area." - ";
+		   		echo $prop->bedrooms." Bed"."  - ";
+		   		echo $property_price." ";
+		   	?>
+		   		  
+		   
+		   		</span></span></a>
+    
+    	</div>
+    
+    <?php 
+       endif;
+      endforeach;
+    ?>
+    <?php // dynamic_sidebar($this_widget_area); ?>
 
     </div>
     <div class='sld-bottom'></div>

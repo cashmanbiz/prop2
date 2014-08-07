@@ -230,3 +230,133 @@ margin-top: 45px;
 }
 
 
+/* rollover image text for property showcase on home page */
+
+.home-rollover{
+  display: inline-block;
+  height: 159px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 190px;
+  margin : 0px;
+  padding : 0px;
+  text-align : center;
+  float : left;
+  background-color: #fff;
+  
+}
+	
+
+.property-imagetext {
+  background: rgba(0,0,0,0.5);
+  color : #fff;
+  cursor: pointer;
+  display: table;
+  height: 143px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 190px;
+  opacity : 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+  font-size : small;
+}
+ 
+.property-imagetext span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.home-rollover:hover .property-imagetext {
+	opacity : 1;
+} 
+
+.property-imagetextover {
+  cursor: pointer;
+  display: table;
+  height: 159px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 190px;
+  opacity : 1;
+  font-size : x-small;
+}
+
+.property-imagetextover span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: bottom;
+  background-color
+}
+
+.recent-properties{
+	font-family : 'Ubuntu',sans-serif;
+	font-size : 1.2em;
+	margin-bottom : 0px;
+	
+}
+
+
+/* compact listing of property overview on main page */
+
+.nugent-listprop {
+  position : relative;
+  float : left;
+}
+
+#nugent-listheader {
+    position: relative;
+	height : 5px;
+}
+#nugent-listheader h2{
+	margin-bottom :0px;
+}
+
+
+
+#nugent-area {
+	width : 100px;
+	min-height : 1px;
+	font-size : small;
+	color : #076DB5;
+	font-weight: bold;
+}  
+#nugent-link {
+	width : 380px;
+	min-height : 1px;
+	font-size : small;
+	text-decoration : underline;
+}
+
+#nugent-type {
+	width : 70px;
+	min-height : 1px;
+	font-size : small;
+	color : #076DB5;
+}
+#nugent-status {
+	width: 70px;
+	min-height : 1px;
+	font-size : small;
+	color : #076DB5;
+}
+#nugent-price {
+	width : 70px;
+	min-height : 1px;
+	font-size : small;
+	font-weight : bold;
+	text-align : right;
+}
+
+.wpp_overview_right_column_nugent {
+	padding: 2px 8px 2px 0px;
+}
+
+.property_div_nugent {
+	margin-bottom:0px !important;
+}

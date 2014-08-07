@@ -1,0 +1,131 @@
+# Translation of WPQR Wordpress QR-Code Generator in German
+# This file is distributed under the same license as the WPQR Wordpress QR-Code Generator package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2012-09-14 11:53:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: WPQR Wordpress QR-Code Generator\n"
+
+#: wpqr_qr-code-generator.php:20
+msgid "WPQR QR-Code Generator"
+msgstr "WPQR QR-Code Generator"
+
+#: wpqr_qr-code-generator.php:21
+msgid "Insert <b>[qr-code]</b> anywhere in WordPress to display a QR-Code that leads to the page/article being displayed"
+msgstr "Benutzen Sie <b>[qr-code]</b> irgendwo in einem Beitrag oder einer Seite und es wird ein QR-Code generiert und dargestellt, der beim Scan auf den Aktuellen Artikel leitet"
+
+#: wpqr_qr-code-generator.php:22
+msgid "You can customize your QR-Code by using the shortcode with the folling attributes <b>[qr-code align=\"left\" class=\"my-qr-code\" color=\"#000000\" background_color=\"#FFFFFF\" size=\"4\" margin=\"4\" level=\"M\" post_id=\"0\"]</b> "
+msgstr "Sie können den QR-Code individualisieren, indem Sie den Shortcode wie folgt erweitern: <b>[qr-code align=\"left\" class=\"mein-qr-code\" color=\"#000000\" background_color=\"#FFFFFF\" size=\"4\" margin=\"4\" level=\"M\" post_id=\"0\"]</b> "
+
+#: wpqr_qr-code-generator.php:23
+msgid "Attributes available"
+msgstr "Verfügbare Attribute"
+
+#: wpqr_qr-code-generator.php:26
+msgid "any valid CSS class name"
+msgstr "beliebiger, valider CSS-Klassen Name"
+
+#: wpqr_qr-code-generator.php:27
+msgid "forground color of QR-Code in hex i.e. #000000 for black"
+msgstr "QR-Code Farbe als Hexadezimalwert. Z.B. #000000 für Schwarz."
+
+#: wpqr_qr-code-generator.php:28
+msgid "background color of QR-Code in hex i.e. #FFFFFF for white"
+msgstr "Hintergrundfarbe als Hexadezimalwert. Z.B. #FFFFFF für Weiß."
+
+#: wpqr_qr-code-generator.php:29
+msgid "If specified and greater than 0, the QR-Code will lead to the url of the post id. Otherwise the QR-Code will lead to the page currently beeing displayed."
+msgstr "Wenn angegeben und größer als 0, wird der QR-Code auf die entsprechende Post-ID leiten. Anderenfalls leitet er immer auf den aktuell angezeigten Beitrag."
+
+#: wpqr_qr-code-generator.php:30
+msgid "The size of the QR-Code. It can range from 1=smallest to 10=largest."
+msgstr "Die größe des QR-Codes. Beginnt bei 1=kleinste und geht bis 10=größte."
+
+#: wpqr_qr-code-generator.php:31
+msgid "The margin around the QR-Code. It can range from 0=smallest to 10=largest."
+msgstr "Der Rahmen um den QR-Code. Beginnt bei 1=kleinste und geht bis 10=größte."
+
+#: wpqr_qr-code-generator.php:32
+msgid "Possible values L|M|Q|H which stand for the error correction level of the QR-Code. L=7%,M=15%,Q=25%,H=30%"
+msgstr "Mögliche Werte sind L|M|Q|H und stehen für die Fehlertoleranz des QR-Codes (L=7%,M=15%,Q=25%,H=30%)."
+
+#: wpqr_qr-code-generator.php:225
+msgid "Displys a QR-Code that leads mobile users to the page beeing viewed"
+msgstr "Erstellt den QR-Code so, dass der scannende Nutzer auf den aktuellen Beitrag geleitet wird."
+
+#: wpqr_qr-code-generator.php:231
+msgid "QR-Code Widget"
+msgstr "QR-Code Widget"
+
+#: wpqr_qr-code-generator.php:397
+msgid "Powered by %1$s."
+msgstr "Powered by %1$s."
+
+#: wpqr_qr-code-generator.php:441
+msgid "Title"
+msgstr "Titel"
+
+#: wpqr_qr-code-generator.php:442
+msgid "Scan QR-Code"
+msgstr "QR-Code scannen"
+
+#: wpqr_qr-code-generator.php:456
+msgid "Title:"
+msgstr "Titel:"
+
+#: wpqr_qr-code-generator.php:462
+msgid "Caption:"
+msgstr "Bildunterschrift:"
+
+#: wpqr_qr-code-generator.php:468
+msgid "Color:"
+msgstr "Farbe:"
+
+#: wpqr_qr-code-generator.php:474
+msgid "Background color:"
+msgstr "Hintergrundfarbe:"
+
+#: wpqr_qr-code-generator.php:480
+msgid "Align:"
+msgstr "Ausrichtung:"
+
+#: wpqr_qr-code-generator.php:482
+msgid "Standard"
+msgstr "Standard"
+
+#: wpqr_qr-code-generator.php:483
+msgid "Left"
+msgstr "Links"
+
+#: wpqr_qr-code-generator.php:484
+msgid "Center"
+msgstr "Mitte"
+
+#: wpqr_qr-code-generator.php:485
+msgid "Right"
+msgstr "Rechts"
+
+#: wpqr_qr-code-generator.php:491
+msgid "Level:"
+msgstr "Fehlertoleranz:"
+
+#: wpqr_qr-code-generator.php:502
+msgid "Size:"
+msgstr "Größe:"
+
+#: wpqr_qr-code-generator.php:517
+msgid "Margin:"
+msgstr "Rahmen:"
+
+#: wpqr_qr-code-generator.php:534
+msgid "Display powered by?"
+msgstr "\"Powered by\" anzeigen?"
+
+#: wpqr_qr-code-generator.php:540
+msgid "Clear after QR-Code?"
+msgstr "CSS Clear nach dem QR-Code?"

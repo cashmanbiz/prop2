@@ -30,7 +30,7 @@
 
 <div id="content" class="inner_content_wrapper <?php echo ($have_sidebar  ? ' have-sidebar' : 'wide-home no_columns'); ?>">
 
-  <div class="home main">
+  <div class="home main" id="nugent-home">
 
     <?php get_template_part('loop', 'home'); ?>
 

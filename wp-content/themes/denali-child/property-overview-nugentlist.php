@@ -34,8 +34,10 @@ global $ds;
 
 	</div>
 	<div id="nugent-type" class="nugent-listprop"><?php echo $property['type']; ?></div>
+	<div id="nugent-bedrooms" class="nugent-listprop"><?php echo $property['bedrooms']." bed" ; ?></div>
 	<div id="nugent-status" class="nugent-listprop"><?php echo $property['status']; ?></div>
 	<div id="nugent-price" class="nugent-listprop"><?php echo $property['price']; ?></div>
+	
 
           <?php
           unset($overview_attributes);

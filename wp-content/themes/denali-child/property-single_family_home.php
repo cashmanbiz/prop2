@@ -35,6 +35,7 @@
 
 <?php the_post(); ?>
 
+
 <?php
 
 $_SESSION['property_price'] = $property['price'];

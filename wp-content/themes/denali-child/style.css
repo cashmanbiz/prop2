@@ -391,5 +391,64 @@ margin-top: 45px;
 }
 
 
+/* Contact Us form */
 
+.header_contact_section .wp_crm_contact_form .wp_crm_input_label {
+    margin-right: 20px;
+    text-align : left;
+    width: 100px;
+    margin-bottom: 3px;
+}
+
+.header_contact_section .wp_crm_contact_form li label {
+    clear: none;
+    width: 80px;
+}
+
+.header_contact_section .wp_crm_description_container{
+	padding-top : 35px;
+}
+
+.header_contact_section .header_dropdown_div li input[type="text"], .header_dropdown_div li input[type="password"] {
+    width: 320px;
+}
+
+.header_contact_section .wp_crm_contact_form textarea{
+	width: 440px;
+	margin-left : 0px;
+	
+}
+
+.header_contact_section input[type="submit"]{
+	margin-right : 25px;	
+}
+
+/* Mail chimp property Notifications CSS form changes */
+
+#mc_embed_signup .mc-field-group.input-group input {
+	margin-right : 3px !important;
+	
+} 
+
+#mc_embed_signup .mc-field-group.input-group ul li {
+	display : inline !important;
+	margin-right : 10px !important;
+}
+
+/* Main Menu Navigation adjustment */
+
+.main-nav li span.menu {
+    margin: 14px 5px 0;
+    padding: 0 10px;
+    height :42px;
+}
+
+/* Contact US Header title to match denali style*/
+.right_continfo h5 {
+    color: #ededed;
+}
+.right_continfo h5 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
 

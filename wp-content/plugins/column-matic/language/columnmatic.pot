@@ -1,0 +1,140 @@
+# Copyright (C) 2014 Column-Matic
+# This file is distributed under the same license as the Column-Matic package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Column-Matic 1.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/columnmatic\n"
+"POT-Creation-Date: 2014-06-22 21:42:50+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: column-matic.php:221
+msgid "Settings"
+msgstr ""
+
+#: column-matic.php:230
+msgid "really tied the room together"
+msgstr ""
+
+#: column-matic.php:231
+msgid "made you feel all warm and fuzzy on the inside"
+msgstr ""
+
+#: column-matic.php:232
+msgid "restored your faith in humanity... even if only for a fleeting second"
+msgstr ""
+
+#: column-matic.php:233
+msgid "rocked your world"
+msgstr ""
+
+#: column-matic.php:234
+msgid "inspired you to commit a random act of kindness"
+msgstr ""
+
+#: column-matic.php:235
+msgid "encouraged more regular flossing of the teeth"
+msgstr ""
+
+#: column-matic.php:236
+msgid "helped organize your life in the small ways that matter"
+msgstr ""
+
+#: column-matic.php:237
+msgid "saved your minutes--if not tens of minutes--writing your own solution"
+msgstr ""
+
+#: column-matic.php:238
+msgid "brightened your day... or darkened if if you are trying to sleep in"
+msgstr ""
+
+#: column-matic.php:239
+msgid "caused you to dance a little jig of joy and joyousness"
+msgstr ""
+
+#: column-matic.php:240
+msgid "inspired you to tweet a little @twinpictues social love"
+msgstr ""
+
+#: column-matic.php:241
+msgid "tasted great, while also being less filling"
+msgstr ""
+
+#: column-matic.php:242
+msgid "caused you to shout: \"everybody spread love, give me some mo!\""
+msgstr ""
+
+#: column-matic.php:243
+msgid "helped you keep the funk alive"
+msgstr ""
+
+#: column-matic.php:244
+msgid "<a href=\"http://www.youtube.com/watch?v=dvQ28F5fOdU\" target=\"_blank\">soften hands while you do dishes</a>"
+msgstr ""
+
+#: column-matic.php:245
+msgid "helped that little old lady <a href=\"http://www.youtube.com/watch?v=Ug75diEyiA0\" target=\"_blank\">find the beef</a>"
+msgstr ""
+
+#: column-matic.php:258 column-matic.php:291
+msgid "Click to toggle"
+msgstr ""
+
+#: column-matic.php:259
+msgid "Default Column-Matic Settings"
+msgstr ""
+
+#: column-matic.php:270
+msgid "Custom Style"
+msgstr ""
+
+#: column-matic.php:272
+msgid "Custom CSS style for <em>ultimate flexibility</em>"
+msgstr ""
+
+#: column-matic.php:280
+msgid "Save Changes"
+msgstr ""
+
+#: column-matic.php:292
+msgid "About"
+msgstr ""
+
+#: column-matic.php:295
+msgid "Easily wrap any content into cozy columns with this handy little shortcode."
+msgstr ""
+
+#: column-matic.php:297
+msgid "%sDetailed documentation%s, complete with working demonstrations of all shortcode attributes, is available for your instructional enjoyment."
+msgstr ""
+
+#: column-matic.php:298
+msgid "Free Open Source %sSupport%s"
+msgstr ""
+
+#: column-matic.php:299
+msgid "If this plugin %s, please consider %sreviewing it at WordPress.org%s to help others."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Column-Matic"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://plugins.twinpictures.de/plugins/column-matic/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easily wrap any content into cozy columns with this handy little shortcode."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "twinpictures"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.twinpictures/"
+msgstr ""

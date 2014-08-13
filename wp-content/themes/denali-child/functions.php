@@ -339,6 +339,63 @@ function draw_stats( $args = false, $property = false ) {
 		    	 }
         	}
 		}
-	    
+		
+		/* added for fast secure signup enquiry form on for sale and to rent pages */
+		
+		
+/*		function my_action_email_fields($email_fields, $form_id_num) {
 
+		##################################
+		// control which forms you want this on
+		//$all_forms = false; // set to true for process on all forms, or false to use settings below
+	 //	$forms = array('4');
+		##################################
+		if ( !in_array($form_id_num, $forms) && $all_forms != true)
+			return $email_fields;
+		
+			// make some code here to modify or add a field
+			//'my_field' is the field tag, change as needed
+			//if(get_post_type( get_the_ID() )=='property'):
+			
+			$post = $wp_query->post;
+			
+			$email_fields['property_title'] = "Property: id=".$post->ID." price=".$post->price;
+				
+			return $email_fields;
+		
+		}
+		// filter hook to add any custom fields to email_fields array (not validated)
+	    
+		add_filter('si_contact_email_fields', 'my_action_email_fields', 1,2);
+		add_filter('si_contact_email_fields_posted', 'my_action_email_fields', 1,2);
+		
+		
+		// self::$email_fields = apply_filters('si_contact_email_fields', self::$email_fields, self::$form_id_num);
+		// $subj =               apply_filters('si_contact_email_subject', $subj, self::$form_id_num);
+		
+*/
+		function my_action_email_subject($subj, $form_id_num) {
+		
+			##################################
+			// control which forms you want this on
+			$all_forms = false; // set to true for process on all forms, or false to use settings below
+			$forms = array('4');
+			##################################
+			if ( !in_array($form_id_num, $forms) && $all_forms != true)
+				return $subj;
+		
+				// make some code here to modify or add a field
+				//'my_field' is the field tag, change as needed
+						
+				$subj = 'New Subject';
+		
+				return $subj;
+		
+		}
+		// filter hook to add any custom fields to email_fields array (not validated)
+		 
+		add_filter('si_contact_email_subject', 'my_action_email_subject', 1,2);
+		
+		
+		
 	?>

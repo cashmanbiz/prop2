@@ -146,8 +146,12 @@ $_SESSION['property_price'] = $property['price'];
 		<div  class="features_list nugent-widget property-enquiry" > 
 			<h2>Property Enquiry</h2>
 			
-			  <?php get_template_part('content','single-property-inquiry-sidebar'); ?>
+			  <?php // get_template_part('content','single-property-inquiry-sidebar'); ?>
 			
+		<?php
+		$my_shortcode = '[si-contact-form form=\'4\' hidden=\'nugent_ref=' . $property['nugent_ref'].";".get_the_title().'\']';
+		?>
+			<?php echo do_shortcode($my_shortcode); ?>
 	    </div>
 
   

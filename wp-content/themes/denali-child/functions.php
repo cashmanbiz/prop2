@@ -396,6 +396,23 @@ function draw_stats( $args = false, $property = false ) {
 		 
 		add_filter('si_contact_email_subject', 'my_action_email_subject', 1,2);
 		
+		/* Adding panoromia Javascript Library */
 		
+		add_action( 'wp_enqueue_scripts', 'child_add_scripts' );
+		
+		/**
+		 * Register and enqueue a script that does not depend on a JavaScript library.
+		*/
+		function child_add_scripts() {
+			wp_register_script(
+			'panoramio',
+			'http://www.panoramio.com/wapi/wapi.js?v=1',
+			false,
+			'1.0',
+			true
+			);
+		
+			wp_enqueue_script( 'panoramio' );
+		}
 		
 	?>

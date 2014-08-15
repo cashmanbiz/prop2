@@ -21,7 +21,7 @@ global $ds;
   <div class="wpp_row_view all-properties wpp_property_view_result">
     <?php foreach (returned_properties('load_gallery=false') as $property) { ?>
 
-	
+	 
       <?php //  $image = property_overview_image('return=true'); ?>
       <div class="property_div property_div_nugent div_block <?php echo $property['post_type']; ?> <?php echo (empty($image) ? 'wpp_no_image' : ''); ?> clearfix">
 
@@ -36,7 +36,17 @@ global $ds;
 	<div id="nugent-type" class="nugent-listprop"><?php echo $property['type']; ?></div>
 	<div id="nugent-bedrooms" class="nugent-listprop"><?php echo $property['bedrooms']." bed" ; ?></div>
 	<div id="nugent-status" class="nugent-listprop"><?php echo $property['status']; ?></div>
-	<div id="nugent-price" class="nugent-listprop"><?php echo $property['price']; ?></div>
+<?php 
+
+	if ($property['property_type']=="to_rent"){
+		$property_price=$property['rent'];
+	}else{
+		$property_price=$property['price'];
+	}
+	
+?> 
+	
+	<div id="nugent-price" class="nugent-listprop"><?php echo $property_price; ?></div>
 	
 
           <?php

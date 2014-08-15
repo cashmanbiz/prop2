@@ -45,6 +45,8 @@
 <!--[if IE 7]>
   <link rel="stylesheet" type="text/css" href="<?php echo bloginfo('template_url'); ?>/ie7.css">
 <![endif]-->
+
+
 </head>
 <body <?php body_class(); ?>>
 

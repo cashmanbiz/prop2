@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="colorbox.css">
+        <script src="jquery.min.js"></script>
+        <script src="jquery.colorbox-min.js"></script>
+
+</head>
+<body>
+
+        <a class="blessington" title="lake" href='http://static.panoramio.com/photos/original/10509862.jpg'>Photo_1</a>
+        <a class="blessington" title="Shore" href='http://static.panoramio.com/photos/original/23286003.jpg'>Photo_2</a>
+        <a  class="blessington" title="Fauna" href='http://static.panoramio.com/photos/original/15361596.jpg'>Photo_3</a>
+        
+        <script>
+            //jQuery('a.gallery').colorbox();
+            
+            //jQuery("a[rel='blessington']").colorbox(); 
+            
+            	$(".blessington").colorbox({rel:'blessington'});
+				$(".blessington").colorbox({rel:'blessington', transition:"fade"});
+            
+        </script>
+
+</body>
+</html>

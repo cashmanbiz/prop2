@@ -91,7 +91,6 @@ $_SESSION['property_price'] = $property['price'];
 			   <h3 class="sub-heading" style="margin-left : 4px;">Map</h3>
 			<?php get_template_part('content','single-property-map'); ?>
 		</div><!-- #container -->
-    <?php get_template_part('content','single-property-bottom'); ?>
 
   </div>
 
@@ -162,7 +161,8 @@ $_SESSION['property_price'] = $property['price'];
   <?php endif; ?>
 
  <div class="cboth"></div>
-
+ 
+ <?php get_template_part('content','single-property-bottom'); ?>
   </div>
 
 <?php get_footer(); ?>

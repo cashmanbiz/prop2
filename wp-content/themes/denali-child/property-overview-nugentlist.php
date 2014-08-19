@@ -44,6 +44,24 @@ global $ds;
 		$property_price=$property['price'];
 	}
 	
+	
+	
+	if ($property['property_type']=="to_rent"):
+	if(substr($property['rent'],3,8)=='1' )	{
+			$property_price="POA";
+		}else{
+			$property_price = $property['rent'];
+		}
+	else:
+		if(substr($property['price'],3,8)=='1' )	{
+			$property_price="POA";
+		}else{
+			$property_price=$property['price'];
+		}
+	endif;
+	
+	
+	
 ?> 
 	
 	<div id="nugent-price" class="nugent-listprop"><?php echo $property_price; ?></div>

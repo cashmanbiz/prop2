@@ -231,18 +231,22 @@ margin-top: 45px;
 
 
 /* rollover image text for property showcase on home page */
+.nugent-showcase {
+	border : 5px solid #ededed;
+	border-radius : 8px;
+}
 
 .home-rollover{
   display: inline-block;
   height: 159px;
   margin: 0 1em 1em 0;
   position: relative;
-  width: 190px;
+  width: 188px;
   margin : 0px;
   padding : 0px;
   text-align : center;
   float : left;
-  background-color: #fff;
+ /* border-left : 1px solid #4e6a75;*/
   
 }
 	
@@ -311,7 +315,7 @@ margin-top: 45px;
 
 #nugent-listheader {
     position: relative;
-	width: 100px;
+	width: 200px;
 	height : 5px;
 }
 #nugent-listheader h2{
@@ -319,35 +323,40 @@ margin-top: 45px;
 }
 
 
-
+#nugent-home .wpp_row_view{
+	padding : 0px !important;
+	border: 5px solid #8cafc8 !important;
+	background-color : transparent !important;
+	
+}
 #nugent-area {
-	width : 120px;
+	width : 140px;
 	min-height : 1px;
 	font-size : small;
 	color : #076DB5;
 	font-weight: bold;
 }  
 #nugent-link {
-	width : 380px;
+	width : 410px;
 	min-height : 1px;
 	font-size : small;
 	text-decoration : underline;
 }
 
 #nugent-bedrooms {
-	width : 90px;
+	width : 80px;
 	min-height : 1px;
 	font-size : small;
 }
 
 #nugent-type {
-	width : 90px;
+	width : 80px;
 	min-height : 1px;
 	font-size : small;
 	color : #076DB5;
 }
 #nugent-status {
-	width: 90px;
+	width: 80px;
 	min-height : 1px;
 	font-size : small;
 	color : #076DB5;
@@ -361,14 +370,21 @@ margin-top: 45px;
 }
 
 
-.wpp_overview_right_column_nugent {
-	padding: 2px 8px 2px 0px;
+#nugent-home .wpp_overview_right_column_nugent {
+	padding: 0px 0px 0px 0px;
 }
+
 
 .property_div_nugent {
 	margin-bottom:0px !important;
 }
 
+#nugent-home .property_div {
+	border-bottom: 1px solid #8cafc8 !important;
+    border-top: 1px solid #8cafc8 !important;
+    border-left : 0px !important;
+    border-right :0px !important;
+}
 
 #nugent-home  .wpp_top_pagination  {
 	height : 20px;
@@ -376,7 +392,6 @@ margin-top: 45px;
 
 #nugent-home .denali_widget_area_tabs , #nugent-home .properties_pagination {
 	margin: 0 0 0px !important;
-	height: 24px;
 }	
 
 .thebreadcrumb{
@@ -507,10 +522,10 @@ margin-top: 45px;
 		width: 100%; 
 	}
 
-.span_1_of_2 {
-		width: 100%;
-	}
-
+	.span_1_of_2 {
+			width: 100%;
+		}
+}
 
 /*  GRID OF THREE  */
 .span_3_of_3 {
@@ -532,6 +547,36 @@ margin-top: 45px;
 		width: 100%; 
 	}
 	.span_1_of_3 {
+		width: 100%;
+	}
+}
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 23.7%;
+}
+.span_3_of_4 {
+	width: 23.7%;
+}
+.span_2_of_4 {
+	width: 23.7%;
+}
+.span_1_of_4 {
+	width: 23.7%;
+}
+
+
+@media only screen and (max-width: 480px) {
+	.span_4_of_4{
+		width: 100%; 
+	}
+	.span_3_of_4{
+		width: 100%; 
+	}
+	.span_2_of_4 {
+		width: 100%; 
+	}
+	.span_1_of_4 {
 		width: 100%;
 	}
 }

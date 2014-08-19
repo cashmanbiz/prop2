@@ -46,11 +46,20 @@
 
  
   ?>
+  
+ 
+<h1 style="padding:10px 10px 0px 10px; ">Welcome to Nugent Auctioneers</h1>
+<div style="padding : 0px 10px 10px 10px; line-height : 1.3em ; font-size : 14px;">Nugent Auctioneers is a leading independent estate agent established over 20 years covering areas of West Wicklow, Kildare, Carlow, East Wicklow and Dublin. We tailor our services to each client and situation and we have all necessary expertise to secure and manage the sale or rental of your property. We are proud that many of our clients have either used us before or have been recommended to come to us.
+<strong>Looking for a property?</strong> See our full list <a href="for-sale">FOR SALE</a> and <a href="to-rent">TO RENT</a> or try our <a href="#map">MAP</a> search below. You can also sign up for our <a href="property-notifications">Property Alerts</a>.  
+<strong> Selling or Letting a property?</strong></strong> Contact us for a free valuation if you plan to <a href="selling">SELL</a> or <a href="residential-letting">LET</a> a property.</div>
+
+
 
   <div class="sld-flexible denali_attention_grabber_area">
  
     <div class='sld-top'></div>
-    <div class="denali_widget_area_tabs wpp_property_header_area <?php echo ($multi_tab ? 'have_tabs' : 'no_tabs'); ?>">
+    <div style="width : 100%;"><h2 class="entry-content recent-properties">Recent Properties</h2></div>
+    <div class="denali_widget_area_tabs wpp_property_header_area <?php echo ($multi_tab ? 'have_tabs' : 'no_tabs'); ?> nugent-showcase" >
     
     <?php if($multi_tab) { ?>
       <ul class="attention_grabber_tabs denali_widget_tabs">
@@ -60,7 +69,7 @@
       </ul>
     <?php } ?>
     
-    <div style="width : 100%;"><h2 class="entry-content recent-properties">Recent Properties</h2></div>
+   
     <?php    
      $args = array( 'post_type' => 'property', 'posts_per_page'   => 10);
      $posts_array = get_posts($args);
@@ -71,13 +80,21 @@
      		setlocale(LC_MONETARY, 'en_IE');
 		
 	     	if($prop->property_type=='to_rent'):
-	     		$property_price = money_format('%.0n', (double) $prop->rent);
+	     		if($prop->rent=='1'){
+					$property_price="POA";
+				}else{
+	     			$property_price = money_format('%.0n', (double) $prop->rent);
+	     		}
 	     	else:
-	     		$property_price = money_format('%.0n', (double) $prop->price);
+	     		if($prop->price=='1'){
+	     			$property_price="POA";
+	     		}else{
+	     			$property_price = money_format('%.0n', (double) $prop->price);
+	     		}
 	     	endif;
 		     
 	     	
-		    $property_price=str_replace('EUR','&euro;',$property_price);
+		   // $property_price=str_replace('EUR','&euro;',$property_price);
 	     
      ?>
      	    

@@ -4,9 +4,9 @@
 
 Plugin Name: Panoramio Slideshow Plugin
 
-Plugin URI: https://www.cashman.biz/panoramio
+Plugin URI: https://www.cashman.biz/plugins/wordpress
 
-Description: Lite version of Panoramio Viewer for WordPress. For setup of a Panoramio slideshow. 
+Description: Viewer for a Panoramio slideshow. 
 
 Version: 1.0
 
@@ -14,19 +14,10 @@ Author: John cashman
 
 Author URI: http://cashman.biz
 
-Text Domain: panoramiojc
-
-Domain Path: /
-
 License: GPL v3
 
 
-
-MailChimp for WordPress
-
 Copyright (C) 2014, John Cashman, john@cashman.biz
-
-
 
 This program is free software: you can redistribute it and/or modify
 
@@ -37,7 +28,6 @@ the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
 
-
 This program is distributed in the hope that it will be useful,
 
 but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -45,7 +35,6 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 
 GNU General Public License for more details.
-
 
 
 You should have received a copy of the GNU General Public License
@@ -68,45 +57,55 @@ if( ! defined( 'ABSPATH' ) ) {
 
 }
 
-	if (!class_exists("Panoramiojc")) {
-		class Panoramiojc {
-			function Panoramiojc() { //constructor
 
-			}
+class PANJC {
+	function PANJC() { //constructor
+
+	}
+
+	function addHeaderCode() {
+		?><!-- JC Was Here -->
+				<?php 
+	}
+
+} //End Class PANJC
+
+
+
+
+if (!class_exists("PANJC")) {
+	class PANJC {
+		function PANJC() { //constructor
 
 		}
 		
 		function addHeaderCode() {
-			
-			echo "test success";
-			
-				
+			?><!-- JC Was Here -->
+					<?php 
 		}
 
-	} //End Class Panaromiajc
+	} //End Class PANJC
+} 
 	
 	
-	if (class_exists("Panoramiojc")) {
-		$dl_panoramiojc = new Panoramiojc();
+	if (class_exists("PANJC")) {
+		$dl_panoramiojc = new PANJC();
 	}
-	
 	
 	//Actions and Filters
 	if (isset($dl_panoramiojc)) {
-		//Actions
 	
+		//Actions
+		add_action('wp_head', array(&$dl_panoramiojc, 'addHeaderCode'), 1);
 		//Filters
 	}
 	
 	
-	//Actions and Filters
-	if (isset($dl_panoramiojc)) {
-		//Actions
-		add_action('wp_head', array(&$panoramiojc, 'addHeaderCode'), 1);
-		//Filters
-	}
+
 	
-/*	
+/*
+	
+
   
  	include 'get_panoramio.php';
 	

@@ -274,6 +274,15 @@ function draw_stats( $args = false, $property = false ) {
 	              $tag = $labels_to_keys[ $label ];
 	              $alt = ( $alt == "alt" ) ? "" : "alt";
 	              ?>
+	              
+	             <?php /*code for POA - JCAS */
+	             if($label=='Price') {
+					if(substr($value,3,8)=='1' )	{
+						$value="POA";
+					}
+				}
+	            
+	            ?>
 	              <li class="<?php echo $stats_prefix; ?>_<?php echo $tag; ?> wpp_stat_plain_list_<?php echo $tag; ?> <?php echo $alt; ?>">
 	                <div class="attribute"><?php echo $label; ?>:</div>
 	                <div class="value"><?php echo $value; ?></div>

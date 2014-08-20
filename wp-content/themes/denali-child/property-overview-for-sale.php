@@ -18,20 +18,21 @@ global $ds;
 ?>
 
 <?php if (have_properties()) { ?>
+<div class="property-list-main">
   <?php $thumbnail_dimentions = WPP_F::get_image_dimensions($wpp_query['thumbnail_size']); ?>
   <div class="wpp_row_view all-properties wpp_property_view_result">
     <?php foreach (returned_properties('load_gallery=false') as $property) { ?>
       <?php $image = property_overview_image('return=true'); ?>
       <div class="property_div div_block <?php echo $property['post_type']; ?> <?php echo (empty($image) ? 'wpp_no_image' : ''); ?> clearfix">
 
-        <div class="wpp_overview_left_column div_block" style="width:<?php echo $thumbnail_dimentions['width']+10; /* 10 is boubled image border */?>px;">
+        <div class="wpp_overview_left_column div_block" style="margin : 0px; width:<?php echo $thumbnail_dimentions['width']+10; /* 10 is boubled image border */?>px;">
           <?php echo $image; ?>
         </div>
 
-        <div class="wpp_overview_right_column div_block" style="margin-left:<?php echo $thumbnail_dimentions['width']+30; ?>px;">
+        <div class="wpp_overview_right_column div_block" style="padding : 0px; margin-left:<?php echo $thumbnail_dimentions['width']+30; ?>px;">
 
           <ul class="wpp_overview_data" style="">
-            <li class="property_title">
+            <li class="property_title prop-listing">
               <a <?php echo $in_new_window; ?> href="<?php echo $property['permalink']; ?>"><?php echo $property['post_title']; ?></a>
               <?php if ($property['is_child']): ?> <?php _e('of','denali'); ?> <a <?php echo $in_new_window; ?> href='<?php echo $property['parent_link']; ?>'><?php echo $property['parent_title']; ?></a><?php endif; ?>
             </li>
@@ -86,16 +87,18 @@ global $ds;
 
 
 
-                $overview_attributes[] = "<li style='display : inline;' class='".  implode(' ',apply_filters($attribute.'attribute_classes',$attribute_classes))."'>" . ($attribute_title ? "<span class='wpp_attribute_icon icon_{$attribute}'></span><span class='attribute'>{$attribute_title}</span>" . ('<span class="colon">:</span>') : "") . " <span class='value'>{$property[$attribute]}</span>&nbsp;&nbsp;-&nbsp&nbsp;<span<</li>";
+                $overview_attributes[] = "<li style='display : inline;' class='".  implode(' ',apply_filters($attribute.'attribute_classes',$attribute_classes))."'>" . ($attribute_title ? "<span class='wpp_attribute_icon icon_{$attribute}'></span><span style='color: #8cafc8' class='attribute'>{$attribute_title}</span>" . ('<span class="colon">:</strong>') : "") . " <span class='value'>{$property[$attribute]}&nbsp;&nbsp;</span></li>";
               }
             }
           ?>
 
           <?php if ($overview_attributes): ?>
-            <ul class="wpp_overview_data_detail" style="">
+            <ul class="wpp_overview_data_detail" style="margin-bottom : 0px;">
             <?php echo implode('', $overview_attributes); ?>
             <?php if (!empty($wpp_query['detail_button'])) : ?>
-                <li><a <?php echo $in_new_window; ?> class="denali-button" href="<?php echo $property['permalink']; ?>"><?php echo $wpp_query['detail_button'] ?></a></li>
+              <!--  <li><a <?php // echo $in_new_window; ?> class="denali-button" href="<?php // echo $property['permalink']; ?>"><?php // echo $wpp_query['detail_button'] ?></a></li> -->
+         
+                              <li style="padding-right: 10px; text-align : right;text-decoration : underline;"><a href="<?php echo $property['permalink']; ?>">detail..</a></li>
               <?php endif; ?>
             </ul>
             <?php endif; ?>
@@ -121,6 +124,7 @@ global $ds;
 
   <?php } ?>
   </div><?php // .wpp_row_view  ?>
+  </div> <?php // .property-list-main  ?>
   <?php } else { ?>
   <div class="wpp_nothing_found">
   <?php echo sprintf(__('Sorry, no properties found - try expanding your search, or <a href="%s">view all</a>.','denali'), site_url() . '/' . $wp_properties['configuration']['base_slug']); ?>

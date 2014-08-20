@@ -1,6 +1,6 @@
 <?php
 /**
- * Property Default Template for Single Property View
+ * Property Default Template for Property to Rent View
  *
  * Overwrite by creating your own in the theme directory called either:
  * property.php
@@ -55,16 +55,16 @@ $_SESSION['property_price'] = $property['price'];
 				<div > <h3 class="entry-subtitle"><?php the_tagline(); ?></h3></div>
 				<div class="property-price-ber clearfix">
 				<div class="property-title-price"><h2> 
-				 <?php if($property['status']=="Sale Agreed" ) { 
+				 <?php if($property['status']=="Let" ) { 
 					echo $property['status'] ;
 					
 				} elseif($property['status']=="Sold" ) { 
 					echo $property['status'];
 				} else { 
-					if(format_property_price($property['price']) == 1) {
-						echo "Price: POA";
+					if(format_property_price($property['rent']) == 1) {
+						echo "Rent: POA";
 					}else {
-						echo "Price: ".	$property['price'];
+						echo "Rent: ".	$property['rent'];
 					}		
 				}?>
 				</h2></div>
@@ -113,31 +113,6 @@ $_SESSION['property_price'] = $property['price'];
 		</div>
 		<br>
 		
-		<div class="features_list nugent-widget stamp-duty"  > 	
-			<h2>Stamp Duty</h2>
-			
-			<?php  /* Calculate stamp duty */  
-		
-				$property_price=format_property_price($property['price']);
-				if($property_price==1) { $property_price=0 ; }
-				$stamp_duty=calculate_stamp_duty($property_price);
-				$property_price_full=$stamp_duty['price'] + $property_price;
-			?>
-			
-			<div id="stampduty-rate"> 
-			<?php echo "@".$stamp_duty['rate']."%" ?><br>
-			<?php echo substr( $property['price'], 0,3 ).number_format($stamp_duty['price']) ; ?>		
-			</div>
-			<div id="stampduty-value"> Total Amount <br>
-				<?php echo substr( $property['price'], 0,3 ).number_format($property_price_full) ; ?>
-			</div>
-		</div>
-		
-		<div  class="features_list nugent-widget mortgage-repayment" > 
-			<h2>Mortgage Repayment Estimator</h2>			
-			<div style="padding-left : 5px;"><?php echo do_shortcode('[mortgage-calculator]'); ?></div>
-		</div>
-			
 		<div class="features_list nugent-widget qr-code">
 	    	<?php echo do_shortcode('[qr-code]') ; ?>
       	</div>

@@ -232,7 +232,7 @@ margin-top: 45px;
 
 /* rollover image text for property showcase on home page */
 .nugent-showcase {
-	border : 5px solid #ededed;
+	border : 5px solid #8cafc8;
 	border-radius : 8px;
 }
 
@@ -529,10 +529,10 @@ margin-top: 45px;
 
 /*  GRID OF THREE  */
 .span_3_of_3 {
-	width: 30.7%;
+	width: 32.2%;
 }
 .span_2_of_3 {
-	width: 30.7%;
+	width: 32.2%;
 }
 .span_1_of_3 {
 	width: 32.2%;
@@ -581,3 +581,40 @@ margin-top: 45px;
 	}
 }
  
+ 
+ /* Styles for property list pages */
+ 
+ .forsale_list .wpp_row_view  {
+ 	border-top: 5px solid #8cafc8 !important;
+  	padding : 0px 5px !important;
+ }
+ 
+.forsale_list .wpp_row_view div.property_div{
+ 	margin-bottom : 0px !important;
+ }
+ 
+ .prop-listing {
+ 	font-size : medium !important;
+ }
+ 
+.property-list-main .wpp_row_view .property_image .property_overview_thumb{
+	padding : 5px 0px 0px 0px;
+}
+ 
+ .property-list-main ul.wpp_overview_data_detail{
+ font-size : small;
+ }
+ 
+ /* Search widget styling for property lists */
+.forsale_list .wpp_shortcode_search form {
+ 	padding : 0px !important;
+ }
+ 
+.forsale_list .wpp_shortcode_search ul li{
+	margin : 0px 10px 0px 10px !important;
+}
+ 
+.forsale_list .wpp_shortcode_search ul li.submit{
+	position : relative !important;
+	top : -35px !important;
+}

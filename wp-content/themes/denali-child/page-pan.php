@@ -6,8 +6,17 @@
 ?>
 
 <?php get_header() ?>
+<?php 
 
-<?php get_template_part('attention', 'page'); ?> 
+function remove_unwanted_css(){
+//		wp_dequeue_style( 'cssBMoExpoDesignDefault' );
+//		wp_dequeue_style( 'cssBMoExpo' );		
+}
+
+//add_action('wp_enqueue_scripts','remove_unwanted_css', 100);
+
+?>
+<?php // get_template_part('attention', 'page'); ?> 
 
   <div id="nocolumns" class="inner_content_wrapper no_columns">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -18,12 +27,13 @@
       <?php } ?>
 
         <div class="entry-content">
-        
        
-        
-        
+               
         <?php the_content('More Info'); ?>
-          <?php comments_template(); ?>
+        
+        <?php $obj_panJc->PanJc_CreateGallery('45') ;
+        ?>
+          <?php //comments_template(); ?>
         </div>
       </div>
     <?php endwhile; endif; ?>

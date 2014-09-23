@@ -111,6 +111,22 @@ class bmoExpo {
          }
 		 wp_register_script( 'jqueryBMoExpo', BMO_EXPO_URL.'/js/jquery.bmoGallery.js', array('jquery') , BMO_EXPO_VERSION ,$inFooter);
 	 }
+	 
+	 public function BMo_Expo_remove_styles(){
+	 	
+	 	if(function_exists('wp_dequeue_style')) {
+	 		wp_dequeue_style('cssBMoExpo');
+	 		wp_dequeue_style('cssBMoExpoDesignDefault');
+	 		foreach($this->galleryTypes as $key => $val){
+	 			wp_dequeue_style($key.'_cssBMoExpoDesign');
+	 		}
+	 	}	
+	 	
+	 	echo '<br>remove styles..here...';
+	 	
+	 
+	 	
+	 }
             
 	 public function BMo_Expo_Head(){ //wp_head()
 		 $options = get_option(BMO_EXPO_OPTIONS);
@@ -120,16 +136,32 @@ class bmoExpo {
 			 wp_register_style($key.'_cssBMoExpoDesign', $options[$key.'_design']['value'],array('cssBMoExpo'), BMO_EXPO_VERSION ,'all');
 		  } 
 		
-		
+		  
+		  wp_reset_query();
+		  $exclude_pages=array('blessington','home');
+		  
+		  $exclude_page=false;
+		  
+		  foreach ($exclude_pages as &$key ){
+		  	 if(is_page($key)){
+		  		$exclude_page=true;	 	
+		  	 }
+		  	
+		  }  
+		  
+		if($exclude_page==false){
 	     if (function_exists('wp_enqueue_style')) {
 			  wp_enqueue_style('cssBMoExpo');
 			  wp_enqueue_style('cssBMoExpoDesignDefault');
 			  foreach($this->galleryTypes as $key => $val){
 			 	 wp_enqueue_style($key.'_cssBMoExpoDesign');
-			  }
+	     	}
 		  }
 		  
-		  echo '<!-- BMo The Gallery - Version '.BMO_EXPO_VERSION.' -->';
+		
+	    }
+		
+		 echo '<!-- BMo The Gallery - Version '.BMO_EXPO_VERSION.' -->';
 	 }
     
 	 public function BMo_Expo_Foot(){ //wp_footer()

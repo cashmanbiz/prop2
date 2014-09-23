@@ -59,7 +59,7 @@ if (isset($obj_bmoExpo)) {
     //add css
 	add_action('wp_enqueue_scripts', array($obj_bmoExpo,'BMo_Expo_enqueueScripts'));
 	add_action('wp_head'   , array($obj_bmoExpo,'BMo_Expo_Head'),1);
-	add_action('wp_footer' , array($obj_bmoExpo,'BMo_Expo_Foot'),200);
+    add_action('wp_footer' , array($obj_bmoExpo,'BMo_Expo_Foot'),200);
 	
 	//replace default gallery if option is activated
 	if($obj_bmoExpo->BMo_Expo_ReplaceWPGallery()){

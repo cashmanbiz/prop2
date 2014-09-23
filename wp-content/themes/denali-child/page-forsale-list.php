@@ -20,8 +20,6 @@
 
 <?php get_header(); ?>
 
-<?php get_template_part('attention', 'page'); ?>
-
   <div id="content" class="inner_content_wrapper <?php echo ($have_sidebar  ? 'have-sidebar' : 'no_columns'); ?>">
   
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -47,6 +45,7 @@
   <?php endif; ?>
 
   <div class="cboth"></div>
+  <?php get_template_part('attention', 'page'); ?>
 
   </div>
 

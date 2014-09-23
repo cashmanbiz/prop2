@@ -1,0 +1,38 @@
+#cboxLoadedContent {
+    background: none repeat scroll 0 0 #fff;
+    border: 0px solid #000;
+}
+
+#image-footer{
+	position : relative;
+	width : 800px;
+	top :-70px;
+	background-color : #fff;
+	opacity : .6;
+
+	
+}
+
+#panoramio-logo {
+	width : 100px;
+	margin-right : 10px;
+	vertical-align : text-top;
+}
+
+#cboxContent {	
+	margin-top : 25px;
+	background : none;
+}
+	
+#the-title {
+	position : relative;
+	top : -51px;
+	left : 480px;
+	z-index : 10;
+}	
+
+#cboxTitle {
+	position : relative;
+	top : 25px;
+}
+	

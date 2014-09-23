@@ -37,6 +37,7 @@ global $ds;
               <?php if ($property['is_child']): ?> <?php _e('of','denali'); ?> <a <?php echo $in_new_window; ?> href='<?php echo $property['parent_link']; ?>'><?php echo $property['parent_title']; ?></a><?php endif; ?>
             </li>
             <?php denali_draw_overview_stats(); ?>
+            <div class="property-title-ber"><IMG style="width : 30%;" src="<?php echo get_stylesheet_directory_uri() ?>/img/ber/<?php echo $property['ber']; ?>-s.png"</IMG></div>
           </ul>
 
           <?php

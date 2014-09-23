@@ -1,134 +1,116 @@
-<?php
+<!DOCTYPE html>
+<html>
 
-/*
-
-Plugin Name: Panoramio Slideshow Plugin
-
-Plugin URI: https://www.cashman.biz/panoramio
-
-Description: Lite version of Panoramio Viewer for WordPress. For setup of a Panoramio slideshow. 
-
-Version: 1.0
-
-Author: John cashman
-
-Author URI: http://cashman.biz
-
-Text Domain: panoramiojc
-
-Domain Path: /
-
-License: GPL v3
-
-
-
-MailChimp for WordPress
-
-Copyright (C) 2014, John Cashman, john@cashman.biz
-
-
-
-This program is free software: you can redistribute it and/or modify
-
-it under the terms of the GNU General Public License as published by
-
-the Free Software Foundation, either version 3 of the License, or
-
-(at your option) any later version.
-
-
-
-This program is distributed in the hope that it will be useful,
-
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-
-GNU General Public License for more details.
-
-
-
-You should have received a copy of the GNU General Public License
-
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-*/
-
-
-
-// Prevent direct file access
-
-if( ! defined( 'ABSPATH' ) ) {
-
-	header( 'Status: 403 Forbidden' );
-
-	header( 'HTTP/1.1 403 Forbidden' );
-
-	exit;
-
-}
-
-	if (!class_exists("Panoramiojc")) {
-		class Panoramiojc {
-			function Panoramiojc() { //constructor
-
-			}
-
-		}
-		
-		function addHeaderCode() {
-			
-			echo "test success";
-			
-				
-		}
-
-	} //End Class Panaromiajc
-	
-	
-	if (class_exists("Panoramiojc")) {
-		$dl_panoramiojc = new Panoramiojc();
-	}
-	
-	
-	//Actions and Filters
-	if (isset($dl_panoramiojc)) {
-		//Actions
-	
-		//Filters
-	}
-	
-	
-	//Actions and Filters
-	if (isset($dl_panoramiojc)) {
-		//Actions
-		add_action('wp_head', array(&$panoramiojc, 'addHeaderCode'), 1);
-		//Filters
-	}
-	
-/*	
-  
- 	include 'get_panoramio.php';
-	
-	add_action( 'wp_print_scripts', 'enqueue_my_scripts' );
-	add_action( 'wp_print_styles', 'enqueue_my_styles' );
-	
-	
-	
-	wp_enqueue_script( 'panoramio-jc-script', plugins_url( '/js/panoramio-jc.js' , __FILE__ ), array( 'jquery' ));
-	wp_enqueue_style( 'panoramio-jc-style',  plugins_url( '/js/panoramio-jc.css' , __FILE__ ), array( 'jquery' ));
-	
-
-
-
+<?php 
+	include 'get_panoramio.php';
+?>
+	<head>
+		<meta charset='utf-8'/>
+		<title>Colorbox Examples</title>
+		<style>
+			body{font:12px/1.2 Verdana, sans-serif; padding:0 10px;}
+			a:link, a:visited{text-decoration:none; color:#416CE5; border-bottom:1px solid #416CE5;}
+			h2{font-size:13px; margin:15px 0 0 0;}
+		</style>
 		<link rel="stylesheet" href="colorbox.css" />
-		<link rel="stylesheet" href="css/panoramio-jc.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="js/jquery.colorbox.js"></script>
-		<script src="js/panoramio-jc.js"></script>
-		 
+		<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".blessington").colorbox({rel:'blessington', width:'90%', maxWidth:800 ,transition:"fade"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+
+				
+			});
+		</script>
+		<style type="text/css">
 		
-    	$photo_list=get_panoramio_rest("GET",10, "http://www.panoramio.com/map/get_panoramas.php?set=full&from=0&to=10&minx=-6.579544&miny=53.07&maxx=-6.47&maxy=53.219&size=original&mapfilter=false");
+		#cboxTitle {
+			width : 800px;
+		
+		}
+		
+		#cboxCurrent {
+			margin-right : 10px;
+		}
+		
+		
+		#cboxPrevious {
+			position:absolute;
+			top:0;
+			left:0;
+			height: 20px;
+			margin-top: 0px; /* 1/2 the hight of the button */
+		}
+			
+		#cboxClose {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		
+		#cboxNext {
+			position:absolute;
+			top:0;
+			left:80px;
+			height: 20px;
+			margin-top: 0px; /* 1/2 the hight of the button */
+		}
+		#cboxContent{
+			margin-top : 20px;
+		}
+		
+		
+		#cboxOverlay {
+			background-color: #fff;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			top : 0px;
+		}
+		
+		
+		#the-title{
+			position:absolute;
+			top:0;
+			left:250px;
+			height: 20px;
+			margin-top: 2px; /* 1/2 the hight of the button */
+			font-spacing : 0.2em;
+			color : gray;
+		
+		}
+		
+		
+		#cboxCurrent {
+			position:absolute;
+			top:0;
+			left:140px;
+			height: 20px;
+			margin-top: 2px; /* 1/2 the hight of the button */
+		}
+
+		#panoramio-logo {
+			width : 100px;
+			margin-right : 10px;
+			vertical-align : text-top;
+		}
+
+		</style>
+		
+	</head>
+	<body>
+		<?php 
+		
+		$photo_list=get_panoramio_rest("GET",10, "http://www.panoramio.com/map/get_panoramas.php?set=full&from=0&to=10&minx=-6.579544&miny=53.07&maxx=-6.47&maxy=53.219&size=original&mapfilter=false");
 		?>	
 		<script>
 		var $gallery = $("a[rel=blessington]").colorbox();
@@ -142,9 +124,11 @@ if( ! defined( 'ABSPATH' ) ) {
 		
 		<?php
 		
-		//echo $photo_list->count."=photo count<br>";
+		echo $photo_list->count."=photo count<br>";
 		for($i=0;$i<10;$i++)
 		{
+			echo $photo_list->photos[$i]->owner_name."<br>" ;
+		
 			$owner="<img id='panoramio-logo' src='images/logo-panoramio-google.png'></img>Photos provided by Panoramio are under the copyright of their owners<br>";
 			$owner.="Author: <a href=".$photo_list->photos[$i]->owner_url.">".$photo_list->photos[$i]->owner_name."</a> ";
 			$owner.=" link: <a href=".$photo_list->photos[$i]->photo_url.">".$photo_list->photos[$i]->photo_url."</a><br>";
@@ -155,5 +139,7 @@ if( ! defined( 'ABSPATH' ) ) {
 		<?php 
 		} 
 		?>
-	*/
 
+		
+	</body>
+</html>

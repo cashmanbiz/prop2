@@ -70,17 +70,22 @@ define('PANJC_PLUGIN_URL', plugins_url()."/".dirname(plugin_basename(__FILE__)))
 //###############################################################
 
 
-require_once ( PANJC_PLUGIN_CLASSPATH.'/class-panjc.php' );
 
-$obj_panJc =new panJc();
-
-if(isset($obj_panJc)){
-		
-	add_action('wp_head',array($obj_panJc,'PanJc_Head'),1);
-	add_action('wp_enqueue_scripts', array($obj_panJc,'PanJc_enqueueScripts'));
+	require_once ( PANJC_PLUGIN_CLASSPATH.'/class-panjc.php' );
 	
+	$obj_panJc =new panJc();
+	
+	if(isset($obj_panJc)){
+		
+		register_activation_hook(__FILE__,array($obj_panJc,'PanJc_activate'));
+		register_deactivation_hook(__FILE__,array($obj_panJc,'PanJc_deactivate'));
+		
+		add_action('wp_head',array($obj_panJc,'PanJc_Head'),1);
+		add_action('wp_enqueue_scripts', array($obj_panJc,'PanJc_enqueueScripts'));
+		
+	
+	}
 
-}
 
 
 /* add_action( 'init', 'load_panjc');

@@ -1,9 +1,13 @@
-#colorbox{
-	z-index : 11;
+#cboxLoadedContent {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #000;
 }
 
-#cboxOverlay {
-	z-index : 10;
+#image-footer{
+	
+	position : absolute;
+
+	
 }
 
 #cboxTitle {
@@ -18,7 +22,7 @@
 
 #cboxPrevious {
 	position:absolute;
-	top:0;
+	top:-20;
 	left:0;
 	height: 20px;
 	margin-top: 0px; /* 1/2 the hight of the button */
@@ -26,13 +30,13 @@
 	
 #cboxClose {
 	position: absolute;
-	top: 0;
+	top: -20px;
 	right: 0;
 }
 
 #cboxNext {
 	position:absolute;
-	top:0;
+	top:-20;
 	left:80px;
 	height: 20px;
 	margin-top: 0px; /* 1/2 the hight of the button */
@@ -53,7 +57,7 @@
 
 #the-title{
 	position:absolute;
-	top:0;
+	top:-20px;
 	left:250px;
 	height: 20px;
 	margin-top: 2px; /* 1/2 the hight of the button */
@@ -65,7 +69,7 @@
 
 #cboxCurrent {
 	position:absolute;
-	top:0;
+	top:-20;
 	left:140px;
 	height: 20px;
 	margin-top: 2px; /* 1/2 the hight of the button */

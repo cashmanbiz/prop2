@@ -34,7 +34,7 @@ global $ds;
 
 	</div>
 	<div id="nugent-type" class="nugent-listprop"><?php echo $property['type']; ?></div>
-	<div id="nugent-bedrooms" class="nugent-listprop"><?php echo $property['bedrooms']." bed" ; ?></div>
+	<div id="nugent-bedrooms" class="nugent-listprop"><?php if($property['bedrooms']){ echo $property['bedrooms']." bed" ; }?></div>
 	<div id="nugent-status" class="nugent-listprop"><?php echo $property['status']; ?></div>
 <?php 
 

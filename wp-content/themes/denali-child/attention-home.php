@@ -71,63 +71,104 @@
     
    
     <?php    
-     $args = array( 'post_type' => 'property', 'posts_per_page'   => 10);
+     $args = array( 'post_type' => 'property', 'orderby'=>'menu_order', 'posts_per_page'   => 50);
      $posts_array = get_posts($args);
+    
      
+     $count=0;
      foreach ($posts_array as $prop):
      	if($prop->featured=='true'):
-     		
-     		setlocale(LC_MONETARY, 'en_IE');
-		
-	     	if($prop->property_type=='to_rent'):
-	     		if($prop->rent=='1'){
-					$property_price="POA";
-				}else{
-	     			$property_price = money_format('%.0n', (double) $prop->rent);
-	     		}
-	     	else:
-	     		if($prop->price=='1'){
-	     			$property_price="POA";
-	     		}else{
-	     			$property_price = money_format('%.0n', (double) $prop->price);
-	     		}
-	     	endif;
+	     	if($count < 9){
+	     		setlocale(LC_MONETARY, 'en_IE');
+			
+		     	if($prop->property_type=='to_rent'):
+		     		if($prop->rent=='1'){
+						$property_price="POA";
+					}else{
+		     			$property_price = money_format('%.0n', (double) $prop->rent);
+		     		}
+		     	else:
+		     		if($prop->price=='1'){
+		     			$property_price="POA";
+		     		}else{
+		     			$property_price = money_format('%.0n', (double) $prop->price);
+		     		}
+		     	endif;
+			     
+		     	
+			   // $property_price=str_replace('EUR','&euro;',$property_price);
 		     
-	     	
-		   // $property_price=str_replace('EUR','&euro;',$property_price);
-	     
-     ?>
-     	    
-		    <div class="home-rollover">
-		    
-		   <a ontouchstart="" href="<?php echo get_permalink($prop->ID); ?>">
-		   <?php echo get_the_post_thumbnail($prop->ID, 'nugentx8'); ?>
-		   <span class="property-imagetext"><span>
-		   <?php 
-		   		echo $prop->post_title."<br>";
-		   		echo $property_price."<br>";
-		   		echo $prop->status."<br>";
-		   		?>
-		   		<IMG width=32 src="<?php echo get_stylesheet_directory_uri() ?>/img/ber/<?php echo $prop->ber; ?>-s.png"</IMG>
-		   		<?php echo "<br>click image to view";
-		   ?>
-		   
-		   </span></span>
-		     <span class="property-imagetextover"><span>
-		       
-		   <?php 
-		   		echo $prop->area." - ";
-		   		echo $prop->bedrooms." Bed"."  - ";
-		   		echo $property_price." ";
-		   	?>
-		   		  
-		   
-		   		</span></span></a>
+	     ?>
+	     	    
+			    <div class="home-rollover">
+			    
+			   <a ontouchstart="" href="<?php echo get_permalink($prop->ID); ?>">
+			   <?php echo get_the_post_thumbnail($prop->ID, 'nugentx8'); ?>
+			   <span class="property-imagetext"><span>
+			   <?php 
+			   		echo $prop->post_title."<br>";
+			   		echo $property_price."<br>";
+			   		echo $prop->status."<br>";
+			   		?>
+			   		<IMG width=32 src="<?php echo get_stylesheet_directory_uri() ?>/img/ber/<?php echo $prop->ber; ?>-s.png"</IMG>
+			   		<?php echo "<br>click image to view";
+			   ?>
+			   
+			   </span></span>
+			     <span class="property-imagetextover"><span>
+			       
+			   <?php 
+			   		echo $prop->area." - ";
+			   		echo $prop->bedrooms." Bed"."  - ";
+			   		echo $property_price." ";
+			   	?>
+			   		  
+			   
+			   		</span></span></a>
+	    
+	    	</div>
     
-    	</div>
+    <?php  
+    			$count++;
+    		} elseif($count==9){
+
+		//adding hardcoded nugents sign in position 10. 
+
+?>			<div class="home-rollover">
+ 
+			<a ontouchstart="" href="selling"><img alt="nugents for sale sign" title="Properties for sale or to let required" src="<?php echo get_stylesheet_directory_uri() ?>/img/sign-190.jpg"></img>
+   	
+			
+			   <span class="property-imagetext"><span>
+			   <?php 
+			   		echo "Thinking of Selling?<br>";
+			   		echo "Properties for Sale Required<br>";
+			   		echo "<br>";
+			   		echo "Landlords: Properties to Let Required<br>";
+			   		echo "<br>click image for more details";
+			   ?>
+			   
+			   </span></span>
+			     <span class="property-imagetextover"><span>
+			       
+			   <?php 
+			   		echo "Properties for sale or to let required ";
+
+			   	?>
+			   		  
+			   
+			   		</span></span></a>
+	    
+	    	</div>
+
     
-    <?php 
+   <?php  	    	
+    	    		
+       	
+    	 		$count++;	
+    	 	}
        endif;
+       
       endforeach;
     ?>
     <?php // dynamic_sidebar($this_widget_area); ?>

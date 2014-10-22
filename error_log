@@ -1,0 +1,13 @@
+[14-Aug-2014 06:38:06] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting '&' or T_VARIABLE in /home/heytesc/public_html/panoramio/get_panoromia.php on line 55
+[14-Aug-2014 06:39:50] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting '&' or T_VARIABLE in /home/heytesc/public_html/panoramio/get_panoromia.php on line 55
+[14-Aug-2014 07:15:46] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/heytesc/public_html/panoramio/get_panoromia.php on line 65
+[14-Aug-2014 07:15:51] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/heytesc/public_html/panoramio/get_panoromia.php on line 65
+[14-Aug-2014 07:16:28] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/heytesc/public_html/panoramio/get_panoromia.php on line 65
+[14-Aug-2014 07:25:18] PHP Fatal error:  Cannot use object of type stdClass as array in /home/heytesc/public_html/panoramio/get_panoromia.php on line 67
+[14-Aug-2014 07:28:35] PHP Fatal error:  Cannot use object of type stdClass as array in /home/heytesc/public_html/panoramio/get_panoromia.php on line 67
+[14-Aug-2014 07:28:41] PHP Fatal error:  Cannot use object of type stdClass as array in /home/heytesc/public_html/panoramio/get_panoromia.php on line 67
+[14-Aug-2014 07:34:48] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/heytesc/public_html/panoramio/get_panoromia.php on line 67
+[14-Aug-2014 07:35:12] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/heytesc/public_html/panoramio/get_panoromia.php on line 67
+[14-Aug-2014 07:35:20] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/heytesc/public_html/panoramio/get_panoromia.php on line 67
+[14-Aug-2014 07:35:55] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/heytesc/public_html/panoramio/get_panoromia.php on line 67
+[14-Aug-2014 07:46:46] PHP Parse error:  syntax error, unexpected $end in /home/heytesc/public_html/panoramio/get_panoromia.php on line 104

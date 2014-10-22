@@ -152,6 +152,17 @@ $_SESSION['property_price'] = $property['price'];
 		?>
 			<?php echo do_shortcode($my_shortcode); ?>
 	    </div>
+	    
+	    <div class="features_list nugent-widget" style="background :  none;">
+	    <h2>Other Properties</h2>
+	    <br>
+	   <?php 
+	   	
+	     $otherprop_shortcode = '[global_slideshow image_size=nugent_medium caption_opacity=0 effect=fade show_pagination_buttons=false ]' ;	    
+	    echo do_shortcode($otherprop_shortcode); 
+	    ?>
+	    
+	    </div>
 
   
       <ul>

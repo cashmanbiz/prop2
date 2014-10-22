@@ -27,7 +27,8 @@ function pdf_add_link( $content ) {
 
 	if ( $attachments ) {
 		foreach ( $attachments as $attachment ) {
-			$content ='| <a href="' . wp_get_attachment_url( $attachment->ID ) . '" target="_blank" >PDF</a>' . $content;			
+			$content ='| <a class="pdf-icon" href="' . wp_get_attachment_url( $attachment->ID ) . '" target="_blank" >PDF</a>' . $content;
+			
 		}
 	}
 	

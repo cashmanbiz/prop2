@@ -35,8 +35,10 @@ global $ds;
 	</div>
 	<div id="nugent-type" class="nugent-listprop"><?php echo $property['type']; ?></div>
 	<div id="nugent-bedrooms" class="nugent-listprop"><?php if($property['bedrooms']){ echo $property['bedrooms']." bed" ; }?></div>
-	<div id="nugent-status" class="nugent-listprop"><?php echo $property['status']; ?></div>
-<?php 
+	<div id="nugent-status" class="nugent-listprop" > <?php echo $property['status']; ?></div>
+	
+	
+	<?php 
 
 	if ($property['property_type']=="to_rent"){
 		$property_price=$property['rent'];
@@ -64,7 +66,7 @@ global $ds;
 	
 ?> 
 	
-	<div id="nugent-price" class="nugent-listprop"><?php echo $property_price; ?></div>
+	<div id="nugent-price" class="nugent-listprop" <?php if($property['new_property']){ ?> style="background : url('<?php echo get_stylesheet_directory_uri(); ?>/img/icons/new-32.png') no-repeat left 0px ;" <?php } ?> ><?php echo $property_price; ?></div>
 	
 
           <?php

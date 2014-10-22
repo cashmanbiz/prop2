@@ -638,3 +638,29 @@ margin-top: 45px;
 	background-color : #9cf;
 }
 
+.pdf-icon{
+	background : url('img/icons/pdf-icon.png') no-repeat scroll 6px center #F2F2F2;
+	border: 1px solid #D2D2D2;
+	padding: 0 6px 0 28px;
+	white-space: nowrap;
+
+}
+
+
+.nivo-caption {
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: .7em;
+	height: 20px;
+	top: 183px;
+	left: 0px;
+	width: 270px;
+	padding : 0px;
+	text-align : center;
+}
+
+

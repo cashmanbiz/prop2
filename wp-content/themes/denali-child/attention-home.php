@@ -49,9 +49,17 @@
   
  
 <h1 style="font-family: 'ubuntu',sans-serif ;margin:20px 10px; ">Welcome to Nugent Auctioneers</h1>
-<div style="font-family:'ubuntu',sans-serif ; padding : 0px 10px 10px 10px; line-height : 1.3em ; font-size : 14px;">Nugent Auctioneers is a leading independent estate agent established over 20 years covering areas of Blessington, West Wicklow, Kildare, South Dublin, Carlow and East Wicklow. We tailor our services to each client and situation and we have all the necessary experience to secure and manage the sale or rental of your property. We are proud that many of our clients have either used us before or have been recommended to come to us.
-<strong>Looking for a property?</strong> See our full list <a href="for-sale">FOR SALE</a> or <a href="to-rent">TO RENT</a> or try our <a href="#map">MAP</a> search below. You can also sign up for our <a href="property-notifications">Property Alerts</a>.  
-<strong> Selling or Letting a property?</strong></strong> Contact us for a free valuation if you plan to <a href="selling">SELL</a> or <a href="residential-letting">LET</a> a property.</div>
+<div style="position: relative; float: left; width: 660px; font-family:'ubuntu',sans-serif ; padding : 0px 10px 10px 10px; line-height : 1.3em ; font-size : 14px;">Nugent Auctioneers is a leading independent estate agent established over 20 years covering areas of Blessington, West Wicklow, Kildare, South Dublin, Carlow and East Wicklow. We tailor our services to each client and situation and we have all the necessary experience to secure and manage the sale or rental of your property. We are proud that many of our clients have either used us before or have been recommended to come to us.
+<br><br><strong>Looking for a property?</strong> See our full list <a href="for-sale">FOR SALE</a> or <a href="to-rent">TO RENT</a> or try our <a href="#map">MAP</a> search below. You can also sign up for our <a href="property-notifications">Property Alerts</a>.  
+<strong><br><br> Selling or Letting a property?</strong></strong> Contact us for a <a href="selling">Free Valuation</a> if you plan to <a href="selling">SELL</a> or <a href="residential-letting">LET</a> a property.</div>
+
+<div style="position: relative; float: left; width: 280px;">
+<?php 
+	   	
+	     $otherprop_shortcode = '[global_slideshow image_size=nugent_medium caption_opacity=0 effect=fade show_pagination_buttons=false ]' ;	    
+	    echo do_shortcode($otherprop_shortcode); 
+	    ?>
+</div>
 
 
 

@@ -28,7 +28,7 @@ global $ds;
         <div class="wpp_overview_right_column_nugent div_block" >
 
 	<div id="nugent-area" class="nugent-listprop clearfix"><?php echo $property['area']; ?></div>
-	<div id="nugent-link" class="nugent-listprop">
+	<div id="nugent-link" class="nugent-listprop"  <?php if($property['on_view']){ ?> style="background : url('<?php echo get_stylesheet_directory_uri(); ?>/img/icons/onview.png') no-repeat right 0px ;" <?php } ?>>
               <a <?php echo $in_new_window; ?> href="<?php echo $property['permalink']; ?>"><?php echo $property['post_title']; ?></a>
               <?php if ($property['is_child']): ?> <?php _e('of','denali'); ?> <a <?php echo $in_new_window; ?> href='<?php echo $property['parent_link']; ?>'><?php echo $property['parent_title']; ?></a><?php endif; ?>
 

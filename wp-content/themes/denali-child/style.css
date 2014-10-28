@@ -663,4 +663,81 @@ margin-top: 45px;
 	text-align : center;
 }
 
+#on-view{
+	background: none repeat scroll 0 0 #fffff0;
+    border: 1px solid #000;
+    display: block;
+    margin: 10px 0;
+    overflow: hidden;
+    padding: 10px;	
+}
+
+
+.onview-date {
+  position: relative;
+  float : left;
+  width: 90px;
+  font-family: Georgia, serif;
+  color: #000;
+  margin: 1px;
+ }
+ 
+.onview-dayname, .onview-day, .onview-month, .onview-year {
+  position: absolute;
+  }
+ 
+
+.onview-dayname { 
+  top: 8px;
+  left : -20px;
+  font-size: 10px;
+  rotation: -90deg !important;
+  /* ** Hacks ** */
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);  
+  
+  }
+
+.onview-day { 
+  font-size: 30px;
+  top: 14px;
+  left : 20px;
+  width : 40px;
+  height : 35px;
+  background-color : #fff;
+   text-align : center;
+   border : solid 1px red;
+   padding-top : 5px;
+  }
+ 
+.onview-month { 
+  top: -11px;
+  left: 0;  
+  font-size: 20px;
+    left : 20px;
+  width : 40px;
+  height : 24px;
+  background-color : red;
+  color : #fff;
+  text-align : center;
+  border : solid 1px red;
+  }
+ 
+.onview-year { 
+  top: 12px;
+  right: 0;
+  font-size: 20px;
+  rotation: -90deg !important;
+  /* ** Hacks ** */
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);  
+  }
+  
+  
+  .onview-text{
+  position : relative;
+  float : left;
+  background-color : #fff;	
+  margin-left : 70px;
+  }
 

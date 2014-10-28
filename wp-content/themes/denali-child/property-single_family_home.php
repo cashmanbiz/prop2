@@ -74,7 +74,53 @@ $_SESSION['property_price'] = $property['price'];
 				<div class="property-title-ber"><IMG src="<?php echo get_stylesheet_directory_uri() ?>/img/ber/<?php echo $property['ber']; ?>-s.png"</IMG>
 				</div>
 				</div>
-
+				
+				<?php if($property['on_view']){
+					
+				?>
+					<div id="on-view" >
+					
+					<?php 
+					
+					$onviewdata = explode(" ", $property['on_view']);
+					$onviewdata_date=explode("-",$onviewdata[1]);
+					
+					if(!$onviewdata[0]){
+						$onviewdata[0]="-";
+					}
+					if(!$onviewdata_date[0]){
+						$onviewdata_date[0]="-";
+						$onviewdata_date[1]="-";
+					}
+					
+					$daynames = array("Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday","Sunday");
+					if (!in_array($onviewdata[0], $daynames)) {
+						$onviewdata[0]="";
+						$onviewdata_date[0]="-";
+						$onviewdata_date[1]="-";
+					}
+					
+				/*	$onview_date = new DateTime('2014-10-23');
+					$formatted_dayname = $onview_date->format('l'); 
+					$formatted_date = $onview_date->format('d'); 
+					$formatted_month = $onview_date->format('M'); 
+					$formatted_year = $onview_date->format('Y'); 
+				*/
+				?>
+					
+					<div class="onview-date">
+						<span class="onview-dayname"><?php echo $onviewdata[0]; ?></span>
+					  	<span class="onview-day"><?php echo $onviewdata_date[0]; ?></span>
+  					  	<span class="onview-month"><?php echo substr($onviewdata_date[1],0,3); ?></span>
+  					<!--    	<span class="onview-year"><?php // echo $formatted_year; ?></span> -->
+					</div>
+					
+					<div class="onview-text">
+						This Property is open for viewing <strong><?php echo $property['on_view'];?></strong>
+						<br> <a href="#enquiry_form" style="text-decoration : underline ;">Click here to register your interest</a>
+					</div>
+				</div>
+				<?php } ?>			
 			</div>
 			
 			<div class="entry-content">
@@ -144,6 +190,7 @@ $_SESSION['property_price'] = $property['price'];
 			
 		<div id="enquiry_form" class="features_list nugent-widget property-enquiry" > 
 			<h2>Property Enquiry</h2>
+			<div style="text-align : center; border-left : dashed 1px gray ; border-right : dashed 1px gray;  "><?php echo get_the_title();?></div>
 			
 			  <?php // get_template_part('content','single-property-inquiry-sidebar'); ?>
 			

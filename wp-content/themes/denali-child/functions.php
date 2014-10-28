@@ -396,7 +396,7 @@ function draw_stats( $args = false, $property = false ) {
 				// make some code here to modify or add a field
 				//'my_field' is the field tag, change as needed
 						
-				$subj = 'New Subject';
+				$subj = 'Property Enquiry';
 		
 				return $subj;
 		
